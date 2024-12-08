@@ -106,3 +106,21 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+
+
+/* my styles */
+.titlestyle {
+    color: rgb(100, 181, 255);
+    font-family: "Eyesome Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.textstyle {
+    color: rgb(100, 181, 255);
+    font-family: "montserrat", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

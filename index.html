@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple wedding website">
-    <meta name="author" content="Your Name">
-    <title>Wedding Website</title>
+    <meta name="author" content="alelomuz">
+    <title>Joachim & Silvia</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <h1>Welcome to Our Wedding Website</h1>
         <nav>
             <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#rsvp">RSVP</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="sites/location.html" id="site1"></a></li>
+                <li><a href="sites/accommodations.html" id="site2"></a></li>
+                <li><a href="sites/plan.html" id="site3"></a></li>
+                <li><a href="sites/travel-informations.html" id="site4"></a></li>
+                <li><a href="sites/contacts.html" id="site5"></a></li>
+                <li>
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="de">Deutsch</option>
+                        <option value="it">Italiano</option>
+                    </select>
+                </li>
             </ul>
         </nav>
+        
+        <h1 id="title" class="titlestyle"></h1>
     </header>
 
-    <!-- Main Content Section -->
     <main>
-        <!-- About Us Section -->
         <section id="about">
             <h2>About Us</h2>
             <p>Share your love story or any details about the wedding couple.</p>
@@ -65,5 +70,6 @@
         <p>&copy; 2024 Your Names. All Rights Reserved.</p>
         <p><a href="#top">Back to Top</a></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
