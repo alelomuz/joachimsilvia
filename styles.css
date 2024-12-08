@@ -109,8 +109,9 @@ footer {
 .titlestyle {
     color: rgb(100, 181, 255);
     font-family: "Ephesis", cursive;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
+    font-size: 3rem;
 }
 
 .textstyle {
