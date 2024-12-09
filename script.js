@@ -9,6 +9,8 @@ const translations = {
         site5: "Contacts",
         title1: "Ceremony",
         description1: "The ceremony and reception will take place at the reception hall",
+        title2: "Program",
+        Description2: "Wedding of Silvia and Joachim",
     },
     de: {
         title0: "Hochzeit von Silvia und Joachim",
@@ -19,6 +21,8 @@ const translations = {
         site5: "Kontakte",
         title1: "Traungsfeier",
         description1: "Die Trauung und der Empfang finden im Festsaal statt",
+        title2: "Programm",
+        description2: "Hochzeit von Silvia und Joachim",
     },
     it: {
         title0: "Matrimonio di Silvia e Joachim",
@@ -29,6 +33,8 @@ const translations = {
         site5: "Contatti",
         title1: "Ceremonia e ricevimento",
         description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti",
+        title2: "Programma",
+        description2: "Nozze di Silvia e Joachim",
     }
 };
 
@@ -42,6 +48,8 @@ function updateLanguage(lang) {
     document.getElementById("site5").textContent = translations[lang].site5;
     document.getElementById("title1").textContent = translations[lang].title1;
     document.getElementById("description1").textContent = translations[lang].description1;
+    document.getElementById("title2").textContent = translations[lang].title2;
+    document.getElementById("description2").textContent = translations[lang].description2;
 }
 
 // Language switcher event listener
