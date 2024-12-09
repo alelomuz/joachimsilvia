@@ -7,11 +7,6 @@ body {
     background-color: #f8f9fa;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
 nav ul li {
     display: inline;
     margin: 0 10px;
@@ -26,21 +21,6 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-}
-
-section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-    border-bottom: 2px solid #6c757d;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
 }
 
 /* Form Styles */
@@ -90,11 +70,6 @@ select {
     background-size: 16px 16px;
 }
 
-select:focus {
-    outline: none;
-    border-color: #6c757d;
-}
-
 /* Footer Styles */
 
 footer a {
@@ -107,12 +82,35 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* my styles */
+/* My Styles */
+
+/* Text Styles */
+.titlestyle {
+    color: #004AAD;
+    font-family: "Ephesis", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.textstyle {
+    color: black;
+    font-family: "montserrat", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
 header {
-    background: rgb(10, 60, 208);
+    background: #004AAD;
     color: white;
     padding: 0.1rem;
     text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.2rem;
 }
 
 footer {
@@ -125,21 +123,39 @@ footer {
     width: 100%;
 }
 
-.titlestyle {
-    color: rgb(100, 181, 255);
-    font-family: "Ephesis", cursive;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 4rem;
+
+/* Title */
+#titlesection {
     text-align: center;
 }
 
-.textstyle {
-    color: black;
-    font-family: "montserrat", cursive;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
+#titlesection .titlestyle{
+    font-size: 4rem;
+}
+
+#titlesection .textstyle{
+    font-size: 2rem;
+}
+
+
+/* Section */
+section {
+    padding: 1rem;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section .titlestyle {
+    border-bottom: 2px solid #6c757d;
+    font-size: 2rem;
+}
+
+select:focus {
+    outline: none;
+    border-color: #6c757d;
 }
 
 h1,h2,h3,h4,h5,h6,a,p {
