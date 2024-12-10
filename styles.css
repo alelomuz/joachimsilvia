@@ -23,7 +23,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Form Styles */
 form {
     display: flex;
     flex-direction: column;
@@ -70,8 +69,6 @@ select {
     background-size: 16px 16px;
 }
 
-/* Footer Styles */
-
 footer a {
     color: white;
     text-decoration: none;
@@ -82,26 +79,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* My Styles */
-
-/* Text Styles */
-.titlestyle {
-    color: #004AAD;
-    font-family: "Ephesis", cursive;
-    font-weight: 100;
-    font-style: normal;
-    text-align: center;
-}
-
-.textstyle {
-    color: black;
-    font-family: "montserrat", cursive;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-}
-
-/* Header */
 header {
     background: #004AAD;
     color: white;
@@ -125,18 +102,14 @@ footer {
     width: 100%;
 }
 
-
-/* Title */
 #titlesection .titlestyle{
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 #titlesection .textstyle{
     font-size: 2rem;
 }
 
-
-/* Section */
 section {
     margin: 1rem;
     background: white;
@@ -147,7 +120,11 @@ section {
 }
 
 section .titlestyle {
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+section .textstyle {
+    font-size: 1.2rem;
 }
 
 select:focus {
@@ -157,20 +134,35 @@ select:focus {
 
 .section-images {
     display: flex;
-    justify-content: space-between;
-    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-images img {
-    width: calc((100% - 1rem) / 3);
-    height: 300px;
+    height: 18vw;
+    width: auto;
     border-radius: 2rem;
-    padding: 0.5rem;
     box-sizing: border-box;
-    object-fit: cover;
+    object-fit: contain;
+    margin: 10px;
 }
 
-/* General */
 h1,h2,h3,h4,h5,h6,a,p {
     margin: 0rem;
+}
+
+.titlestyle {
+    color: #004AAD;
+    font-family: "Ephesis", cursive;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+}
+
+.textstyle {
+    color: black;
+    font-family: "montserrat", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
