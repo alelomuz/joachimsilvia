@@ -59,5 +59,30 @@ languageSelect.addEventListener("change", (event) => {
     updateLanguage(selectedLanguage);
 });
 
+// Custom dropdown logic
+const customSelect = document.querySelector('.custom-select');
+const customOptions = document.querySelectorAll('.custom-option');
+const selectedLanguageImg = document.getElementById('selected-language-img');
+
+customSelect.addEventListener('click', () => {
+    customSelect.classList.toggle('open');
+});
+
+customOptions.forEach(option => {
+    option.addEventListener('click', () => {
+        const value = option.getAttribute('data-value');
+        selectedLanguageImg.src = option.querySelector('img').src;
+        updateLanguage(value);
+        customSelect.classList.remove('open');
+    });
+});
+
+// Close custom dropdown if clicked outside
+document.addEventListener('click', (event) => {
+    if (!customSelect.contains(event.target)) {
+        customSelect.classList.remove('open');
+    }
+});
+
 // Initialize the page with default language
 updateLanguage("it");
