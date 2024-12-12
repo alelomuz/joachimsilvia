@@ -61,6 +61,3 @@ languageSelect.addEventListener("change", (event) => {
 
 // Initialize the page with default language
 updateLanguage("it");
-
-
-

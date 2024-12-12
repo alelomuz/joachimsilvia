@@ -118,9 +118,6 @@ nav ul li a:hover {
 
 /* Title Section */
 #titlesection {
-    margin-left: 2vw;
-    margin-right: 2vw;
-    
 }
 
 #titlesection .titlestyle {
@@ -129,29 +126,9 @@ nav ul li a:hover {
     justify-content: center;
     line-height: 1.2;
     text-align: center;
-    height: 1.2em;
     white-space: nowrap;
-    font-size: 8vw;
+    font-size: 9vw;
 }
-
-/*
-@media (max-width: 520px) {
-    #titlesection .titlestyle {
-        white-space: normal;
-        height: 2.4em;
-    }
-}
-*/
-
-/*
-@media (max-width: 520px) {
-    #titlesection .titlestyle {
-        font-size: 8.5vw;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-}
-*/
 
 #titlesection .textstyle{
     font-size: 4vw;
