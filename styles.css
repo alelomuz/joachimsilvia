@@ -1,4 +1,16 @@
 /* General */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 h1,h2,h3,h4,h5,h6,a,p {
     margin: 0;
 }
@@ -12,7 +24,7 @@ h1,h2,h3,h4,h5,h6,a,p {
 }
 .textstyle {
     color: black;
-    font-family: "montserrat", cursive;
+    font-family: "montserrat";
     font-weight: 400;
     font-style: normal;
     text-align: center;
@@ -23,8 +35,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    background-color: rgba(197, 227, 255, 0.089);
 }
 
 form {
@@ -133,19 +144,19 @@ nav ul li a:hover {
 #titlesection .textstyle{
     font-size: 4vw;
 }
-*/
+
 /* Section */
 
 section {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #c3e5ff3c;
+    border-radius: 2vw;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 0%;
     padding-bottom: 1%;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 2%;
     margin-bottom: 2%;
     box-sizing: border-box;
@@ -177,4 +188,113 @@ select:focus {
     border-radius: 2vw;
     box-sizing: border-box;
     object-fit: contain;
+}
+
+/* Timeline */
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 1vw;
+    background-color: #004AAD;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+}
+
+.left_container {
+    padding: 1vw;
+    position: relative;
+    display: inline-block;
+    font-family: "montserrat";
+    font-size: 3vw;
+    background-color: white;
+    border-radius: 2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 47%;
+    transform: translateX(-100%);
+    z-index: 1;
+    text-align: center;
+    white-space: pre-wrap;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.right_container {
+    padding: 1vw;
+    position: relative;
+    display: inline-block;
+    font-family: "montserrat";
+    font-size: 3vw;
+    background-color: white;
+    border-radius: 2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 54%;
+    z-index: 1;
+    text-align: center;
+    white-space: pre-wrap;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Arrow */
+.left_container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(100%, -50%);
+    border-left: 1vw solid white;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+/* Arrow */
+.right_container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    border-right: 1vw solid white;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+/* Circle*/
+
+.left_container::after {
+    content: '';
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border: 0.5vw solid #004AAD;
+    top: 50%;
+    right: -1.7vw;
+    transform: translate(100%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.right_container::after {
+    content: '';
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border: 0.5vw solid #004AAD;
+    top: 50%;
+    left: -1.7vw;
+    transform: translate(-100%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }

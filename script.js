@@ -11,6 +11,12 @@ const translations = {
         description1: "The ceremony and reception will take place at the reception hall",
         title2: "Program",
         description2: "Wedding of Silvia and Joachim",
+        timeline1: "CEREMONY",
+        timeline2: "PHOTOS",
+        timeline3: "APERITIF",
+        timeline4: "LUNCH",
+        timeline5: "WEDDING CAKE AND\nDESSERT BUFFET",
+        timeline6: "AFTERPARTY WITH DJ\nAND COCKTAIL BAR",
     },
     de: {
         title0: "Hochzeit von Silvia und Joachim",
@@ -23,6 +29,12 @@ const translations = {
         description1: "Die Trauung und der Empfang finden im Festsaal statt",
         title2: "Programm",
         description2: "Hochzeit von Silvia und Joachim",
+        timeline1: "TRAUUNG",
+        timeline2: "FOTOS",
+        timeline3: "APERITIF",
+        timeline4: "MITTAGSESSEN",
+        timeline5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
+        timeline6: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
     },
     it: {
         title0: "Matrimonio di Silvia e Joachim",
@@ -35,6 +47,12 @@ const translations = {
         description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti",
         title2: "Programma",
         description2: "Nozze di Silvia e Joachim",
+        timeline1: "CERIMONIA",
+        timeline2: "FOTO",
+        timeline3: "APERITIVO",
+        timeline4: "PRANZO",
+        timeline5: "TORTA NUZIALE E\nBUFFET DEI DOLCI",
+        timeline6: "AFTERPARTY CON DJ\nE COCKTAILBAR",
     }
 };
 
@@ -50,6 +68,12 @@ function updateLanguage(lang) {
     document.getElementById("description1").textContent = translations[lang].description1;
     document.getElementById("title2").textContent = translations[lang].title2;
     document.getElementById("description2").textContent = translations[lang].description2;
+    document.getElementById("timeline1").textContent = translations[lang].timeline1;
+    document.getElementById("timeline2").textContent = translations[lang].timeline2;
+    document.getElementById("timeline3").textContent = translations[lang].timeline3;
+    document.getElementById("timeline4").textContent = translations[lang].timeline4;
+    document.getElementById("timeline5").textContent = translations[lang].timeline5;
+    document.getElementById("timeline6").textContent = translations[lang].timeline6;
 }
 
 // Language switcher event listener
