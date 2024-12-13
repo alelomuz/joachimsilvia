@@ -1,7 +1,7 @@
 // Translations object
 const translations = {
     en: {
-        title0: "Wedding of Silvia \n and Joachim",
+        title0: "Wedding of Silvia and Joachim",
         site1: "Location",
         site2: "Accommodations",
         site3: "Plan",
