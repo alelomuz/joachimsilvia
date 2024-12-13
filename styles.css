@@ -4,6 +4,18 @@ html, body, h1,h2,h3,h4,h5,h6,a,p {
     padding: 0;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 .titlestyle {
     color: #004AAD;
     font-family: "Ephesis", cursive;
@@ -332,6 +344,38 @@ iframe {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+    /* Place the timeline to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .left_container, .right_container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .left_container::before, .right_container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left_container::after, .right_container::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right_container {
+        left: 0%;
+    }
+}
 
 
 
