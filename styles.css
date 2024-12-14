@@ -201,17 +201,17 @@ section {
 }
 .left_container::before {
     transform: translate(100%, -50%);
-    right: 3px;
+    right: 0.5vw;
     border-left: 1.5vw solid white;
 }
 .right_container::before {
     transform: translate(-100%, -50%); 
-    left: 3px;
+    left: 0.5vw;
     border-right: 1.5vw solid white;
 }
 
 /* Circle */
-.left_container::after {
+.left_container::after, .right_container::after {
     content: '';
     position: absolute;
     width: 3vw;
@@ -219,25 +219,18 @@ section {
     background-color: white;
     border: 0.5vw solid #004AAD;
     top: 50%;
-    right: -1.6vw;
-    transform: translate(100%, -50%);
     border-radius: 50%;
     z-index: 1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+.left_container::after {
+    right: -1.55vw;
+    transform: translate(100%, -50%);
+}
 .right_container::after {
-    content: '';
-    position: absolute;
-    width: 3vw;
-    height: 3vw;
-    background-color: white;
-    border: 0.5vw solid #004AAD;
-    top: 50%;
-    left: -1.6vw;
+    left: -1.55vw;
     transform: translate(-100%, -50%);
-    border-radius: 50%;
-    z-index: 1;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Section 3 */

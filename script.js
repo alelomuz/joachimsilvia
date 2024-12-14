@@ -18,9 +18,9 @@ const translations = {
         timeline5: "WEDDING CAKE AND\nDESSERT BUFFET",
         timeline6: "AFTERPARTY WITH DJ\nAND COCKTAIL BAR",
         title3: "Accommodations",
-        subtitle3: "Recommended accommodation for multi-day stays",
+        subtitle1: "Recommended accommodation for multi-day stays",
         description3: "We are available to indicate where you can stay during your stay. We list some accommodation facilities.\nWe will stay at Porto degli Argonauti (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
-        subtitle4: "Recommended accommodations in Metaponto",
+        subtitle2: "Recommended accommodations in Metaponto",
         description4: "Accommodation facilities are located near the reception hall in Metaonto, MT",
     },
     de: {
@@ -41,9 +41,9 @@ const translations = {
         timeline5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
         timeline6: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
         title3: "Übernachtungsmöglichkeiten",
-        subtitle3: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
+        subtitle1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
         description3: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele.\nWir werden im Porto degli Argonauti (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
-        subtitle4: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
+        subtitle2: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
         description4: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation"
     },
     it: {
@@ -64,9 +64,9 @@ const translations = {
         timeline5: "TORTA NUZIALE E\nBUFFET DEI DOLCI",
         timeline6: "AFTERPARTY CON DJ\nE COCKTAILBAR",
         title3: "Pernottamento",
-        subtitle3: "Struttura ricettiva consigliata per soggiorni di piú giorni",
+        subtitle1: "Struttura ricettiva consigliata per soggiorni di piú giorni",
         description3: "Siamo disponibili ad indicarvi dove poter alloggiare durante il vostro soggiorno. Riportiamo una lista di strutture ricettive.\nNoi allogeremo presso Porto degli Argonauti (Marina di Pisticci, MT). Nello stesso villaggio sono disponibili più strutture ricettive:",
-        subtitle4: "Strutture ricettive consigliate a Metaponto",
+        subtitle2: "Strutture ricettive consigliate a Metaponto",
         description4: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT"
     }
 };
@@ -90,9 +90,9 @@ function updateLanguage(lang) {
     document.getElementById("timeline5").textContent = translations[lang].timeline5;
     document.getElementById("timeline6").textContent = translations[lang].timeline6;
     document.getElementById("title3").textContent = translations[lang].title3;
-    document.getElementById("subtitle3").textContent = translations[lang].subtitle3;
+    document.getElementById("subtitle1").textContent = translations[lang].subtitle1;
     document.getElementById("description3").textContent = translations[lang].description3;
-    document.getElementById("subtitle4").textContent = translations[lang].subtitle4;
+    document.getElementById("subtitle2").textContent = translations[lang].subtitle2;
     document.getElementById("description4").textContent = translations[lang].description4;
 }
 
