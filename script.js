@@ -20,6 +20,9 @@ const translations = {
         title3: "Accommodations",
         subtitle3: "Recommended accommodation for multi-day stays",
         description3: "We are available to indicate where you can stay during your stay. We list some accommodation facilities.\nWe will stay at Porto degli Argonauti (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
+        button1: "Hotels",
+        button1link: "https://argonautihotel.it/en/",
+        button2: "Apartments",
         subtitle4: "Recommended accommodations in Metaponto",
         description4: "Accommodation facilities are located near the reception hall in Metaonto, MT",
     },
@@ -43,6 +46,9 @@ const translations = {
         title3: "Übernachtungsmöglichkeiten",
         subtitle3: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
         description3: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele.\nWir werden im Porto degli Argonauti (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
+        button1: "Hotels",
+        button1link: "https://argonautihotel.it/en/",
+        button2: "Ferienwohnungen",
         subtitle4: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
         description4: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation"
     },
@@ -66,6 +72,9 @@ const translations = {
         title3: "Pernottamento",
         subtitle3: "Struttura ricettiva consigliata per soggiorni di piú giorni",
         description3: "Siamo disponibili ad indicarvi dove poter alloggiare durante il vostro soggiorno. Riportiamo una lista di strutture ricettive.\nNoi allogeremo presso Porto degli Argonauti (Marina di Pisticci, MT). Nello stesso villaggio sono disponibili più strutture ricettive:",
+        button1: "Hotel",
+        button1link: "https://argonautihotel.it/?_gl=1%2A1jbeimn%2A_up%2AMQ..%2A_ga%2AMTgwMjkyMzMwOS4xNzM0MTg2NTg2%2A_ga_ZN96QQYNF1%2AMTczNDE4NjU4NS4xLjAuMTczNDE4NjU4NS4wLjAuMA..",
+        button2: "Appartamenti",
         subtitle4: "Strutture ricettive consigliate a Metaponto",
         description4: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT"
     }
@@ -92,6 +101,8 @@ function updateLanguage(lang) {
     document.getElementById("title3").textContent = translations[lang].title3;
     document.getElementById("subtitle3").textContent = translations[lang].subtitle3;
     document.getElementById("description3").textContent = translations[lang].description3;
+    document.getElementById("button1").textContent = translations[lang].button1;
+    document.getElementById("button2").textContent = translations[lang].button2;
     document.getElementById("subtitle4").textContent = translations[lang].subtitle4;
     document.getElementById("description4").textContent = translations[lang].description4;
 }

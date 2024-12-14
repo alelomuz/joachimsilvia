@@ -12,30 +12,7 @@ html, body {
 }
 *, *::before, *::after {
     box-sizing: inherit;
-}
-form {
-    display: flex;
-    flex-direction: column;
-}
-form label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-form input, form select, form button {
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-form button {
-    background-color: #6c757d;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-form button:hover {
-    background-color: #5a6268;
+    border-radius: 3vw;
 }
 
 /* Text Styles */
@@ -117,7 +94,6 @@ nav ul li a:hover {
 /* Sections */
 section {
     background: #c3e5ff3c;
-    border-radius: 2vw;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
     padding: 1vw;
     margin: 3vw;
@@ -148,7 +124,6 @@ section {
 #img1 {
     height: 16vw;
     width: auto;
-    border-radius: 2vw;
     box-sizing: border-box;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -156,13 +131,11 @@ section {
 #img2, #img3 {
     height: 15vw;
     width: auto;
-    border-radius: 2vw;
     box-sizing: border-box;
 }
 iframe {
     height: 33vw;
     width: 45vw;
-    border-radius: 2vw;
     box-sizing: border-box;
     margin: 1vw;
 }
@@ -190,7 +163,6 @@ iframe {
     position: relative;
     padding: 1vw;
     background-color: white;
-    border-radius: 2vw;
     margin-top: 0;
     margin-bottom: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -257,7 +229,7 @@ iframe {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Sectiom 3 */
+/* Section 3 */
 #sub3 {
     display: flex;
     justify-content: center;
@@ -272,7 +244,6 @@ iframe {
     display: inline-block;
     height: 30vw;
     width: auto;
-    border-radius: 2vw;
     box-sizing: border-box;
 }
 
@@ -285,17 +256,28 @@ iframe {
     font-size: 0;
 }
 
-#img5, #img6 {
-    margin: 1vw;
+#button1, #button2 {
     display: inline-block;
     height: 14vw;
     width: 22vw;
-    border-radius: 2vw;
     box-sizing: border-box;
     object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer; /* Makes it look clickable */
+    color: white; /* Optional: Sets text color */
+    font-size: 16px; /* Optional: Sets text size */
+    text-align: center; /* Centers text horizontally */
+    line-height: 50px; /* Matches button height to center text vertically */
 }
 
+#button1 {
+    background-image: url('img/img5.jpg');
+}
 
+#button2 {
+    background-image: url('img/img6.jpg');
+}
 
 
 
@@ -322,6 +304,10 @@ footer a:hover {
 
 /* Smartphones */
 @media (max-width: 768px){
+    *, *::before, *::after {
+        box-sizing: inherit;
+        border-radius: 5vw;
+    }
     .titlestyle {
         font-size: 10vw;
     }
@@ -348,7 +334,6 @@ footer a:hover {
         height: 34vw;
     }
     iframe {
-        border-radius: 2vw;
         box-sizing: border-box;
         width: 100%;
         height: 60vw;
