@@ -102,7 +102,6 @@ nav ul li a:hover {
     text-align: center;
     margin: 0 2vw;
 }
-
 #titlesection .titlestyle {
     display: flex;
     flex-direction: column;
@@ -111,19 +110,16 @@ nav ul li a:hover {
     white-space: nowrap;
     font-size: 9vw;
 }
-
 #titlesection .textstyle{
     font-size: 4vw;
 }
-
-
 
 /* Sections */
 section {
     background: #c3e5ff3c;
     border-radius: 2vw;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
-    padding: 2vw;
+    padding: 1vw;
     margin: 3vw;
     box-sizing: border-box;
 }
@@ -316,6 +312,9 @@ footer a:hover {
     #titlesection .titlestyle{
         white-space: pre-line;
         font-size: 16vw;
+    }
+    #titlesection .textstyle{
+        font-size: 6vw;
     }
 }
 
