@@ -96,7 +96,7 @@ section {
     background: #c3e5ff3c;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
     padding: 1vw 2vw 2vw 2vw;
-    margin: 3vw;
+    margin: 3vw 8vw;
     box-sizing: border-box;
 }
 
@@ -334,6 +334,9 @@ footer a:hover {
     }
     #titlesection .textstyle{
         font-size: 6vw;
+    }
+    section {
+        margin: 2vw;
     }
     #sub1 {
         flex-direction: column;
