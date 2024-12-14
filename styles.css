@@ -20,6 +20,7 @@ html, body {
     font-style: normal;
     text-align: center;
     font-size: 5vw;
+    line-height: 1.2;
 }
 .subtitlestyle {
     color: black;
@@ -28,6 +29,7 @@ html, body {
     font-style: normal;
     text-align: center;
     font-size: 2vw;
+    line-height: 1.2;
 }
 .textstyle {
     color: black;
@@ -97,17 +99,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 10px;
-    background: rgba(100, 180, 255, 0.238);
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
 /* Title Section */
 #titlesection {
     text-align: center;
@@ -118,7 +109,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 1.2;
     text-align: center;
     white-space: nowrap;
     font-size: 9vw;
@@ -293,6 +283,34 @@ iframe {
     border-radius: 50%;
     z-index: 1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(100, 180, 255, 0.238);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media (max-width: 768px){
+    .titlestyle {
+        font-size: 10vw;
+    }
+    .subtitlestyle {
+        font-size: 4vw;
+    }
+    .textstyle {
+        font-size: 3vw;
+    }
+    #titlesection .titlestyle{
+        white-space: pre-line;
+        font-size: 16vw;
+    }
 }
 
 

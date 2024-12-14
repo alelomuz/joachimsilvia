@@ -1,7 +1,7 @@
 // Translations object
 const translations = {
     en: {
-        title0: "Wedding of Silvia and Joachim",
+        title0: "Wedding of \nSilvia and Joachim",
         site1: "Location",
         site2: "Accommodations",
         site3: "Plan",
@@ -22,7 +22,7 @@ const translations = {
         description3: "We are available to indicate where you can stay during your stay. We list some accommodation facilities.\nWe will stay at Porto degli Argonauti (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
     },
     de: {
-        title0: "Hochzeit von Silvia und Joachim",
+        title0: "Hochzeit von \nSilvia und Joachim",
         site1: "Veranstaltungsort",
         site2: "Unterkünfte",
         site3: "Plan",
@@ -43,7 +43,7 @@ const translations = {
         description3: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele.\nWir werden im Porto degli Argonauti (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
     },
     it: {
-        title0: "Matrimonio di Silvia e Joachim",
+        title0: "Matrimonio di \nSilvia e Joachim",
         site1: "Location",
         site2: "Alloggi",
         site3: "Piano",
