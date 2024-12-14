@@ -13,32 +13,6 @@ html, body {
 *, *::before, *::after {
     box-sizing: inherit;
 }
-.titlestyle {
-    color: #004AAD;
-    font-family: "Ephesis", cursive;
-    font-weight: 100;
-    font-style: normal;
-    text-align: center;
-    font-size: 5vw;
-    line-height: 1.2;
-}
-.subtitlestyle {
-    color: black;
-    font-family: "montserrat";
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    font-size: 2vw;
-    line-height: 1.2;
-}
-.textstyle {
-    color: black;
-    font-family: "montserrat";
-    font-weight: 300;
-    font-style: normal;
-    text-align: center;
-    font-size: 1.5vw;
-}
 form {
     display: flex;
     flex-direction: column;
@@ -63,13 +37,37 @@ form button {
 form button:hover {
     background-color: #5a6268;
 }
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+
+/* Text Styles */
+.titlestyle {
+    color: #004AAD;
+    font-family: "Ephesis", cursive;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    font-size: 5vw;
+    line-height: 1;
+    margin: 1vw;
 }
-footer a:hover {
-    text-decoration: underline;
+.subtitlestyle {
+    color: black;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 1;
+    margin: 1vw;
+}
+.textstyle {
+    color: black;
+    font-family: "montserrat";
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 1.2;
+    margin: 1vw;
 }
 
 /* Header */
@@ -125,7 +123,7 @@ section {
     background: #c3e5ff3c;
     border-radius: 2vw;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
-    padding: 0 1vw 1vw 1vw;
+    padding: 2vw;
     margin: 3vw;
     box-sizing: border-box;
 }
@@ -198,7 +196,7 @@ iframe {
 /* Section 2: Timeline */
 .timeline {
     position: relative;
-    margin: 10px auto;
+    margin: 1vw;
     font-size: 0;
 }
 .timeline::after {
@@ -295,8 +293,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
 
-
+/* Smartphones */
 @media (max-width: 768px){
     .titlestyle {
         font-size: 10vw;
