@@ -95,49 +95,60 @@ nav ul li a:hover {
 section {
     background: #c3e5ff3c;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
-    padding: 1vw;
+    padding: 1vw 2vw 2vw 2vw;
     margin: 3vw;
     box-sizing: border-box;
 }
 
 /* Section 1 */
-.content-section {
+#img1, #img2, #img3, #map1 {
+    display: inline-block;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#sub1, #sub2, #sub3 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0;
-    flex-wrap: wrap;
+    position: relative;
+    overflow: auto;
+    box-sizing: border-box;
+    gap: 2vw;
 }
 #sub1 {
-    display: default;
+    flex-direction: row;
+    width: 100%;
+    height: 33vw;
+}
+
+#map1 {
+    flex: 1;
+    height: 100%;
 }
 #sub2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-#img1, #img2, #img3, iframe {
-    margin: 1vw;
-    display: inline-block;
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
 }
 #img1 {
-    height: 16vw;
-    width: auto;
-    box-sizing: border-box;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    flex: 1;
+    width: 100%;
 }
-#img2, #img3 {
-    height: 15vw;
-    width: auto;
-    box-sizing: border-box;
+#sub3 {
+    flex: 1;
+    width: 100%;
+    flex-direction: row;
 }
-iframe {
-    height: 33vw;
-    width: 45vw;
-    box-sizing: border-box;
-    margin: 1vw;
+#img2{
+    flex: 1;
+    height: 100%;
+}
+#img3{
+    flex: 2;
+    height: 100%;
 }
 
 /* Section 2: Timeline */
@@ -230,58 +241,65 @@ iframe {
 }
 
 /* Section 3 */
-#sub3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    font-size: 0;
-}
-
-#img4 {
-    margin: 1vw;
-    display: inline-block;
-    height: 30vw;
-    width: auto;
-    box-sizing: border-box;
-}
-
 #sub4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 0;
+    height: 25vw;
+    gap: 2vw;
 }
-
-#button1, #button2 {
+#img4 {
     display: inline-block;
-    height: 14vw;
-    width: 22vw;
+    height: 100%;
+    flex: 2;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+}
+#button1 {
+    height: 100%;
+    flex: 1;
     box-sizing: border-box;
     object-fit: cover;
     background-size: cover;
     background-position: center;
-    cursor: pointer; /* Makes it look clickable */
-    color: white; /* Optional: Sets text color */
-    font-size: 16px; /* Optional: Sets text size */
-    text-align: center; /* Centers text horizontally */
-    line-height: 50px; /* Matches button height to center text vertically */
-}
-
-#button1 {
     background-image: url('img/img5.jpg');
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: none;
+    color: white;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 4vw;
+    line-height: 1;
 }
-
-#button2 {
-    background-image: url('img/img6.jpg');
+#button1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
 }
-
-
-
-
+#button1:hover::before {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#button1:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+#button1 span {
+    position: relative;
+    z-index: 1;
+}
 
 /* Footer */
 footer {
@@ -324,20 +342,50 @@ footer a:hover {
     #titlesection .textstyle{
         font-size: 6vw;
     }
-    .content-section {
-        display: default;
+    #sub1 {
+        flex-direction: column;
+        height: 100vw;
     }
-    #img1 {
-        height: 35vw;
-    }
-    #img2, #img3 {
-        height: 34vw;
-    }
-    iframe {
-        box-sizing: border-box;
+    #sub2 {
         width: 100%;
-        height: 60vw;
-        margin: 1vw 4vw;
+        height: auto;
+    }
+    #map1 {
+        width: 100%;
+        height: 50vw;
+    }
+    #sub4 {
+        flex-direction: column;
+        height: 70vw;
+        width: auto;
+    }
+    #img4 {
+        flex: 1;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        object-fit: cover;
+    }
+    #button1 {
+        flex: 1;
+        width: 100%;
+        box-sizing: border-box;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        background-image: url('img/img5.jpg');
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border: none;
+        color: white;
+        font-family: "montserrat";
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        font-size: 5vw;
+        line-height: 1;
     }
 }
 
