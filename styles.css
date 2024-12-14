@@ -209,6 +209,7 @@ iframe {
 .timeline {
     position: relative;
     margin: 10px auto;
+    font-size: 0;
 }
 .timeline::after {
     content: '';
@@ -223,6 +224,7 @@ iframe {
 
 /* Container */
 .left_container, .right_container {
+    display: inline;
     position: relative;
     padding: 1vw;
     background-color: white;
@@ -292,13 +294,6 @@ iframe {
     z-index: 1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-    
-}
-
-
 
 
 /* Images
