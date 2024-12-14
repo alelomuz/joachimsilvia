@@ -3,7 +3,6 @@ html, body, h1,h2,h3,h4,h5,h6,a,p {
     margin: 0;
     padding: 0;
 }
-
 html, body {
     margin: 0;
     padding: 0;
@@ -11,11 +10,9 @@ html, body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
     box-sizing: border-box;
 }
-
 *, *::before, *::after {
     box-sizing: inherit;
 }
-
 .titlestyle {
     color: #004AAD;
     font-family: "Ephesis", cursive;
@@ -24,7 +21,6 @@ html, body {
     text-align: center;
     font-size: 5vw;
 }
-
 .subtitlestyle {
     color: black;
     font-family: "montserrat";
@@ -33,7 +29,6 @@ html, body {
     text-align: center;
     font-size: 2vw;
 }
-
 .textstyle {
     color: black;
     font-family: "montserrat";
@@ -42,21 +37,14 @@ html, body {
     text-align: center;
     font-size: 1.5vw;
 }
-
-body {
-    background-color: rgba(197, 227, 255, 0.089);
-}
-
 form {
     display: flex;
     flex-direction: column;
 }
-
 form label {
     margin-bottom: 5px;
     font-weight: bold;
 }
-
 form input, form select, form button {
     margin-bottom: 15px;
     padding: 10px;
@@ -64,43 +52,52 @@ form input, form select, form button {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 form button {
     background-color: #6c757d;
     color: white;
     border: none;
     cursor: pointer;
 }
-
 form button:hover {
     background-color: #5a6268;
 }
-
 footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
-
 footer a:hover {
     text-decoration: underline;
 }
 
 /* Header */
-
 header {
     background: #004AAD;
     color: white;
     padding: 1vw;
     text-align: center;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0.2rem;
 }
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "montserrat";
+    font-size: 2vw;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
 
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
@@ -109,23 +106,6 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: "montserrat";
-    font-size: 2vw;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
 
 /* Title Section */
@@ -150,8 +130,7 @@ nav ul li a:hover {
 
 
 
-/* Section */
-
+/* Sections */
 section {
     background: #c3e5ff3c;
     border-radius: 2vw;
@@ -163,7 +142,6 @@ section {
 
 
 /* Section 1 */
-
 .content-section {
     display: flex;
     justify-content: center;
@@ -171,23 +149,19 @@ section {
     font-size: 0;
     flex-wrap: wrap;
 }
-
 #sub1 {
     display: default;
 }
-
 #sub2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-
 #img1, #img2, #img3, iframe {
     margin: 1vw;
     display: inline-block;
 }
-
 #img1 {
     height: 16vw;
     width: auto;
@@ -196,14 +170,12 @@ section {
     margin-left: 50%;
     transform: translateX(-50%);
 }
-
 #img2, #img3 {
     height: 15vw;
     width: auto;
     border-radius: 2vw;
     box-sizing: border-box;
 }
-
 iframe {
     height: 33vw;
     width: 45vw;
@@ -211,7 +183,6 @@ iframe {
     box-sizing: border-box;
     margin: 1vw;
 }
-
 @media (max-width: 768px){
     .content-section {
         display: default;
@@ -278,8 +249,8 @@ iframe {
     content: '';
     position: absolute;
     top: 50%;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+    border-top: 0.5em solid transparent;
+    border-bottom: 0.5em solid transparent;
 }
 .left_container::before {
     transform: translate(100%, -50%);
