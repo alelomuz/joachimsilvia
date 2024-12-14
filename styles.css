@@ -124,7 +124,6 @@ section {
     box-sizing: border-box;
 }
 
-
 /* Section 1 */
 .content-section {
     display: flex;
@@ -167,27 +166,6 @@ iframe {
     box-sizing: border-box;
     margin: 1vw;
 }
-@media (max-width: 768px){
-    .content-section {
-        display: default;
-    }
-    #img1 {
-        height: 35vw;
-    }
-    #img2, #img3 {
-        height: 34vw;
-    }
-    iframe {
-        border-radius: 2vw;
-        box-sizing: border-box;
-        width: 100%;
-        height: 60vw;
-        margin: 1vw 4vw;
-    }
-}
-
-
-
 
 /* Section 2: Timeline */
 .timeline {
@@ -258,7 +236,7 @@ iframe {
     background-color: white;
     border: 0.5vw solid #004AAD;
     top: 50%;
-    right: -1.7vw;
+    right: -1.6vw;
     transform: translate(100%, -50%);
     border-radius: 50%;
     z-index: 1;
@@ -272,12 +250,56 @@ iframe {
     background-color: white;
     border: 0.5vw solid #004AAD;
     top: 50%;
-    left: -1.7vw;
+    left: -1.6vw;
     transform: translate(-100%, -50%);
     border-radius: 50%;
     z-index: 1;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+/* Sectiom 3 */
+#sub3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 0;
+}
+
+#img4 {
+    margin: 1vw;
+    display: inline-block;
+    height: 30vw;
+    width: auto;
+    border-radius: 2vw;
+    box-sizing: border-box;
+}
+
+#sub4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 0;
+}
+
+#img5, #img6 {
+    margin: 1vw;
+    display: inline-block;
+    height: 14vw;
+    width: 22vw;
+    border-radius: 2vw;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+
+
+
+
+
 
 /* Footer */
 footer {
@@ -316,8 +338,23 @@ footer a:hover {
     #titlesection .textstyle{
         font-size: 6vw;
     }
+    .content-section {
+        display: default;
+    }
+    #img1 {
+        height: 35vw;
+    }
+    #img2, #img3 {
+        height: 34vw;
+    }
+    iframe {
+        border-radius: 2vw;
+        box-sizing: border-box;
+        width: 100%;
+        height: 60vw;
+        margin: 1vw 4vw;
+    }
 }
-
 
 /* Images
 .section-images {
