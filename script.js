@@ -26,9 +26,10 @@ const translations = {
         /* Section 3 */
         title3: "Accommodations",
         subtitle3n1: "Recommended accommodation for multi-day stays",
-        description3n1: "We are available to indicate where you can stay during your stay. We list some accommodation facilities.\nWe will stay at Porto degli Argonauti (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
+        description3n1: "We are available to indicate where you can stay during your stay. We list some accommodation facilities.\nWe will stay at ",
+        description3n2: " (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
         subtitle3n2: "Recommended accommodations in Metaponto",
-        description3n2: "Accommodation facilities are located near the reception hall in Metaonto, MT",
+        description3n3: "Accommodation facilities are located near the reception hall in Metaonto, MT",
         /* Section 4 */
         title4: "Territory",
         /* Section 5 */
@@ -69,9 +70,10 @@ const translations = {
         /* Section 3 */
         title3: "Übernachtungsmöglichkeiten",
         subtitle3n1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
-        description3n1: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele.\nWir werden im Porto degli Argonauti (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
+        description3n1: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele.Wir werden im ",
+        description3n2: " (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
         subtitle3n2: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
-        description3n2: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation",
+        description3n3: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation",
         /* Section 4 */
         title4: "Die Gegend",
         /* Section 5 */
@@ -112,9 +114,10 @@ const translations = {
         /* Section 3 */
         title3: "Pernottamento",
         subtitle3n1: "Struttura ricettiva consigliata per soggiorni di piú giorni",
-        description3n1: "Siamo disponibili ad indicarvi dove poter alloggiare durante il vostro soggiorno. Riportiamo una lista di strutture ricettive.\nNoi allogeremo presso Porto degli Argonauti (Marina di Pisticci, MT). Nello stesso villaggio sono disponibili più strutture ricettive:",
+        description3n1: "Siamo disponibili ad indicarvi dove poter alloggiare durante il vostro soggiorno. Riportiamo una lista di strutture ricettive.\nNoi allogeremo presso ",
+        description3n2: " (Marina di Pisticci, MT). Nello stesso villaggio sono disponibili più strutture ricettive:",
         subtitle3n2: "Strutture ricettive consigliate a Metaponto",
-        description3n2: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT",
+        description3n3: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT",
         /* Section 4 */
         title4: "Territorio",
         subtitle4n1: "Basilicata",
@@ -161,8 +164,9 @@ function updateLanguage(lang) {
     document.getElementById("title3").textContent = translations[lang].title3;
     document.getElementById("subtitle3n1").textContent = translations[lang].subtitle3n1;
     document.getElementById("description3n1").textContent = translations[lang].description3n1;
-    document.getElementById("subtitle3n2").textContent = translations[lang].subtitle3n2;
     document.getElementById("description3n2").textContent = translations[lang].description3n2;
+    document.getElementById("subtitle3n2").textContent = translations[lang].subtitle3n2;
+    document.getElementById("description3n3").textContent = translations[lang].description3n2;
     /* Section 4 */
     document.getElementById("title4").textContent = translations[lang].title4;
     document.getElementById("subtitle4n1").textContent = translations[lang].subtitle4n1;
