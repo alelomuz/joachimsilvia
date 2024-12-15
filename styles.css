@@ -415,11 +415,11 @@ section {
     section {
         margin: 2vw;
     }
-    #sub1 {
+    #sub1n1 {
         flex-direction: column;
         height: 100vw;
     }
-    #sub2 {
+    #sub1n2 {
         width: 100%;
         height: auto;
     }
