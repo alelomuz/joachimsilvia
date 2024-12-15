@@ -21,6 +21,32 @@ html, body {
     border-radius: 3vw;
     text-wrap: balance;
 }
+.imgbutton{
+    box-sizing: border-box;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: none;
+    color: white;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+.imgbutton:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.6);
+}
 
 /* Text Styles */
 .titlestyle {
@@ -273,57 +299,46 @@ section {
 }
 
 /* Section 3 */
-#sub3 {
+#sub3n1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     font-size: 0;
     height: 25vw;
+    width: 100%;
     gap: 2vw;
 }
-#img3 {
-    display: inline-block;
+#img3n1 {
     height: 100%;
-    flex: 2;
+    width: 70%;
     box-sizing: border-box;
     object-fit: cover;
     position: relative;
     overflow: hidden;
 }
-
 #map3{
+    width: 30%;
+    height: 100%;
+}
+#sub3n2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0;
+    height: 30vw;
+}
+#sub3n3, #sub3n4 {
+    text-align: center;
     flex: 1;
-    height: 100%
+    height: 100%;
+}
+#img3n2,#img3n3 {
+    height: 85%;
 }
 
 /* Section 4 */
-.imgbutton{
-    box-sizing: border-box;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border: none;
-    color: white;
-    font-family: "montserrat";
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    font-size: 3vw;
-    line-height: 1;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-    background-size: cover;
-    background-position: center;
-}
-.imgbutton:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.6);
-}
 #sub4n1, #sub4n2 {
     display: flex;
     justify-content: center;
@@ -447,7 +462,7 @@ section {
     .subtitlestyle {
         font-size: 4vw;
     }
-    .textstyle {
+    .textstyle, .textstyle a {
         font-size: 3vw;
     }
     #titlesection .titlestyle{
@@ -481,4 +496,23 @@ section {
         margin-left: 54.5%;
     }
     /* Section 3 */
+    #sub3n1 {
+        flex-direction: column;
+        height: 60vw;
+    }
+    #img3n1 {
+        width: 100%;
+        height: 50%;
+    }
+    #map3 {
+        width: 100%;
+        height: 50%;
+    }
+    #sub3n2 {
+        height: 40vw;
+    }
+    #img3n2,#img3n3 {
+        width: 90%;
+        height: auto;
+    }
 }

@@ -30,6 +30,7 @@ const translations = {
         description3n2: " (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
         subtitle3n2: "Recommended accommodations in Metaponto",
         description3n3: "Accommodation facilities are located near the reception hall in Metaonto, MT",
+        description3n4: "(accommodation with agreement with Notedimare)",
         /* Section 4 */
         title4: "Territory",
         /* Section 5 */
@@ -74,6 +75,7 @@ const translations = {
         description3n2: " (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
         subtitle3n2: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
         description3n3: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation",
+        description3n4: "(Unterkunft mit Vereinbarung mit Notedimare)",
         /* Section 4 */
         title4: "Die Gegend",
         /* Section 5 */
@@ -118,6 +120,7 @@ const translations = {
         description3n2: " (Marina di Pisticci, MT). Nello stesso villaggio sono disponibili più strutture ricettive:",
         subtitle3n2: "Strutture ricettive consigliate a Metaponto",
         description3n3: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT",
+        description3n4: "(struttura convenzionata con Notedimare)",
         /* Section 4 */
         title4: "Territorio",
         subtitle4n1: "Basilicata",
@@ -167,6 +170,7 @@ function updateLanguage(lang) {
     document.getElementById("description3n2").textContent = translations[lang].description3n2;
     document.getElementById("subtitle3n2").textContent = translations[lang].subtitle3n2;
     document.getElementById("description3n3").textContent = translations[lang].description3n2;
+    document.getElementById("description3n4").textContent = translations[lang].description3n4;
     /* Section 4 */
     document.getElementById("title4").textContent = translations[lang].title4;
     document.getElementById("subtitle4n1").textContent = translations[lang].subtitle4n1;
