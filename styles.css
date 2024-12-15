@@ -356,7 +356,27 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-
+/* Section 8 */
+#sub8n1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0;
+    gap: 2vw;
+    margin: 0 10vw;
+}
+#sub8n2 {
+    flex: 1;
+}
+#img8 {
+    flex: 1;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
 
 /* Smartphones */
 @media (max-width: 768px){
