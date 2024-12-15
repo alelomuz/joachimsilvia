@@ -228,11 +228,11 @@ section {
     white-space: pre-wrap;
 }
 .left_container {
-    margin-left: 35.4vw;
+    margin-left: 46%;
     transform: translateX(-100%);
 }
 .right_container {
-    margin-left: 42.4vw;
+    margin-left: 55.3%;
 }
 .left_container::before, .right_container::before{
     content: '';
@@ -428,10 +428,10 @@ section {
         height: 50vw;
     }
     .left_container {
-        margin-left: 41.5vw;
+        margin-left: 46.5%;
     }
     .right_container {
-        margin-left: 48.5vw;
+        margin-left: 54.5%;
     }
 }
 
