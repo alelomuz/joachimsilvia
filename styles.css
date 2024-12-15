@@ -334,44 +334,65 @@ section {
 }
 
 /* Section 4 */
-#sub4n1 {
+.imgbutton{
+    box-sizing: border-box;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: none;
+    color: white;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+.imgbutton:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.6);
+}
+#sub4n1, #sub4n2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     font-size: 0;
-    height: 25vw;
+    height: 20vw;
     gap: 2vw;
 }
-
-#img4n1, #img4n2 {
-    display: inline-block;
-    height: 100%;
-    flex: 2;
-    box-sizing: border-box;
-    object-fit: cover;
-    position: relative;
-    overflow: hidden;
-}
-
-#sub4n2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 0;
-    height: 100%;
-    gap: 2vw;
-}
-
-#img4n3, #img4n4, #img4n5 {
-    display: inline-block;
-    height: 100%;
+#img4n1 {
     flex: 1;
-    box-sizing: border-box;
-    object-fit: cover;
-    position: relative;
-    overflow: hidden;
+    height: 100%;
+    background-image: url('img/metaponto.jpeg');
+}
+#img4n2 {
+    flex: 1;
+    height: 100%;
+    background-image: url('img/matera.jpeg');
+}
+#img4n3 {
+    flex: 1;
+    height: 100%;
+    background-image: url('img/taranto.jpeg');
+}
+#img4n4 {
+    flex: 1;
+    height: 100%;
+    background-image: url('img/polignanoamare.jpeg');
+}
+#img4n5 {
+    flex: 1;
+    height: 100%;
+    background-image: url('img/alberobello.jpeg');
 }
 
 /* Section 7 */
