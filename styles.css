@@ -13,6 +13,7 @@ html, body {
 *, *::before, *::after {
     box-sizing: inherit;
     border-radius: 3vw;
+    text-wrap: balance;
 }
 
 /* Text Styles */
@@ -183,11 +184,11 @@ section {
     white-space: pre-wrap;
 }
 .left_container {
-    margin-left: 36vw;
+    margin-left: 35.4vw;
     transform: translateX(-100%);
 }
 .right_container {
-    margin-left: 43vw;
+    margin-left: 42.4vw;
 }
 
 /* Arrow */
@@ -293,24 +294,35 @@ section {
     z-index: 1;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 10px;
-    background: rgba(100, 180, 255, 0.238);
-    color: white;
+/* Section 7 */
+#button7 {
+    height: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    bottom: 0;
-    width: 100%;
-}
-footer a {
+    border: none;
     color: white;
-    text-decoration: none;
-    font-weight: bold;
+    background-color: #004AAD;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 2vw;
+    line-height: 1;
+    padding: 1vw;
+    border-radius: 2vw;
 }
-footer a:hover {
-    text-decoration: underline;
+#button7:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+
 
 /* Smartphones */
 @media (max-width: 768px){
@@ -329,7 +341,7 @@ footer a:hover {
     }
     #titlesection .titlestyle{
         white-space: pre-line;
-        font-size: 16vw;
+        font-size: 15vw;
     }
     #titlesection .textstyle{
         font-size: 6vw;
@@ -350,10 +362,10 @@ footer a:hover {
         height: 50vw;
     }
     .left_container {
-        margin-left: 42vw;
+        margin-left: 41.5vw;
     }
     .right_container {
-        margin-left: 49vw;
+        margin-left: 48.5vw;
     }
 }
 

@@ -22,6 +22,13 @@ const translations = {
         description3: "We are available to indicate where you can stay during your stay. We list some accommodation facilities.\nWe will stay at Porto degli Argonauti (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
         subtitle2: "Recommended accommodations in Metaponto",
         description4: "Accommodation facilities are located near the reception hall in Metaonto, MT",
+        title5: "Activities during the wedding week",
+        description5: "During the wedding week, from 16 to 19 September 2025, various activities will be suggested. More details will follow in the coming months.",
+        title6: "Wedding list",
+        description6: "More information will follow in the coming months.",
+        title7: "Participation confirmation",
+        description7: "Don't want to miss this great unforgettable event? Then confirm your participation! Register each participant by 15.03.2025 with first and last name. Food is one of the most important elements of a great party, so that everything is to your liking, please fill out the following form:",
+        title8: "Contacts",
     },
     de: {
         title0: "Hochzeit von Silvia und Joachim",
@@ -44,7 +51,14 @@ const translations = {
         subtitle1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
         description3: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele.\nWir werden im Porto degli Argonauti (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
         subtitle2: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
-        description4: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation"
+        description4: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation",
+        title5: "Aktivitäten während der Hochzeitswoche",
+        description5: "Während der Hochzeitswoche, also vom 16. bis 19. September 2025, werden verschiedene Aktivitäten vorgeschlagen. Weitere Details folgen in den kommenden Monaten.",
+        title6: "Hochzeitstisch",
+        description6: "Weitere Informationen dazu folgen in den kommenden Monaten.",
+        title7: "Teilnahme bestätigung",
+        description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus.",
+        title8: "Kontakte",
     },
     it: {
         title0: "Matrimonio di Silvia e Joachim",
@@ -67,7 +81,14 @@ const translations = {
         subtitle1: "Struttura ricettiva consigliata per soggiorni di piú giorni",
         description3: "Siamo disponibili ad indicarvi dove poter alloggiare durante il vostro soggiorno. Riportiamo una lista di strutture ricettive.\nNoi allogeremo presso Porto degli Argonauti (Marina di Pisticci, MT). Nello stesso villaggio sono disponibili più strutture ricettive:",
         subtitle2: "Strutture ricettive consigliate a Metaponto",
-        description4: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT"
+        description4: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT",
+        title5: "Attivitá proposte durante la settimana del Matrimonio",
+        description5: "Durante la settimana del matrimonio sono previste diverse attivitá per gli ospiti. Qui di seguito alcune proposte:",
+        title6: "Lista di nozze",
+        description6: "Maggiori informazioni seguiranno nei prossimi mesi.",
+        title7: "Conferma partecipazione",
+        description7: "Non vorrai perderti questo grande evento indimenticabile? Allora conferma la partecipazione! Registra ogni singolo partecipante entro il 15.03.2025., indicando nome e cognome. Il cibo è uno degli elementi più importanti di una grande festa, affinché tutto sia di tuo gradimento, compila il seguente formulario:",
+        title8: "Contatti",
     }
 };
 
@@ -94,6 +115,21 @@ function updateLanguage(lang) {
     document.getElementById("description3").textContent = translations[lang].description3;
     document.getElementById("subtitle2").textContent = translations[lang].subtitle2;
     document.getElementById("description4").textContent = translations[lang].description4;
+    document.getElementById("title5").textContent = translations[lang].title5;
+    document.getElementById("description5").textContent = translations[lang].description5;
+    document.getElementById("title6").textContent = translations[lang].title6;
+    document.getElementById("description6").textContent = translations[lang].description6;
+    document.getElementById("title7").textContent = translations[lang].title7;
+    document.getElementById("description7").textContent = translations[lang].description7;
+    document.getElementById("button7").textContent = translations[lang].title7;
+    document.getElementById("title8").textContent = translations[lang].title8;
+    
+    const phoneElement = document.getElementById("giusyphone");
+    if (lang === "it") {
+        phoneElement.style.display = "block";
+    } else {
+        phoneElement.style.display = "none";
+    }
 }
 
 // Language switcher event listener
