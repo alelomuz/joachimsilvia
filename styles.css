@@ -334,9 +334,26 @@ section {
 }
 
 /* Section 7 */
-#button7 {
-    height: 100%;
+#sub7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0;
+    height: 25vw;
+    gap: 2vw;
+}
+#img7n1, #img7n2 {
     flex: 1;
+    display: inline-block;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100%;
+}
+#button7 {
+    width: 100%;
     box-sizing: border-box;
     object-fit: cover;
     background-size: cover;
@@ -352,10 +369,11 @@ section {
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
     line-height: 1;
     padding: 1vw;
     border-radius: 2vw;
+    margin-top: 2vw;
 }
 #button7:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
