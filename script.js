@@ -1,129 +1,180 @@
 // Translations object
 const translations = {
     en: {
+        /* Section 0 */
         title0: "Wedding of Silvia and Joachim",
-        site1: "Location",
-        site2: "Accommodations",
-        site3: "Plan",
-        site4: "Travel Informations",
-        site5: "Contacts",
+        nav1: "CEREMONY",
+        nav2: "PROGRAM",
+        nav3: "ACCOMMODATIONS",
+        nav4: "TERRITORY",
+        nav5: "ACTIVITIES",
+        nav6: "WEDDING LIST",
+        nav7: "PARTICIPATION",
+        nav8: "CONTACTS",
+        /* Section 1 */
         title1: "Ceremony",
         description1: "The ceremony and reception will take place at the reception hall",
+        /* Section 2 */
         title2: "Program",
         description2: "Wedding of Silvia and Joachim",
-        timeline1: "CEREMONY",
-        timeline2: "PHOTOS",
-        timeline3: "APERITIF",
-        timeline4: "LUNCH",
-        timeline5: "WEDDING CAKE AND\nDESSERT BUFFET",
-        timeline6: "AFTERPARTY WITH DJ\nAND COCKTAIL BAR",
+        timeline2n1: "CEREMONY",
+        timeline2n2: "PHOTOS",
+        timeline2n3: "APERITIF",
+        timeline2n4: "LUNCH",
+        timeline2n5: "WEDDING CAKE AND\nDESSERT BUFFET",
+        timeline2n6: "AFTERPARTY WITH DJ\nAND COCKTAIL BAR",
+        /* Section 3 */
         title3: "Accommodations",
-        subtitle1: "Recommended accommodation for multi-day stays",
-        description3: "We are available to indicate where you can stay during your stay. We list some accommodation facilities.\nWe will stay at Porto degli Argonauti (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
-        subtitle2: "Recommended accommodations in Metaponto",
-        description4: "Accommodation facilities are located near the reception hall in Metaonto, MT",
+        subtitle3n1: "Recommended accommodation for multi-day stays",
+        description3n1: "We are available to indicate where you can stay during your stay. We list some accommodation facilities.\nWe will stay at Porto degli Argonauti (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
+        subtitle3n2: "Recommended accommodations in Metaponto",
+        description3n2: "Accommodation facilities are located near the reception hall in Metaonto, MT",
+        /* Section 4 */
+        title4: "Territory",
+        /* Section 5 */
         title5: "Activities during the wedding week",
         description5: "During the wedding week, from 16 to 19 September 2025, various activities will be suggested. More details will follow in the coming months.",
+        /* Section 6 */
         title6: "Wedding list",
         description6: "More information will follow in the coming months.",
+        /* Section 7 */
         title7: "Participation confirmation",
         description7: "Don't want to miss this great unforgettable event? Then confirm your participation! Register each participant by 15.03.2025 with first and last name. Food is one of the most important elements of a great party, so that everything is to your liking, please fill out the following form:",
+        /* Section 8 */
         title8: "Contacts",
     },
     de: {
+        /* Section 0 */
         title0: "Hochzeit von Silvia und Joachim",
-        site1: "Veranstaltungsort",
-        site2: "Unterkünfte",
-        site3: "Plan",
-        site4: "Reiseinformationen",
-        site5: "Kontakte",
+        nav1: "TRAUNGSFEIER",
+        nav2: "PROGRAMM",
+        nav3: "UNTERKUNFT",
+        nav4: "DIE GEGEND",
+        nav5: "AKTIVITÄTEN",
+        nav6: "HOCHZEITSTISCH",
+        nav7: "TEILNAHME\nBESTÄTIGUNG",
+        nav8: "KONTAKTE",
+        /* Section 1 */
         title1: "Traungsfeier",
         description1: "Die Trauung und der Empfang finden im Festsaal statt",
+        /* Section 2 */
         title2: "Programm",
         description2: "Hochzeit von Silvia und Joachim",
-        timeline1: "TRAUUNG",
-        timeline2: "FOTOS",
-        timeline3: "APERITIF",
-        timeline4: "MITTAGSESSEN",
-        timeline5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
-        timeline6: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
+        timeline2n1: "TRAUUNG",
+        timeline2n2: "FOTOS",
+        timeline2n3: "APERITIF",
+        timeline2n4: "MITTAGSESSEN",
+        timeline2n5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
+        timeline2n6: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
+        /* Section 3 */
         title3: "Übernachtungsmöglichkeiten",
-        subtitle1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
-        description3: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele.\nWir werden im Porto degli Argonauti (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
-        subtitle2: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
-        description4: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation",
+        subtitle3n1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
+        description3n1: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele.\nWir werden im Porto degli Argonauti (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
+        subtitle3n2: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
+        description3n2: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation",
+        /* Section 4 */
+        title4: "Die Gegend",
+        /* Section 5 */
         title5: "Aktivitäten während der Hochzeitswoche",
         description5: "Während der Hochzeitswoche, also vom 16. bis 19. September 2025, werden verschiedene Aktivitäten vorgeschlagen. Weitere Details folgen in den kommenden Monaten.",
+        /* Section 6 */
         title6: "Hochzeitstisch",
         description6: "Weitere Informationen dazu folgen in den kommenden Monaten.",
+        /* Section 7 */
         title7: "Teilnahme bestätigung",
         description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus.",
+        /* Section 8 */
         title8: "Kontakte",
     },
     it: {
+        /* Section 0 */
         title0: "Matrimonio di Silvia e Joachim",
-        site1: "Location",
-        site2: "Alloggi",
-        site3: "Piano",
-        site4: "Informazioni di viaggio",
-        site5: "Contatti",
-        title1: "Ceremonia e ricevimento",
+        nav1: "CERIMONIA",
+        nav2: "PROGRAMMA",
+        nav3: "PERNOTTAMENTO",
+        nav4: "TERRITORIO",
+        nav5: "ATTIVITÁ",
+        nav6: "LISTA\nDI NOZZE",
+        nav7: "CONFERMA\nPARTECIPAZIONE",
+        nav8: "CONTATTI",
+        /* Section 1 */ 
+        title1: "Cerimonia e ricevimento",
         description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti",
-        title2: "Programma",
+        /* Section 2 */
+        title2: "Programma dell'evento",
         description2: "Nozze di Silvia e Joachim",
-        timeline1: "CERIMONIA",
-        timeline2: "FOTO",
-        timeline3: "APERITIVO",
-        timeline4: "PRANZO",
-        timeline5: "TORTA NUZIALE E\nBUFFET DEI DOLCI",
-        timeline6: "AFTERPARTY CON DJ\nE COCKTAILBAR",
+        timeline2n1: "CERIMONIA",
+        timeline2n2: "FOTO",
+        timeline2n3: "APERITIVO",
+        timeline2n4: "PRANZO",
+        timeline2n5: "TORTA NUZIALE E\nBUFFET DEI DOLCI",
+        timeline2n6: "AFTERPARTY CON DJ\nE COCKTAILBAR",
+        /* Section 3 */
         title3: "Pernottamento",
-        subtitle1: "Struttura ricettiva consigliata per soggiorni di piú giorni",
-        description3: "Siamo disponibili ad indicarvi dove poter alloggiare durante il vostro soggiorno. Riportiamo una lista di strutture ricettive.\nNoi allogeremo presso Porto degli Argonauti (Marina di Pisticci, MT). Nello stesso villaggio sono disponibili più strutture ricettive:",
-        subtitle2: "Strutture ricettive consigliate a Metaponto",
-        description4: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT",
+        subtitle3n1: "Struttura ricettiva consigliata per soggiorni di piú giorni",
+        description3n1: "Siamo disponibili ad indicarvi dove poter alloggiare durante il vostro soggiorno. Riportiamo una lista di strutture ricettive.\nNoi allogeremo presso Porto degli Argonauti (Marina di Pisticci, MT). Nello stesso villaggio sono disponibili più strutture ricettive:",
+        subtitle3n2: "Strutture ricettive consigliate a Metaponto",
+        description3n2: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT",
+        /* Section 4 */
+        title4: "Territorio",
+        /* Section 5 */
         title5: "Attivitá proposte durante la settimana del Matrimonio",
         description5: "Durante la settimana del matrimonio sono previste diverse attivitá per gli ospiti. Qui di seguito alcune proposte:",
+        /* Section 6 */
         title6: "Lista di nozze",
         description6: "Maggiori informazioni seguiranno nei prossimi mesi.",
+        /* Section 7 */
         title7: "Conferma partecipazione",
         description7: "Non vorrai perderti questo grande evento indimenticabile? Allora conferma la partecipazione! Registra ogni singolo partecipante entro il 15.03.2025., indicando nome e cognome. Il cibo è uno degli elementi più importanti di una grande festa, affinché tutto sia di tuo gradimento, compila il seguente formulario:",
+        /* Section 8 */
         title8: "Contatti",
     }
 };
 
 // Function to update content based on language
 function updateLanguage(lang) {
+    /* Section 0 */
     document.getElementById("title0").textContent = translations[lang].title0;
-    document.getElementById("site1").textContent = translations[lang].site1;
-    document.getElementById("site2").textContent = translations[lang].site2;
-    document.getElementById("site3").textContent = translations[lang].site3;
-    document.getElementById("site4").textContent = translations[lang].site4;
-    document.getElementById("site5").textContent = translations[lang].site5;
+    document.getElementById("nav1").textContent = translations[lang].nav1;
+    document.getElementById("nav2").textContent = translations[lang].nav2;
+    document.getElementById("nav3").textContent = translations[lang].nav3;
+    document.getElementById("nav4").textContent = translations[lang].nav4;
+    document.getElementById("nav5").textContent = translations[lang].nav5;
+    document.getElementById("nav6").textContent = translations[lang].nav6;
+    document.getElementById("nav7").textContent = translations[lang].nav7;
+    document.getElementById("nav8").textContent = translations[lang].nav8;
+    /* Section 1 */
     document.getElementById("title1").textContent = translations[lang].title1;
     document.getElementById("description1").textContent = translations[lang].description1;
+    /* Section 2 */
     document.getElementById("title2").textContent = translations[lang].title2;
     document.getElementById("description2").textContent = translations[lang].description2;
-    document.getElementById("timeline1").textContent = translations[lang].timeline1;
-    document.getElementById("timeline2").textContent = translations[lang].timeline2;
-    document.getElementById("timeline3").textContent = translations[lang].timeline3;
-    document.getElementById("timeline4").textContent = translations[lang].timeline4;
-    document.getElementById("timeline5").textContent = translations[lang].timeline5;
-    document.getElementById("timeline6").textContent = translations[lang].timeline6;
+    document.getElementById("timeline2n1").textContent = translations[lang].timeline2n1;
+    document.getElementById("timeline2n2").textContent = translations[lang].timeline2n2;
+    document.getElementById("timeline2n3").textContent = translations[lang].timeline2n3;
+    document.getElementById("timeline2n4").textContent = translations[lang].timeline2n4;
+    document.getElementById("timeline2n5").textContent = translations[lang].timeline2n5;
+    document.getElementById("timeline2n6").textContent = translations[lang].timeline2n6;
+    /* Section 3 */
     document.getElementById("title3").textContent = translations[lang].title3;
-    document.getElementById("subtitle1").textContent = translations[lang].subtitle1;
-    document.getElementById("description3").textContent = translations[lang].description3;
-    document.getElementById("subtitle2").textContent = translations[lang].subtitle2;
-    document.getElementById("description4").textContent = translations[lang].description4;
+    document.getElementById("subtitle3n1").textContent = translations[lang].subtitle3n1;
+    document.getElementById("description3n1").textContent = translations[lang].description3n1;
+    document.getElementById("subtitle3n2").textContent = translations[lang].subtitle3n2;
+    document.getElementById("description3n2").textContent = translations[lang].description3n2;
+    /* Section 4 */
+    document.getElementById("title4").textContent = translations[lang].title4;
+    /* Section 5 */
     document.getElementById("title5").textContent = translations[lang].title5;
     document.getElementById("description5").textContent = translations[lang].description5;
+    /* Section 6 */
     document.getElementById("title6").textContent = translations[lang].title6;
     document.getElementById("description6").textContent = translations[lang].description6;
+    /* Section 7 */
     document.getElementById("title7").textContent = translations[lang].title7;
     document.getElementById("description7").textContent = translations[lang].description7;
     document.getElementById("button7").textContent = translations[lang].title7;
+    /* Section 8 */
     document.getElementById("title8").textContent = translations[lang].title8;
-    
     const phoneElement = document.getElementById("giusyphone");
     if (lang === "it") {
         phoneElement.style.display = "block";
@@ -133,7 +184,7 @@ function updateLanguage(lang) {
 }
 
 // Language switcher event listener
-const languageSelect = document.getElementById("language-select");
+const languageSelect = document.getElementById("language");
 languageSelect.addEventListener("change", (event) => {
     const selectedLanguage = event.target.value;
     updateLanguage(selectedLanguage);

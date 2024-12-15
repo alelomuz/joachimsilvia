@@ -14,31 +14,29 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="sites/location.html" id="site1"></a></li>
-                <li><a href="sites/accommodations.html" id="site2"></a></li>
-                <li><a href="sites/plan.html" id="site3"></a></li>
-                <li><a href="sites/travel-informations.html" id="site4"></a></li>
-                <li><a href="sites/contacts.html" id="site5"></a></li>
-                <li>
-                    <select id="language-select">
-                        <option value="it">Italiano</option>
-                        <option value="de">Deutsch</option>
-                        <option value="en">English</option>
-                    </select>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
+    <ul id="navbar">
+        <li><button id="nav1" onclick="navigateTo('section1')"></button></li>
+        <li><button id="nav2" onclick="navigateTo('section2')"></button></li>
+        <li><button id="nav3" onclick="navigateTo('section3')"></button></li>
+        <li><button id="nav4" onclick="navigateTo('section4')"></button></li>
+        <li><button id="nav5" onclick="navigateTo('section5')"></button></li>
+        <li><button id="nav6" onclick="navigateTo('section6')"></button></li>
+        <li><button id="nav7" onclick="navigateTo('section7')"></button></li>
+        <li><button id="nav8" onclick="navigateTo('section8')"></button></li>
+        <li>
+            <select id="language">
+                <option value="it">ITALIANO</option>
+                <option value="de">DEUTSCH</option>
+                <option value="en">ENGLISCH</option>
+            </select>
+        </li>
+    </ul>
     <main>
-        <div id = "titlesection">
+        <div id="section0">
             <h1 id="title0" class="titlestyle"></h1>
             <h1 class="textstyle">15.09.2025</h1>
         </div>
-        <section>
+        <section id="section1">
             <h2 id="title1" class="titlestyle"></h2>
             <p id="description1" class="textstyle"></p>
             <div id="sub1">
@@ -52,44 +50,46 @@
                 <iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.0246806864116!2d16.829905!3d40.3639771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13476a08ada653e1%3A0x1c17714f804a7207!2sNotedimare%20Ricevimenti!5e0!3m2!1sen!2sde!4v1734114842497!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-
-        <section>
+        <section id="section2">
             <h2 id="title2" class="titlestyle"></h2>
             <p id="description2" class="textstyle"></p>
             <div class="timeline">
-                <h2 class="left_container textstyle" id="timeline1"></h2>
-                <h2 class="right_container textstyle" id="timeline2" class="textstyle"></h2>
-                <h2 class="left_container textstyle" id="timeline3"></h2>
-                <h2 class="right_container textstyle" id="timeline4"></h2>
-                <h2 class="left_container textstyle" id="timeline5"></h2>
-                <h2 class="right_container textstyle" id="timeline6"></h2>
+                <h2 class="left_container textstyle" id="timeline2n1"></h2>
+                <h2 class="right_container textstyle" id="timeline2n2" class="textstyle"></h2>
+                <h2 class="left_container textstyle" id="timeline2n3"></h2>
+                <h2 class="right_container textstyle" id="timeline2n4"></h2>
+                <h2 class="left_container textstyle" id="timeline2n5"></h2>
+                <h2 class="right_container textstyle" id="timeline2n6"></h2>
             </div>
         </section>
-        <section>
+        <section id="section3">
             <h2 id="title3" class="titlestyle"></h2>
-            <h2 id="subtitle1" class="subtitlestyle"></h2>
-            <p id="description3" class="textstyle"></p>
+            <h2 id="subtitle3n1" class="subtitlestyle"></h2>
+            <p id="description3n1" class="textstyle"></p>
             <div id="sub4">
                 <img id = "img4" src="img/img4.jpg">
                 <button id = "button1" onclick="window.open('https://argonautihotel.it/', '_blank');"><span>Argonavti<br>Resort</span></button>
             </div>
-            <h2 id="subtitle2" class="subtitlestyle"></h2>
-            <p id="description4" class="textstyle"></p>
+            <h2 id="subtitle3n2" class="subtitlestyle"></h2>
+            <p id="description3n2" class="textstyle"></p>
         </section>
-        <section>
+        <section id="section4">
+            <h2 id="title4" class="titlestyle"></h2>
+        </section>
+        <section id="section5">
             <h2 id="title5" class="titlestyle"></h2>
             <p id="description5" class="textstyle"></p>
         </section>
-        <section>
+        <section id="section6">
             <h2 id="title6" class="titlestyle"></h2>
             <p id="description6" class="textstyle"></p>
         </section>
-        <section>
+        <section id="section7">
             <h2 id="title7" class="titlestyle"></h2>
             <p id="description7" class="textstyle"></p>
             <button id="button7" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR_ZzqyjOSfH4aDd98d3WgrCfnu4a0AiNsXbqeHlG9YQDYJQ/viewform', '_blank');"></button>
         </section>
-        <section>
+        <section id="section8">
             <h2 id="title8" class="titlestyle"></h2>
             <p class="textstyle">Silvia:<br>+49 15782215018</p>
             <p class="textstyle">Joachim:<br>+49 17691385504</p>
@@ -98,5 +98,10 @@
     </main>
 
     <script src="script.js"></script>
+    <script>
+        function navigateTo(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
