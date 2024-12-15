@@ -13,7 +13,7 @@ const translations = {
         nav8: "CONTACTS",
         /* Section 1 */
         title1: "Ceremony",
-        description1: "The ceremony and reception will take place at the reception hall",
+        description1: "The ceremony and reception will take place at the reception hall of",
         /* Section 2 */
         title2: "Program",
         description2: "Wedding of Silvia and Joachim",
@@ -56,7 +56,7 @@ const translations = {
         nav8: "KONTAKTE",
         /* Section 1 */
         title1: "Traungsfeier",
-        description1: "Die Trauung und der Empfang finden im Festsaal statt",
+        description1: "Die Trauung und der Empfang finden im Festsaal statt von",
         /* Section 2 */
         title2: "Programm",
         description2: "Hochzeit von Silvia und Joachim",
@@ -99,7 +99,7 @@ const translations = {
         nav8: "CONTATTI",
         /* Section 1 */ 
         title1: "Cerimonia e ricevimento",
-        description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti",
+        description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti di",
         /* Section 2 */
         title2: "Programma dell'evento",
         description2: "Nozze di Silvia e Joachim",
