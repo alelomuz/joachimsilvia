@@ -323,14 +323,55 @@ section {
     z-index: 0;
 }
 #button1:hover::before {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 #button1:hover{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.6);
 }
 #button1 span {
     position: relative;
     z-index: 1;
+}
+
+/* Section 4 */
+#sub4n1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0;
+    height: 25vw;
+    gap: 2vw;
+}
+
+#img4n1, #img4n2 {
+    display: inline-block;
+    height: 100%;
+    flex: 2;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#sub4n2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0;
+    height: 100%;
+    gap: 2vw;
+}
+
+#img4n3, #img4n4, #img4n5 {
+    display: inline-block;
+    height: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
 }
 
 /* Section 7 */
