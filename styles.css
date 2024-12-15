@@ -1,8 +1,13 @@
 /* General */
-html, body, h1,h2,h3,h4,h5,h6,a,p {
+html, body, a {
     margin: 0;
     padding: 0;
 }
+
+h2, p {
+    margin: 1vw;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -26,7 +31,6 @@ html, body {
     text-align: center;
     font-size: 5vw;
     line-height: 1;
-    margin: 1vw;
 }
 .subtitlestyle {
     color: black;
@@ -36,17 +40,24 @@ html, body {
     text-align: center;
     font-size: 2vw;
     line-height: 1;
-    margin: 1vw;
 }
-.textstyle {
+.textstyle, .textstyle a {
     color: black;
     font-family: "montserrat";
     font-weight: 300;
     font-style: normal;
     text-align: center;
     font-size: 1.5vw;
-    line-height: 1.2;
-    margin: 1vw;
+    line-height: 1.2;    
+}
+
+/* Sections */
+section {
+    background: #c3e5ff3c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
+    padding: 1vw 2vw 2vw 2vw;
+    margin: 3vw 8vw;
+    box-sizing: border-box;
 }
 
 /* Navigation-bar*/
@@ -133,17 +144,8 @@ html, body {
     font-size: 4vw;
 }
 
-/* Sections */
-section {
-    background: #c3e5ff3c;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
-    padding: 1vw 2vw 2vw 2vw;
-    margin: 3vw 8vw;
-    box-sizing: border-box;
-}
-
 /* Section 1 */
-#img1, #img2, #img3, #map1 {
+#img1n1, #img1n2, #img1n3, #map1 {
     display: inline-block;
     object-fit: cover;
     position: relative;
@@ -175,7 +177,7 @@ section {
     height: 100%;
     flex-direction: column;
 }
-#img1 {
+#img1n1 {
     flex: 1;
     width: 100%;
 }
@@ -184,17 +186,20 @@ section {
     width: 100%;
     flex-direction: row;
 }
-#img2{
+#img1n2{
     flex: 1;
     height: 100%;
 }
-#img3{
+#img1n3{
     flex: 2;
     height: 100%;
 }
+#link1:hover {
+    color: blue;
+}
 
 /* Section 2: Timeline */
-.timeline {
+.timeline2 {
     position: relative;
     margin: 1vw;
     font-size: 0;
@@ -268,7 +273,7 @@ section {
 }
 
 /* Section 3 */
-#sub4 {
+#sub3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,7 +282,7 @@ section {
     height: 25vw;
     gap: 2vw;
 }
-#img4 {
+#img3 {
     display: inline-block;
     height: 100%;
     flex: 2;
