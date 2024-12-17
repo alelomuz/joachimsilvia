@@ -64,7 +64,7 @@ html, body {
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
     line-height: 1;
 }
 .textstyle, .textstyle a {
@@ -99,27 +99,21 @@ section {
     justify-content: space-evenly;
     border-radius: 0; 
     height: 4vw;
+    flex-direction: row;
 }
-#navbar li {
+#hamburger, #nav1, #nav2, #nav3, #nav4, #nav5, #nav6, #nav7, #nav8 , #language {
     display: inline-block;
     line-height: 1vw;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 100%;
-    padding: 0;
-}
-
-#navbar li button {
     text-decoration: none;
     font-family: "montserrat";
     font-weight: 700;
     font-size: 1.2vw;
     white-space: pre-line;
-    height: 100%;
-    width: 100%;
     border-radius: 0;
     background-color: transparent;
     border: none;
@@ -128,7 +122,10 @@ section {
     padding: 0.5vw;
     cursor: pointer;
 }
-#navbar li button:hover {
+#hamburger {
+    display: none;
+}
+#navbar button:hover, #navbar select:hover {
     box-shadow: 0 0 1vw rgba(0, 0, 0, 0.6);
     background: #115dc2;
 }
@@ -166,9 +163,6 @@ section {
     white-space: nowrap;
     font-size: 9vw;
 }
-#section0 .textstyle{
-    font-size: 4vw;
-}
 
 /* Section 1 */
 #img1n1, #img1n2, #img1n3, #map1 {
@@ -193,7 +187,6 @@ section {
     width: 100%;
     height: 33vw;
 }
-
 #map1 {
     flex: 1;
     height: 100%;
@@ -465,11 +458,29 @@ section {
     .textstyle, .textstyle a {
         font-size: 3vw;
     }
-    #titlesection .titlestyle{
+    /* Navigation-bar */
+    /*
+    #navbar {
+        flex-direction: column;
+        height: auto;
+    }
+    #navbar li {
+        display: none;
+        width: 100%;
+    }
+    #hamburger, #language {
+        display: flex;
+    }
+    #navbar #hamburger button {
+        font-size: 4vw;
+    }
+    */
+    /* Section 0 */
+    #section0 .titlestyle{
         white-space: pre-line;
         font-size: 15vw;
     }
-    #titlesection .textstyle{
+    #section0 .textstyle{
         font-size: 6vw;
     }
     section {
@@ -486,7 +497,7 @@ section {
     }
     #map1 {
         width: 100%;
-        height: 50vw;
+        height: auto;
     }
     /* Section 2 */
     .left_container {

@@ -26,10 +26,10 @@ const translations = {
         /* Section 3 */
         title3: "Accommodations",
         subtitle3n1: "Recommended accommodation for multi-day stays",
-        description3n1: "We are available to indicate where you can stay during your stay. We list some accommodation facilities.\nWe will stay at ",
-        description3n2: " (Marina di Pisticci, MT). In the same village there are several accommodation facilities:",
+        description3n1: "We are available to indicate where you can stay during your stay. We list some accommodation facilities. We will stay at ",
+        description3n2: " (Marina di Pisticci, MT). In the same village there are apartments for rent and a hotel.",
         subtitle3n2: "Recommended accommodations in Metaponto",
-        description3n3: "Accommodation facilities are located near the reception hall in Metaonto, MT",
+        description3n3: "Accommodation facilities are located near the reception hall in Metaonto, MT:",
         description3n4: "(accommodation with agreement with Notedimare)",
         /* Section 4 */
         title4: "Territory",
@@ -71,10 +71,10 @@ const translations = {
         /* Section 3 */
         title3: "Übernachtungsmöglichkeiten",
         subtitle3n1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
-        description3n1: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele.Wir werden im ",
-        description3n2: " (Marina di Pisticci, MT) übernachten. Im selben Dorf gibt es mehrere Unterkunftsmöglichkeiten:",
+        description3n1: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele. Wir werden im ",
+        description3n2: " (Marina di Pisticci, MT) übernachten. Hier sind Ferienwohnungen und ein Hotel vorhanden.",
         subtitle3n2: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
-        description3n3: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation",
+        description3n3: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation:",
         description3n4: "(Unterkunft mit Vereinbarung mit Notedimare)",
         /* Section 4 */
         title4: "Die Gegend",
@@ -117,9 +117,9 @@ const translations = {
         title3: "Pernottamento",
         subtitle3n1: "Struttura ricettiva consigliata per soggiorni di piú giorni",
         description3n1: "Siamo disponibili ad indicarvi dove poter alloggiare durante il vostro soggiorno. Riportiamo una lista di strutture ricettive.\nNoi allogeremo presso ",
-        description3n2: " (Marina di Pisticci, MT). Nello stesso villaggio sono disponibili più strutture ricettive:",
+        description3n2: " (Marina di Pisticci, MT). Nello stesso villaggio sono presenti appartamenti in affitto e l'hotel.",
         subtitle3n2: "Strutture ricettive consigliate a Metaponto",
-        description3n3: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT",
+        description3n3: "Strutture ricettive sono situate nelle vicinanze della sala ricevimenti a Metaponto, MT:",
         description3n4: "(struttura convenzionata con Notedimare)",
         /* Section 4 */
         title4: "Territorio",
@@ -129,7 +129,7 @@ const translations = {
         title5: "Attivitá proposte durante la settimana del Matrimonio",
         description5: "Durante la settimana del matrimonio sono previste diverse attivitá per gli ospiti. Qui di seguito alcune proposte:",
         /* Section 6 */
-        title6: "Lista di nozze",
+        title6: "Lista nozze",
         description6: "Maggiori informazioni seguiranno nei prossimi mesi.",
         /* Section 7 */
         title7: "Conferma partecipazione",
@@ -166,10 +166,10 @@ function updateLanguage(lang) {
     /* Section 3 */
     document.getElementById("title3").textContent = translations[lang].title3;
     document.getElementById("subtitle3n1").textContent = translations[lang].subtitle3n1;
+    document.getElementById("subtitle3n2").textContent = translations[lang].subtitle3n2;
     document.getElementById("description3n1").textContent = translations[lang].description3n1;
     document.getElementById("description3n2").textContent = translations[lang].description3n2;
-    document.getElementById("subtitle3n2").textContent = translations[lang].subtitle3n2;
-    document.getElementById("description3n3").textContent = translations[lang].description3n2;
+    document.getElementById("description3n3").textContent = translations[lang].description3n3;
     document.getElementById("description3n4").textContent = translations[lang].description3n4;
     /* Section 4 */
     document.getElementById("title4").textContent = translations[lang].title4;
@@ -204,3 +204,14 @@ languageSelect.addEventListener("change", (event) => {
 
 // Initialize the page with default language
 updateLanguage("it");
+
+function navigateTo(sectionId) {
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}
+
+function toggleMenu() {
+    const navbarItems = document.querySelectorAll('#navbar not(.hamburger):not(.language)');
+    navbarItems.forEach(item => {
+        item.classList.toggle('show');
+    });
+}
