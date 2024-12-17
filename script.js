@@ -86,7 +86,7 @@ const translations = {
         description6: "Weitere Informationen dazu folgen in den kommenden Monaten.",
         /* Section 7 */
         title7: "Teilnahme bestätigung",
-        description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus.",
+        description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
         /* Section 8 */
         title8: "Kontakte",
     },
@@ -127,7 +127,7 @@ const translations = {
         subtitle4n2: "Puglia",
         /* Section 5 */
         title5: "Attivitá proposte durante la settimana del Matrimonio",
-        description5: "Durante la settimana del matrimonio sono previste diverse attivitá per gli ospiti. Qui di seguito alcune proposte:",
+        description5: "Durante la settimana del Matrimonionio, quindi dal 16 al 19 Settembre 2025, verranno proposte varie attivitá. I dettagli seguiranno nei prossimi mesi.",
         /* Section 6 */
         title6: "Lista nozze",
         description6: "Maggiori informazioni seguiranno nei prossimi mesi.",
