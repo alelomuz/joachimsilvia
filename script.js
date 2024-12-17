@@ -209,9 +209,11 @@ function navigateTo(sectionId) {
     document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
 }
 
+/*
 function toggleMenu() {
     const navbarItems = document.querySelectorAll('#navbar not(.hamburger):not(.language)');
     navbarItems.forEach(item => {
         item.classList.toggle('show');
     });
 }
+*/

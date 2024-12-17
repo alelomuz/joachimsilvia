@@ -86,7 +86,7 @@ section {
     box-sizing: border-box;
 }
 
-/* Navigation-bar*/
+/* Navigation-bar */
 #navbar {
     background: #004AAD;
     padding: 0;
@@ -96,12 +96,15 @@ section {
     white-space: nowrap;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
     border-radius: 0; 
     height: 4vw;
     flex-direction: row;
+    justify-content: space-evenly;
 }
-#hamburger, #nav1, #nav2, #nav3, #nav4, #nav5, #nav6, #nav7, #nav8 , #language {
+#navbar li {
+    display: inline-block;
+}
+#hamburger, #nav1, #nav2, #nav3, #nav4, #nav5, #nav6, #nav7, #nav8, #language {
     display: inline-block;
     line-height: 1vw;
     display: flex;
@@ -162,6 +165,10 @@ section {
     text-align: center;
     white-space: nowrap;
     font-size: 9vw;
+}
+
+#section0 .textstyle {
+    font-size: 4vw;
 }
 
 /* Section 1 */
