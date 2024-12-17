@@ -85,7 +85,7 @@ const translations = {
         title6: "Hochzeitstisch",
         description6: "Weitere Informationen dazu folgen in den kommenden Monaten.",
         /* Section 7 */
-        title7: "Teilnahme bestätigung",
+        title7: "Teilnahmebestätigung",
         description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
         /* Section 8 */
         title8: "Kontakte",

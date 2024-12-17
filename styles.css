@@ -460,7 +460,7 @@ section {
         font-size: 4vw;
     }
     .textstyle, .textstyle a {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     /* Navigation-bar */
     #navbar {
@@ -528,7 +528,7 @@ section {
         height: 40vw;
     }
     #img3n2,#img3n3 {
-        width: 90%;
+        width: 70%;
         height: auto;
     }
 }
