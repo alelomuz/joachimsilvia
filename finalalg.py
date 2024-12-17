@@ -1,4 +1,5 @@
 import webbrowser as web
+
 import time
 import pyautogui
 import pyperclip
@@ -44,7 +45,7 @@ pdfmetrics.registerFont(TTFont('Montserrat', 'Montserrat.ttf'))
 output_folder = "inviti"
 os.makedirs(output_folder, exist_ok=True)
 
-df = pd.read_csv("Invitati2.csv", delimiter=';')
+df = pd.read_csv("Invitati3.csv", delimiter=';')
 for index, row in df.iterrows():
     name = row['Nome'].upper()
     language = row['Lingua']
@@ -89,26 +90,26 @@ for index, row in df.iterrows():
         if i == 0:
             page.merge_page(new_pdf.pages[0])
         output.add_page(page)
-
-    output_file_path = os.path.join(output_folder, f"matrimonio_Silvia_Joachim_{name}.pdf")
+    if language == "it":
+        output_file_path = os.path.join(output_folder, f"matrimonio_Silvia_Joachim_{name}.pdf")
+    else:
+        output_file_path = os.path.join(output_folder, f"hochzeit_Silvia_Joachim_{name}.pdf")
     with open(output_file_path, "wb") as outputStream:
         output.write(outputStream)
     
     web.open(f"https://web.whatsapp.com/send?phone={number}")
     time.sleep(8)
     
-    pyautogui.click() 
+    pyautogui.click(x=726, y=995)
     if language == "it":
-        pyautogui.typewrite("Ciao, Silvia e Joachim sono felici di dare una bella notiyia.", interval=0.001)
+        pyautogui.typewrite("Ciao, Silvia e Joachim sono felici di dare una bella notiyia!", interval=0.001)
     else:
-        pyautogui.typewrite("Hallo, Silvia und Joachim freuen sich eine tolle Neuigkeit mityuteilen.", interval=0.001)
+        pyautogui.typewrite("Hallo, Silvia und Joachim freuen sich eine tolle Neuigkeit mityuteilen!", interval=0.001)
     keyboard.send('enter')
-    for i in range(22):
-        keyboard.send("tab")
+    
+    pyautogui.click(x=626, y=995)
     time.sleep(1)
     
-    keyboard.send("enter")
-    time.sleep(1)
     keyboard.send("down")
     keyboard.send("enter")
     time.sleep(1)
@@ -116,4 +117,8 @@ for index, row in df.iterrows():
     keyboard.send("enter")
     time.sleep(1)
     keyboard.send("enter")
-    time.sleep(1)        
+    time.sleep(5)   
+    pyautogui.click(x=531, y=17)     
+    time.sleep(1) 
+    pyautogui.click(x=904, y=391)
+    time.sleep(1) 
