@@ -14,24 +14,22 @@
 </head>
 
 <body>
-    <ul id="navbar">
-        <li><button id="hamburger" onclick="toggleMenu()">☰</button></li>
-        <li><button id="nav1" onclick="navigateTo('section1')"></button></li>
-        <li><button id="nav2" onclick="navigateTo('section2')"></button></li>
-        <li><button id="nav3" onclick="navigateTo('section3')"></button></li>
-        <li><button id="nav4" onclick="navigateTo('section4')"></button></li>
-        <li><button id="nav5" onclick="navigateTo('section5')"></button></li>
-        <li><button id="nav6" onclick="navigateTo('section6')"></button></li>
-        <li><button id="nav7" onclick="navigateTo('section7')"></button></li>
-        <li><button id="nav8" onclick="navigateTo('section8')"></button></li>
-        <li>
-            <select id="language">
-                <option value="it">ITALIANO</option>
-                <option value="de">DEUTSCH</option>
-                <option value="en">ENGLISCH</option>
-            </select>
-        </li>
-    </ul>
+    <div id="navbar">
+        <button id="hamburger" class="nav" onclick="toggleMenu()">☰</button>
+        <button id="nav1" class="nav" onclick="navigateTo('section1')"></button>
+        <button id="nav2" class="nav" onclick="navigateTo('section2')"></button>
+        <button id="nav3" class="nav" onclick="navigateTo('section3')"></button>
+        <button id="nav4" class="nav" onclick="navigateTo('section4')"></button>
+        <button id="nav5" class="nav" onclick="navigateTo('section5')"></button>
+        <button id="nav6" class="nav" onclick="navigateTo('section6')"></button>
+        <button id="nav7" class="nav" onclick="navigateTo('section7')"></button>
+        <button id="nav8" class="nav" onclick="navigateTo('section8')"></button>
+        <select id="language" class="nav">
+            <option value="it">ITALIANO</option>
+            <option value="de">DEUTSCH</option>
+            <option value="en">ENGLISCH</option>
+        </select>
+    </div>
     <main>
         <div id="section0">
             <h1 id="title0" class="titlestyle"></h1>

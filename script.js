@@ -209,11 +209,13 @@ function navigateTo(sectionId) {
     document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
 }
 
-/*
 function toggleMenu() {
-    const navbarItems = document.querySelectorAll('#navbar not(.hamburger):not(.language)');
+    const navbarItems = document.querySelectorAll('#navbar .nav:not(#hamburger)');
     navbarItems.forEach(item => {
-        item.classList.toggle('show');
+        if (item.style.display === 'none' || item.style.display === '') {
+            item.style.display = 'flex';
+        } else {
+            item.style.display = 'none';
+        }
     });
 }
-*/
