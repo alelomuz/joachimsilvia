@@ -123,8 +123,6 @@ const translations = {
         description3n4: "(struttura convenzionata con Notedimare)",
         /* Section 4 */
         title4: "Territorio",
-        subtitle4n1: "Basilicata",
-        subtitle4n2: "Puglia",
         /* Section 5 */
         title5: "Attivitá proposte durante la settimana del Matrimonio",
         description5: "Durante la settimana del matrimonio sono previste diverse attivitá per gli ospiti. Qui di seguito alcune proposte:",
@@ -173,8 +171,6 @@ function updateLanguage(lang) {
     document.getElementById("description3n4").textContent = translations[lang].description3n4;
     /* Section 4 */
     document.getElementById("title4").textContent = translations[lang].title4;
-    document.getElementById("subtitle4n1").textContent = translations[lang].subtitle4n1;
-    document.getElementById("subtitle4n2").textContent = translations[lang].subtitle4n2;
     /* Section 5 */
     document.getElementById("title5").textContent = translations[lang].title5;
     document.getElementById("description5").textContent = translations[lang].description5;
