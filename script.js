@@ -195,6 +195,23 @@ function updateLanguage(lang) {
     }
 }
 
+// Function to change language based on URL path
+function changeLanguage() {
+    const selectedLanguage = document.getElementById("language").value;
+    window.location.href = `/${selectedLanguage}`;
+}
+
+// Function to set the language based on URL path
+function setLanguageFromPath() {
+    const path = window.location.pathname;
+    const lang = path.split('/')[1] || 'it';
+    document.getElementById("language").value = lang;
+    updateLanguage(lang);
+}
+
+// Initialize the page with language from URL path
+setLanguageFromPath();
+
 // Language switcher event listener
 const languageSelect = document.getElementById("language");
 languageSelect.addEventListener("change", (event) => {

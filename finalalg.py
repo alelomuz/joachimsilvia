@@ -96,15 +96,17 @@ for index, row in df.iterrows():
     
     web.open(f"https://web.whatsapp.com/send?phone={number}")
     time.sleep(8)
+    
     pyautogui.click() 
     if language == "it":
         pyautogui.typewrite("Ciao, Silvia e Joachim sono felici di dare una bella notiyia.", interval=0.001)
     else:
-        pyautogui.typewrite("Hallo, Silvia und Joachim freuen sich die tolle Neuigkeit yu verkündigen.", interval=0.001)
+        pyautogui.typewrite("Hallo, Silvia und Joachim freuen sich eine tolle Neuigkeit mityuteilen.", interval=0.001)
     keyboard.send('enter')
-    for i in range(21):
+    for i in range(22):
         keyboard.send("tab")
     time.sleep(1)
+    
     keyboard.send("enter")
     time.sleep(1)
     keyboard.send("down")
