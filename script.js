@@ -85,8 +85,8 @@ const translations = {
         title6: "Hochzeitstisch",
         description6: "Weitere Informationen dazu folgen in den kommenden Monaten.",
         /* Section 7 */
-        title7: "Teilnahmebestätigung",
-        description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
+        title7: "Teilnahme bestätigung",
+        description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus.",
         /* Section 8 */
         title8: "Kontakte",
     },
@@ -98,7 +98,7 @@ const translations = {
         nav3: "PERNOTTAMENTO",
         nav4: "TERRITORIO",
         nav5: "ATTIVITÁ",
-        nav6: "LISTA\nDI NOZZE",
+        nav6: "LISTA NOZZE",
         nav7: "CONFERMA\nPARTECIPAZIONE",
         nav8: "CONTATTI",
         /* Section 1 */ 
@@ -127,7 +127,7 @@ const translations = {
         subtitle4n2: "Puglia",
         /* Section 5 */
         title5: "Attivitá proposte durante la settimana del Matrimonio",
-        description5: "Durante la settimana del Matrimonionio, quindi dal 16 al 19 Settembre 2025, verranno proposte varie attivitá. I dettagli seguiranno nei prossimi mesi.",
+        description5: "Durante la settimana del matrimonio sono previste diverse attivitá per gli ospiti. Qui di seguito alcune proposte:",
         /* Section 6 */
         title6: "Lista nozze",
         description6: "Maggiori informazioni seguiranno nei prossimi mesi.",
@@ -195,23 +195,6 @@ function updateLanguage(lang) {
     }
 }
 
-// Function to change language based on URL path
-function changeLanguage() {
-    const selectedLanguage = document.getElementById("language").value;
-    window.location.href = `/${selectedLanguage}`;
-}
-
-// Function to set the language based on URL path
-function setLanguageFromPath() {
-    const path = window.location.pathname;
-    const lang = path.split('/')[1] || 'it';
-    document.getElementById("language").value = lang;
-    updateLanguage(lang);
-}
-
-// Initialize the page with language from URL path
-setLanguageFromPath();
-
 // Language switcher event listener
 const languageSelect = document.getElementById("language");
 languageSelect.addEventListener("change", (event) => {
@@ -227,12 +210,8 @@ function navigateTo(sectionId) {
 }
 
 function toggleMenu() {
-    const navbarItems = document.querySelectorAll('#navbar .nav:not(#hamburger)');
+    const navbarItems = document.querySelectorAll('.nav:not(#hamburger):not(#language)');
     navbarItems.forEach(item => {
-        if (item.style.display === 'none' || item.style.display === '') {
-            item.style.display = 'flex';
-        } else {
-            item.style.display = 'none';
-        }
+        item.classList.toggle('show');
     });
 }

@@ -149,6 +149,9 @@ section {
     outline: none;
     border: none;
 }
+.nav.show {
+    display: block;
+}
 
 /* Section 0 */
 #section0 {
@@ -474,7 +477,7 @@ section {
         font-size: 4vw;
         line-height: 1;
     }
-    #hamburger{
+    #hamburger, #language {
         display: inline-block;
     }
     #language {

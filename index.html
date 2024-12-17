@@ -15,6 +15,11 @@
 
 <body>
     <div id="navbar">
+        <select id="language" class="nav">
+            <option value="it">ITALIANO</option>
+            <option value="de">DEUTSCH</option>
+            <option value="en">ENGLISH</option>
+        </select>
         <button id="hamburger" class="nav" onclick="toggleMenu()">☰</button>
         <button id="nav1" class="nav" onclick="navigateTo('section1')"></button>
         <button id="nav2" class="nav" onclick="navigateTo('section2')"></button>
@@ -24,11 +29,6 @@
         <button id="nav6" class="nav" onclick="navigateTo('section6')"></button>
         <button id="nav7" class="nav" onclick="navigateTo('section7')"></button>
         <button id="nav8" class="nav" onclick="navigateTo('section8')"></button>
-        <select id="language" class="nav" onchange="changeLanguage()">
-            <option value="it">ITALIANO</option>
-            <option value="de">DEUTSCH</option>
-            <option value="en">ENGLISH</option>
-        </select>
     </div>
     <main>
         <div id="section0">
