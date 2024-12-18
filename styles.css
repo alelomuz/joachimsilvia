@@ -407,7 +407,7 @@ section {
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
     line-height: 1;
     padding: 3vw;
     border-radius: 3vw;
@@ -536,6 +536,10 @@ footer {
     #map3 {
         width: 100%;
         height: 50%;
+    }
+    /* Section 7 */
+    #button7 {
+        font-size: 4vw;
     }
     /* Section 8 */
     #sub8n1 {
