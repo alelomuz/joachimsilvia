@@ -82,7 +82,11 @@ section {
     background: #c3e5ff3c;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
     padding: 1vw 2vw 2vw 2vw;
-    margin: 3vw 8vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
 }
 
@@ -240,25 +244,26 @@ section {
     left: 50%;
     right: 50%;
 }
+.timeline2 p{
+    margin:0;
+}
 .left_container, .right_container {
-    display: inline-block;
-    position: relative;
     padding: 1vw;
     background-color: white;
-    margin-top: 0;
-    margin-bottom: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-size: 2vw;
     z-index: 1;
     text-align: center;
     white-space: pre-wrap;
+    display: inline-block;
+    position: relative;
 }
 .left_container {
-    margin-left: 46%;
+    margin-left: 34vw;
     transform: translateX(-100%);
 }
 .right_container {
-    margin-left: 55.3%;
+    margin-left: 41vw;
 }
 .left_container::before, .right_container::before{
     content: '';
@@ -475,6 +480,9 @@ footer {
     .textstyle, .textstyle a {
         font-size: 3.5vw;
     }
+    section {
+        width: 90vw;
+    }
     /* Navigation-bar */
     #navbar {
         flex-direction: column;
@@ -501,9 +509,6 @@ footer {
     #section0 .textstyle{
         font-size: 6vw;
     }
-    section {
-        margin: 2vw;
-    }
     /* Section 1 */
     #sub1n1 {
         flex-direction: column;
@@ -518,11 +523,32 @@ footer {
         height: auto;
     }
     /* Section 2 */
-    .left_container {
-        margin-left: 46.5%;
+    .timeline2::after {
+        content: '';
+        position: absolute;
+        width: 1vw;
+        background-color: #004AAD;
+        top: 0;
+        bottom: 0;
+        left: 2vw;
+        margin: 0;
     }
-    .right_container {
-        margin-left: 54.5%;
+    .timeline2 p{
+        margin: 1vw 0;
+    }
+    .left_container, .right_container {
+        margin-left: 6vw;
+        transform: none;
+        white-space: nowrap;
+    }
+    .left_container::before, .right_container::before{
+        transform: translate(-100%, -50%); 
+        left: 0.5vw;
+        border-right: 1.5vw solid white;
+    }
+    .left_container::after, .right_container::after {
+        left: -2vw;
+        transform: translate(-100%, -50%);
     }
     /* Section 3 */
     #sub3n1 {
