@@ -125,7 +125,7 @@ const translations = {
         title4: "Territorio",
         /* Section 5 */
         title5: "Attivitá proposte durante la settimana del Matrimonio",
-        description5: "Durante la settimana del matrimonio sono previste diverse attivitá per gli ospiti. Qui di seguito alcune proposte:",
+        description5: "durante la settimana del MATRIMOnio, quindi dal 16 al 19 Settembre 2025, verranno proposte attivitá. I dettagli seguiranno nei prossimi mesi.",
         /* Section 6 */
         title6: "Lista nozze",
         description6: "Maggiori informazioni seguiranno nei prossimi mesi.",
