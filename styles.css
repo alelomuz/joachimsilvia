@@ -324,18 +324,15 @@ section {
 #sub3n2 {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: row;
     font-size: 0;
-    height: 30vw;
 }
 #sub3n3, #sub3n4 {
     text-align: center;
     flex: 1;
-    height: 100%;
 }
 #img3n2,#img3n3 {
-    height: 85%;
+    width: 85%;
 }
 
 /* Section 4 */
@@ -539,13 +536,6 @@ footer {
     #map3 {
         width: 100%;
         height: 50%;
-    }
-    #sub3n2 {
-        height: 40vw;
-    }
-    #img3n2,#img3n3 {
-        width: 70%;
-        height: auto;
     }
     /* Section 8 */
     #sub8n1 {
