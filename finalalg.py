@@ -45,7 +45,7 @@ pdfmetrics.registerFont(TTFont('Montserrat', 'Montserrat.ttf'))
 output_folder = "inviti"
 os.makedirs(output_folder, exist_ok=True)
 
-df = pd.read_csv("Invitati3.csv", delimiter=';')
+df = pd.read_csv("Invitati.csv", delimiter=',')
 for index, row in df.iterrows():
     name = row['Nome'].upper()
     language = row['Lingua']

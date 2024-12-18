@@ -5,7 +5,7 @@ html, body, a {
 }
 
 h1, h2, p {
-    margin: 1vw;
+    margin: 1vw 0;
 }
 
 html, body {
@@ -74,7 +74,8 @@ html, body {
     font-style: normal;
     text-align: center;
     font-size: 1.5vw;
-    line-height: 1.2;    
+    line-height: 1.2;   
+    text-wrap: balance;
 }
 
 /* Sections */
@@ -470,6 +471,9 @@ footer {
     *, *::before, *::after {
         box-sizing: inherit;
         border-radius: 5vw;
+    }
+    h1, h2, p {
+        margin: 2vw 0;
     }
     .titlestyle {
         font-size: 10vw;

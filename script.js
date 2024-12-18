@@ -69,7 +69,7 @@ const translations = {
         timeline2n5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
         timeline2n6: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
         /* Section 3 */
-        title3: "Übernachtungsmöglichkeiten",
+        title3: "Übernachtungs\nmöglichkeiten",
         subtitle3n1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
         description3n1: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele. Wir werden im ",
         description3n2: " (Marina di Pisticci, MT) übernachten. Hier sind Ferienwohnungen und ein Hotel vorhanden.",
