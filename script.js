@@ -94,7 +94,7 @@ const translations = {
         title8: "Kontakte",
         /* Section 9 */
         title9: "Anreise",
-        description9: "Die einfachste Anreise aus dem Ausland heraus ist wohl zunächst einen der nächstgelegenen Flughäfen anzupeilen. Dies sind prinizipell Bari (BRI) und  Brindisi (BDS). Vom Flughafen (direkt am Airport Terminal) in Bari gibt es eine direkte Busverbindung nach Metaponto. Von Bari und Brindisi aus gibt kann man ansonsten mit dem Zug nach Taranto fahren und von dort den Bus nehmen. Für die Gegend in Apulien/Basilicata lohnt sich aber grundsätzlich ein Auto um die ganzen Schätze der Region abzufahren.",
+        description9: "Die einfachste Anreise aus dem Ausland heraus ist wohl zunächst einen der nächstgelegenen Flughäfen anzupeilen. Dies sind prinizipell Bari (BRI) und  Brindisi (BDS). Vom Flughafen (direkt am Airport Terminal) in Bari gibt es eine direkte Busverbindung nach Metaponto.\nVon Bari und Brindisi aus gibt kann man ansonsten mit dem Zug nach Taranto fahren und von dort den Bus nehmen.\nFür die Gegend in Apulien/Basilicata lohnt sich aber grundsätzlich ein Auto um die ganzen Schätze der Region abzufahren.",
     },
     it: {
         /* Section 0 */
