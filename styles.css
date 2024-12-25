@@ -451,6 +451,26 @@ section {
     box-sizing: border-box;
 }
 
+/* Section 9 */
+#sub9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 0;
+    height: 30vw;
+    gap: 2vw;
+}
+
+#img9n1, #img9n2 {
+    display: inline-block;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100%;
+}
+
 /* Footer */
 footer {
     background: #c3e5ff3c;
@@ -574,6 +594,10 @@ footer {
     /* Section 8 */
     #sub8n1 {
         height: 40vw;
+    }
+    /* Section 9 */
+    #sub9 {
+        height: auto;
     }
     /* Footer */
     footer {

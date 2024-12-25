@@ -44,6 +44,9 @@ const translations = {
         description7: "Don't want to miss this great unforgettable event? Then confirm your participation! Register each participant by 15.03.2025 with first and last name. Food is one of the most important elements of a great party, so that everything is to your liking, please fill out the following form:",
         /* Section 8 */
         title8: "Contacts",
+        /* Section 9 */
+        title9: "Arrival",
+        description9: "The easiest way to arrive from abroad is probably to aim for one of the nearest airports. These are basically Bari (BRI) and Brindisi (BDS). From the airport (directly at the airport terminal) in Bari there is a direct bus connection to Metaponto. From Bari and Brindisi you can also take the train to Taranto and then take the bus. However, a car is generally worthwhile for the area in Apulia/Basilicata to explore all the treasures of the region.",
     },
     de: {
         /* Section 0 */
@@ -58,7 +61,7 @@ const translations = {
         nav8: "KONTAKTE",
         /* Section 1 */
         title1: "Traungsfeier",
-        description1: "Die Trauung und der Empfang finden im Festsaal statt von",
+        description1: "Die Trauung und der Empfang finden statt im Festsaal von",
         /* Section 2 */
         title2: "Programm",
         description2: "Hochzeit von Silvia und Joachim",
@@ -89,6 +92,9 @@ const translations = {
         description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
         /* Section 8 */
         title8: "Kontakte",
+        /* Section 9 */
+        title9: "Anreise",
+        description9: "Die einfachste Anreise aus dem Ausland heraus ist wohl zunächst einen der nächstgelegenen Flughäfen anzupeilen. Dies sind prinizipell Bari (BRI) und  Brindisi (BDS). Vom Flughafen (direkt am Airport Terminal) in Bari gibt es eine direkte Busverbindung nach Metaponto. Von Bari und Brindisi aus gibt kann man ansonsten mit dem Zug nach Taranto fahren und von dort den Bus nehmen. Für die Gegend in Apulien/Basilicata lohnt sich aber grundsätzlich ein Auto um die ganzen Schätze der Region abzufahren.",
     },
     it: {
         /* Section 0 */
@@ -134,6 +140,9 @@ const translations = {
         description7: "Non vorrai perderti questo grande evento indimenticabile? Allora conferma la partecipazione! Registra ogni singolo partecipante entro il 15.03.2025., indicando nome e cognome. Il cibo è uno degli elementi più importanti di una grande festa, affinché tutto sia di tuo gradimento, compila il seguente formulario:",
         /* Section 8 */
         title8: "Contatti",
+        /* Section 9 */
+        title9: "Arrivo",
+        description9: "Il modo più semplice per arrivare dall'estero è probabilmente puntare verso uno degli aeroporti più vicini. Questi sono fondamentalmente Bari (BRI) e Brindisi (BDS). Dall'aeroporto (direttamente al terminal dell'aeroporto) di Bari c'è un collegamento diretto in autobus per Metaponto. Da Bari e Brindisi si può anche prendere il treno per Taranto e poi prendere l'autobus. Tuttavia, un'auto è generalmente utile per la zona in Apulia/Basilicata per esplorare tutti i tesori della regione.",
     }
 };
 
@@ -184,6 +193,9 @@ function updateLanguage(lang) {
     /* Section 8 */
     document.getElementById("title8").textContent = translations[lang].title8;
     const phoneElement = document.getElementById("giusyphone");
+    /* Section 9 */
+    document.getElementById("title9").textContent = translations[lang].title9;
+    document.getElementById("description9").textContent = translations[lang].description9;
     if (lang === "it") {
         phoneElement.style.display = "block";
     } else {
