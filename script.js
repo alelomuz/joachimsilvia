@@ -211,7 +211,7 @@ languageSelect.addEventListener("change", (event) => {
 });
 
 // Initialize the page with default language
-updateLanguage("it");
+updateLanguage("de");
 
 function navigateTo(sectionId) {
     document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
