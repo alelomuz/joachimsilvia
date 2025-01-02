@@ -72,6 +72,7 @@ html, body {
     font-size: 1.5vw;
     line-height: 1.2;   
     text-wrap: balance;
+    white-space: normal;
 }
 
 .textstyle a {
@@ -445,6 +446,9 @@ section > * {
 }
 
 /* Section 9 */
+#section9 p {
+    white-space: pre-line;
+}
 #sub9 {
     display: flex;
     justify-content: center;
