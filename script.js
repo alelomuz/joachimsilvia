@@ -46,7 +46,9 @@ const translations = {
         title8: "Contacts",
         /* Section 9 */
         title9: "Arrival",
-        description9: "The easiest way to arrive from abroad is probably to aim for one of the nearest airports. These are basically Bari (BRI) and Brindisi (BDS). From the airport (directly at the airport terminal) in Bari there is a direct bus connection to Metaponto. From Bari and Brindisi you can also take the train to Taranto and then take the bus. However, a car is generally worthwhile for the area in Apulia/Basilicata to explore all the treasures of the region.",
+        description9n1: "By car: State road Jonica-106, exit Metaponto.",
+        description9n2: "By train: Adriatic railway line, direction Crotone, stop Metaponto.",
+        description9n3: "By plane: The nearest airports are those of Bari Palese (BRI) and Brindisi (BDS) distant the first 109 km, the second 120 km. From Bari airport you can reach Metaponto by train or bus. We recommend, however, in case of arrival by plane, to rent a car to reach Metaponto.",
     },
     de: {
         /* Section 0 */
@@ -72,7 +74,7 @@ const translations = {
         timeline2n5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
         timeline2n6: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
         /* Section 3 */
-        title3: "Übernachtungs\nmöglichkeiten",
+        title3: "Übernachtungsmöglichkeiten",
         subtitle3n1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
         description3n1: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele. Wir werden im ",
         description3n2: " (Marina di Pisticci, MT) übernachten. Hier sind Ferienwohnungen und ein Hotel vorhanden.",
@@ -94,7 +96,9 @@ const translations = {
         title8: "Kontakte",
         /* Section 9 */
         title9: "Anreise nach Metaponto",
-        description9: "Mit Auto: Über Strada Statale (SS) 106 Jonica, Ausfahrt Metaponto.\nMit Zug: Adriatische Zuglinie, Richtung Crotone, Haltbahnhof Metaponto.\nMit Flugzeug: Die nächsten Flughäfen sind die von Bari Palese (BRI) und Brindisi (BDS). Der erste ist von Metaponto 109 km entfernt und der zweite 120km. Metaponto kann von Bari aus z.B. auch mit einer Direktbusverbindung vom Flughafenterminal erreicht werden. Von Brindisi kann man z.B. den Zug nach Metaponto über Taranto nehmen. Wir empfehlen am Flughafen ein Auto zu leihen um Metaponto erreichen zu können und um die Gegend erkunden zu können.",
+        description9n1: "Mit Auto: Über Strada Statale (SS) 106 Jonica, Ausfahrt Metaponto.",
+        description9n2: "Mit Zug: Adriatische Zuglinie, Richtung Crotone, Haltbahnhof Metaponto.",
+        description9n3: "Mit Flugzeug: Die nächsten Flughäfen sind die von Bari Palese (BRI) und Brindisi (BDS). Der erste ist von Metaponto 109 km entfernt und der zweite 120km. Metaponto kann von Bari aus z.B. auch mit einer Direktbusverbindung vom Flughafenterminal erreicht werden. Von Brindisi kann man z.B. den Zug nach Metaponto über Taranto nehmen. Wir empfehlen am Flughafen ein Auto zu leihen um Metaponto erreichen zu können und um die Gegend erkunden zu können.",
     },
     it: {
         /* Section 0 */
@@ -142,7 +146,9 @@ const translations = {
         title8: "Contatti",
         /* Section 9 */
         title9: "Come raggiungere Metaponto",
-        description9: "Con l'auto: Statale Jonica-106, uscita Metaponto.\nCon il treno: Linea ferroviaria adriatica, direzione Crotone, fermata Metaponto.\nCon l'aereo: Gli aeroporti vicini sono quelli di Bari Palese(BRI) e di Brindisi (BDS) distanti il primo 109 km, il secondo 120 km. Dall'aeroporto di Bari si può raggiungere Metaponto con il treno o bus di linea. Consigliamo comunque, in caso di arrivo in aereo, di noleggiare un'auto per raggiungere Metaponto.",
+        description9n1: "Con l'auto: Statale Jonica-106, uscita Metaponto.",
+        description9n2: "Con il treno Linea ferroviaria adriatica, direzione Crotone, fermata Metaponto.",
+        description9n3: "Con l'aereo Gli aeroporti vicini sono quelli di Bari Palese(BRI) e di Brindisi (BDS) distanti il primo 109 km, il secondo 120 km. Dall'aeroporto di Bari si può raggiungere Metaponto con il treno o bus di linea. Consigliamo comunque, in caso di arrivo in aereo, di noleggiare un'auto per raggiungere Metaponto.",
     }
 };
 
@@ -195,7 +201,9 @@ function updateLanguage(lang) {
     const phoneElement = document.getElementById("giusyphone");
     /* Section 9 */
     document.getElementById("title9").textContent = translations[lang].title9;
-    document.getElementById("description9").textContent = translations[lang].description9;
+    document.getElementById("description9n1").textContent = translations[lang].description9n1;
+    document.getElementById("description9n2").textContent = translations[lang].description9n2;
+    document.getElementById("description9n3").textContent = translations[lang].description9n3;
     if (lang === "it") {
         phoneElement.style.display = "block";
     } else {
