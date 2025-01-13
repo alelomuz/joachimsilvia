@@ -146,9 +146,9 @@ const translations = {
         title8: "Contatti",
         /* Section 9 */
         title9: "Come raggiungere Metaponto",
-        description9n1: "Con l'auto: Statale Jonica-106, uscita Metaponto.",
-        description9n2: "Con il treno Linea ferroviaria adriatica, direzione Crotone, fermata Metaponto.",
-        description9n3: "Con l'aereo Gli aeroporti vicini sono quelli di Bari Palese(BRI) e di Brindisi (BDS) distanti il primo 109 km, il secondo 120 km. Dall'aeroporto di Bari si può raggiungere Metaponto con il treno o bus di linea. Consigliamo comunque, in caso di arrivo in aereo, di noleggiare un'auto per raggiungere Metaponto.",
+        description9n1: "In auto: Statale Jonica-106, uscita Metaponto.",
+        description9n2: "In treno Linea ferroviaria adriatica, direzione Crotone, fermata Metaponto.",
+        description9n3: "In aereo: Gli aeroporti vicini sono quelli di Bari Palese(BRI) e di Brindisi (BDS) distanti il primo 109 km, il secondo 120 km. Dall'aeroporto di Bari si può raggiungere Metaponto con il treno o bus di linea. Consigliamo comunque, in caso di arrivo in aereo, di noleggiare un'auto per raggiungere Metaponto.",
     }
 };
 
