@@ -16,7 +16,7 @@ const translations = {
         description1: "The ceremony and reception will take place at the reception hall of",
         /* Section 2 */
         title2: "Program",
-        description2: "Wedding of Silvia and Joachim",
+        description2: "We are planning to organize a bus for the transport from Porto degli Argonauti to Notedimare reception hall and back. More information will follow.",
         timeline2n1: "CEREMONY",
         timeline2n2: "PHOTOS",
         timeline2n3: "APERITIF",
@@ -35,7 +35,7 @@ const translations = {
         title4: "Territory",
         /* Section 5 */
         title5: "Activities during the wedding week",
-        description5: "During the wedding week, from 16 to 19 September 2025, various activities will be suggested. More details will follow in the coming months.",
+        description5: "During the wedding week, from 16 to 19 September 2025, various small activities will be proposed. Further details will follow in the coming months.",
         /* Section 6 */
         title6: "Wedding list",
         description6: "More information will follow in the coming months.",
@@ -49,6 +49,7 @@ const translations = {
         description9n1: "By car: State road Jonica-106, exit Metaponto.",
         description9n2: "By train: Adriatic railway line, direction Crotone, stop Metaponto.",
         description9n3: "By plane: The nearest airports are those of Bari Palese (BRI) and Brindisi (BDS) distant the first 109 km, the second 120 km. From Bari airport you can reach Metaponto by train or bus. We recommend, however, in case of arrival by plane, to rent a car to reach Metaponto.",
+        description9n4: "For those who are flying from Munich, there is also the possibility of flying from Memmingen to Brindisi and from Nuremberg to Bari.",
     },
     de: {
         /* Section 0 */
@@ -66,7 +67,7 @@ const translations = {
         description1: "Die Trauung und der Empfang finden statt im Festsaal von",
         /* Section 2 */
         title2: "Programm",
-        description2: "Hochzeit von Silvia und Joachim",
+        description2: "Wir planen ein Bus für den Transport von Porto degli Argonauti nach Notedimare und zurück zu organisieren. Weitere Infos werden folgen.",
         timeline2n1: "TRAUUNG",
         timeline2n2: "FOTOS",
         timeline2n3: "APERITIF",
@@ -85,7 +86,7 @@ const translations = {
         title4: "Die Gegend",
         /* Section 5 */
         title5: "Aktivitäten während der Hochzeitswoche",
-        description5: "Während der Hochzeitswoche, also vom 16. bis 19. September 2025, werden verschiedene Aktivitäten vorgeschlagen. Weitere Details folgen in den kommenden Monaten.",
+        description5: "Während der Hochzeitswoche, also vom 16. bis 19. September 2025, werden verschiedene kleine Aktivitäten vorgeschlagen. Weitere Details folgen in den kommenden Monaten.",
         /* Section 6 */
         title6: "Hochzeitstisch",
         description6: "Weitere Informationen dazu folgen in den kommenden Monaten.",
@@ -99,6 +100,7 @@ const translations = {
         description9n1: "Mit Auto: Über Strada Statale (SS) 106 Jonica, Ausfahrt Metaponto.",
         description9n2: "Mit Zug: Adriatische Zuglinie, Richtung Crotone, Haltbahnhof Metaponto.",
         description9n3: "Mit Flugzeug: Die nächsten Flughäfen sind die von Bari Palese (BRI) und Brindisi (BDS). Der erste ist von Metaponto 109 km entfernt und der zweite 120km. Metaponto kann von Bari aus z.B. auch mit einer Direktbusverbindung vom Flughafenterminal erreicht werden. Von Brindisi kann man z.B. den Zug nach Metaponto über Taranto nehmen. Wir empfehlen am Flughafen ein Auto zu leihen um Metaponto erreichen zu können und um die Gegend erkunden zu können.",
+        description9n4: "Für die Leute die noch von München aus fliegen, gibt es auch die Möglichkeit von Memmingen nach Brindisi und von Nürnberg nach Bari zu fliegen.",
     },
     it: {
         /* Section 0 */
@@ -116,7 +118,7 @@ const translations = {
         description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti di",
         /* Section 2 */
         title2: "Programma dell'evento",
-        description2: "Nozze di Silvia e Joachim",
+        description2: "Stiamo organizzando un bus per il trasporto dal Porto degli Argonauti alla sala ricevimenti Notedimare, e per il ritorno. Ulteriori informazioni seguiranno.",
         timeline2n1: "CERIMONIA",
         timeline2n2: "FOTO",
         timeline2n3: "APERITIVO",
@@ -135,7 +137,7 @@ const translations = {
         title4: "Territorio",
         /* Section 5 */
         title5: "Attivitá proposte durante la settimana del Matrimonio",
-        description5: "durante la settimana del MATRIMOnio, quindi dal 16 al 19 Settembre 2025, verranno proposte attivitá. I dettagli seguiranno nei prossimi mesi.",
+        description5: "Durante la settimana del matrimonio, quindi dal 16 al 19 Settembre 2025, verranno proposte piccole attivitá. I dettagli seguiranno nei prossimi mesi.",
         /* Section 6 */
         title6: "Lista nozze",
         description6: "Maggiori informazioni seguiranno nei prossimi mesi.",
@@ -149,6 +151,7 @@ const translations = {
         description9n1: "In auto: Statale Jonica-106, uscita Metaponto.",
         description9n2: "In treno: Linea ferroviaria adriatica, direzione Crotone, fermata Metaponto.",
         description9n3: "In aereo: Gli aeroporti vicini sono quelli di Bari Palese(BRI) e di Brindisi (BDS) distanti il primo 109 km, il secondo 120 km. Dall'aeroporto di Bari si può raggiungere Metaponto con il treno o con il bus di linea. Consigliamo comunque, in caso di arrivo in aereo, di noleggiare un'auto per raggiungere Metaponto.",
+        description9n4: "Per chi vola da Monaco, c'è anche la possibilità di volare da Memmingen a Brindisi, e da Norimberga a Bari.",
     }
 };
 
@@ -204,6 +207,7 @@ function updateLanguage(lang) {
     document.getElementById("description9n1").textContent = translations[lang].description9n1;
     document.getElementById("description9n2").textContent = translations[lang].description9n2;
     document.getElementById("description9n3").textContent = translations[lang].description9n3;
+    document.getElementById("description9n4").textContent = translations[lang].description9n4;
     if (lang === "it") {
         phoneElement.style.display = "block";
     } else {
