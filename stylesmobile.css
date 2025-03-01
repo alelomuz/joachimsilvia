@@ -8,13 +8,13 @@
         margin: 2vw 0;
     }
     .titlestyle {
-        font-size: 10vw;
+        font-size: 12vw;
     }
     .subtitlestyle {
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .textstyle, .textstyle a {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
     }
     section {
         width: 90vw;
@@ -41,7 +41,7 @@
         font-size: 14vw;
     }
     #section0 .textstyle{
-        font-size: 6vw;
+        font-size: 8vw;
     }
     /* Section 1 */
     #sub1n1 {
@@ -75,13 +75,16 @@
     }
     .left_container, .right_container {
         margin-left: 6vw;
+        margin-right: auto;
         transform: none;
         white-space: nowrap;
+        font-size: 3.5vw;
     }
     .left_container::before, .right_container::before{
         transform: translate(-100%, -50%); 
         left: 0.7vw;
         border-right: 1.5vw solid white;
+        border-left: 1.5vw solid transparent;
     }
     .left_container::after, .right_container::after {
         left: -2vw;
