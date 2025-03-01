@@ -21,17 +21,17 @@
     }
     /* Navigation-bar */
     #navbar {
-        height: 6.5vw;
+        height: 10vw;
     }
     .nav {
         display: none;
-        font-size: 4vw;
+        font-size: 5vw;
     }
     #hamburger, #language, #darkModeToggle {
         display: inline-block;
     }
     #language {
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
     #hamburgerDropdown {
         display: none;

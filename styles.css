@@ -174,7 +174,7 @@ section > * {
     border-radius: 0;
     border: none;
     padding: 0;
-    height: 5.5vw;
+    height: 10vw;
     align-items: center;
 }
 
@@ -185,7 +185,7 @@ section > * {
     text-decoration: none;
     font-family: "montserrat";
     font-weight: 700;
-    font-size: 1.8vw;
+    font-size: 2.5vw;
     white-space: pre-line;
     border-radius: 0;
     background-color: transparent;
