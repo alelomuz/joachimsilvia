@@ -3,14 +3,6 @@ const translations = {
     en: {
         /* Section 0 */
         title0: "Wedding of Silvia and Joachim",
-        nav1: "CEREMONY",
-        nav2: "PROGRAM",
-        nav3: "ACCOMMODATIONS",
-        nav4: "TERRITORY",
-        nav5: "ACTIVITIES",
-        nav6: "WEDDING LIST",
-        nav7: "PARTICIPATION",
-        nav8: "CONTACTS",
         /* Section 1 */
         title1: "Ceremony",
         description1: "The ceremony and reception will take place at the reception hall of",
@@ -34,13 +26,13 @@ const translations = {
         /* Section 4 */
         title4: "Territory",
         /* Section 5 */
-        title5: "Activities during the wedding week",
+        title5: "Activities during\nthe wedding week",
         description5: "During the wedding week, from 16 to 19 September 2025, various small activities will be proposed. Further details will follow in the coming months.",
         /* Section 6 */
         title6: "Wedding list",
         description6: "More information will follow in the coming months.",
         /* Section 7 */
-        title7: "Participation confirmation",
+        title7: "Confirm your\nparticipation",
         description7: "Don't want to miss this great unforgettable event? Then confirm your participation! Register each participant by 15.03.2025 with first and last name. Food is one of the most important elements of a great party, so that everything is to your liking, please fill out the following form:",
         /* Section 8 */
         title8: "Contacts",
@@ -54,14 +46,6 @@ const translations = {
     de: {
         /* Section 0 */
         title0: "Hochzeit von Silvia und Joachim",
-        nav1: "TRAUNGSFEIER",
-        nav2: "PROGRAMM",
-        nav3: "UNTERKUNFT",
-        nav4: "DIE GEGEND",
-        nav5: "AKTIVITÄTEN",
-        nav6: "HOCHZEITSTISCH",
-        nav7: "TEILNAHME\nBESTÄTIGUNG",
-        nav8: "KONTAKTE",
         /* Section 1 */
         title1: "Traungsfeier",
         description1: "Die Trauung und der Empfang finden statt im Festsaal von",
@@ -75,7 +59,7 @@ const translations = {
         timeline2n5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
         timeline2n6: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
         /* Section 3 */
-        title3: "Übernachtungsmöglichkeiten",
+        title3: "Übernachtungs\nmöglichkeiten",
         subtitle3n1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
         description3n1: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele. Wir werden im ",
         description3n2: " (Marina di Pisticci, MT) übernachten. Hier sind Ferienwohnungen und ein Hotel vorhanden.",
@@ -85,18 +69,18 @@ const translations = {
         /* Section 4 */
         title4: "Die Gegend",
         /* Section 5 */
-        title5: "Aktivitäten während der Hochzeitswoche",
+        title5: "Aktivitäten während\nder Hochzeitswoche",
         description5: "Während der Hochzeitswoche, also vom 16. bis 19. September 2025, werden verschiedene kleine Aktivitäten vorgeschlagen. Weitere Details folgen in den kommenden Monaten.",
         /* Section 6 */
         title6: "Hochzeitstisch",
         description6: "Weitere Informationen dazu folgen in den kommenden Monaten.",
         /* Section 7 */
-        title7: "Teilnahme bestätigung",
+        title7: "Teilnahme\nbestätigung",
         description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
         /* Section 8 */
         title8: "Kontakte",
         /* Section 9 */
-        title9: "Anreise nach Metaponto",
+        title9: "Anreise nach\nMetaponto",
         description9n1: "Mit Auto: Über Strada Statale (SS) 106 Jonica, Ausfahrt Metaponto.",
         description9n2: "Mit Zug: Adriatische Zuglinie, Richtung Crotone, Haltbahnhof Metaponto.",
         description9n3: "Mit Flugzeug: Die nächsten Flughäfen sind die von Bari Palese (BRI) und Brindisi (BDS). Der erste ist von Metaponto 109 km entfernt und der zweite 120km. Metaponto kann von Bari aus z.B. auch mit einer Direktbusverbindung vom Flughafenterminal erreicht werden. Von Brindisi kann man z.B. den Zug nach Metaponto über Taranto nehmen. Wir empfehlen am Flughafen ein Auto zu leihen um Metaponto erreichen zu können und um die Gegend erkunden zu können.",
@@ -105,19 +89,11 @@ const translations = {
     it: {
         /* Section 0 */
         title0: "Matrimonio di Silvia e Joachim",
-        nav1: "CERIMONIA",
-        nav2: "PROGRAMMA",
-        nav3: "PERNOTTAMENTO",
-        nav4: "TERRITORIO",
-        nav5: "ATTIVITÁ",
-        nav6: "LISTA NOZZE",
-        nav7: "CONFERMA\nPARTECIPAZIONE",
-        nav8: "CONTATTI",
         /* Section 1 */ 
-        title1: "Cerimonia e ricevimento",
+        title1: "Cerimonia e\nricevimento",
         description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti di",
         /* Section 2 */
-        title2: "Programma dell'evento",
+        title2: "Programma\ndell'evento",
         description2: "Stiamo organizzando un bus per il trasporto dal Porto degli Argonauti alla sala ricevimenti Notedimare, e per il ritorno. Ulteriori informazioni seguiranno.",
         timeline2n1: "CERIMONIA",
         timeline2n2: "FOTO",
@@ -136,18 +112,18 @@ const translations = {
         /* Section 4 */
         title4: "Territorio",
         /* Section 5 */
-        title5: "Attivitá proposte durante la settimana del Matrimonio",
+        title5: "Attivitá durante la\nsettimana nuziale",
         description5: "Durante la settimana del matrimonio, quindi dal 16 al 19 Settembre 2025, verranno proposte piccole attivitá. I dettagli seguiranno nei prossimi mesi.",
         /* Section 6 */
         title6: "Lista nozze",
         description6: "Maggiori informazioni seguiranno nei prossimi mesi.",
         /* Section 7 */
-        title7: "Conferma partecipazione",
+        title7: "Conferma\npartecipazione",
         description7: "Non vorrai perderti questo grande evento indimenticabile? Allora conferma la partecipazione! Registra ogni singolo partecipante entro il 15.03.2025., indicando nome e cognome. Il cibo è uno degli elementi più importanti di una grande festa, affinché tutto sia di tuo gradimento, compila il seguente formulario:",
         /* Section 8 */
         title8: "Contatti",
         /* Section 9 */
-        title9: "Come raggiungere Metaponto",
+        title9: "Come raggiungere\nMetaponto",
         description9n1: "In auto: Statale Jonica-106, uscita Metaponto.",
         description9n2: "In treno: Linea ferroviaria adriatica, direzione Crotone, fermata Metaponto.",
         description9n3: "In aereo: Gli aeroporti vicini sono quelli di Bari Palese(BRI) e di Brindisi (BDS) distanti il primo 109 km, il secondo 120 km. Dall'aeroporto di Bari si può raggiungere Metaponto con il treno o con il bus di linea. Consigliamo comunque, in caso di arrivo in aereo, di noleggiare un'auto per raggiungere Metaponto.",
@@ -159,14 +135,24 @@ const translations = {
 function updateLanguage(lang) {
     /* Section 0 */
     document.getElementById("title0").textContent = translations[lang].title0;
-    document.getElementById("nav1").textContent = translations[lang].nav1;
-    document.getElementById("nav2").textContent = translations[lang].nav2;
-    document.getElementById("nav3").textContent = translations[lang].nav3;
-    document.getElementById("nav4").textContent = translations[lang].nav4;
-    document.getElementById("nav5").textContent = translations[lang].nav5;
-    document.getElementById("nav6").textContent = translations[lang].nav6;
-    document.getElementById("nav7").textContent = translations[lang].nav7;
-    document.getElementById("nav8").textContent = translations[lang].nav8;
+    document.getElementById("nav1").textContent = translations[lang].title1.toUpperCase();
+    document.getElementById("nav2").textContent = translations[lang].title2.toUpperCase();
+    document.getElementById("nav3").textContent = translations[lang].title3.toUpperCase();
+    document.getElementById("nav4").textContent = translations[lang].title4.toUpperCase();
+    document.getElementById("nav5").textContent = translations[lang].title5.toUpperCase();
+    document.getElementById("nav6").textContent = translations[lang].title6.toUpperCase();
+    document.getElementById("nav7").textContent = translations[lang].title7.toUpperCase();
+    document.getElementById("nav8").textContent = translations[lang].title8.toUpperCase();
+    document.getElementById("nav9").textContent = translations[lang].title9.toUpperCase();
+    document.getElementById("nav1dd").textContent = translations[lang].title1.toUpperCase();
+    document.getElementById("nav2dd").textContent = translations[lang].title2.toUpperCase();
+    document.getElementById("nav3dd").textContent = translations[lang].title3.toUpperCase();
+    document.getElementById("nav4dd").textContent = translations[lang].title4.toUpperCase();
+    document.getElementById("nav5dd").textContent = translations[lang].title5.toUpperCase();
+    document.getElementById("nav6dd").textContent = translations[lang].title6.toUpperCase();
+    document.getElementById("nav7dd").textContent = translations[lang].title7.toUpperCase();
+    document.getElementById("nav8dd").textContent = translations[lang].title8.toUpperCase();
+    document.getElementById("nav9dd").textContent = translations[lang].title9.toUpperCase();
     /* Section 1 */
     document.getElementById("title1").textContent = translations[lang].title1;
     document.getElementById("description1").textContent = translations[lang].description1;
@@ -222,16 +208,34 @@ languageSelect.addEventListener("change", (event) => {
     updateLanguage(selectedLanguage);
 });
 
-// Initialize the page with default language
-updateLanguage("de");
+document.addEventListener("DOMContentLoaded", () => {
+    // Initialize the page with default language
+    updateLanguage("de");
+});
 
 function navigateTo(sectionId) {
     document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
 }
 
 function toggleMenu() {
-    const navbarItems = document.querySelectorAll('.nav:not(#hamburger):not(#language)');
-    navbarItems.forEach(item => {
-        item.classList.toggle('show');
-    });
+    const dropdown = document.getElementById('hamburgerDropdown');
+    if (dropdown.style.display === 'none' || dropdown.style.display === '') {
+        dropdown.style.display = 'table';
+    } else {
+        dropdown.style.display = 'none';
+    }
+}
+
+// Add event listener for window resize
+window.addEventListener('resize', handleResize);
+
+function handleResize() {
+    const dropdown = document.getElementById('hamburgerDropdown');
+    if (window.innerWidth > 768) {
+        dropdown.style.display = 'none';
+    }
+}
+
+function toggleDarkMode() {
+    document.documentElement.classList.toggle('dark-mode');
 }

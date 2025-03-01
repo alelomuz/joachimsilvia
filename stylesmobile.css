@@ -21,21 +21,20 @@
     }
     /* Navigation-bar */
     #navbar {
-        flex-direction: column;
-        height: auto;
+        height: 6.5vw;
     }
     .nav {
         display: none;
-        width: 100%;
-        height: 40px;
         font-size: 4vw;
-        line-height: 0.8;
     }
-    #hamburger, #language {
+    #hamburger, #language, #darkModeToggle {
         display: inline-block;
     }
     #language {
-        font-size: 4vw;
+        font-size: 3vw;
+    }
+    #hamburgerDropdown {
+        display: none;
     }
     /* Section 0 */
     #section0 .titlestyle{
@@ -81,7 +80,7 @@
     }
     .left_container::before, .right_container::before{
         transform: translate(-100%, -50%); 
-        left: 0.5vw;
+        left: 0.7vw;
         border-right: 1.5vw solid white;
     }
     .left_container::after, .right_container::after {

@@ -81,7 +81,7 @@ html, body {
 
 /* Sections */
 section {
-    background: #c3e5ff3c;
+    background-color: #c3e5ff3c;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.475);
     margin: 2.5vw auto;
     width: 80vw;
@@ -95,54 +95,48 @@ section > * {
 
 /* Navigation-bar*/
 #navbar {
-    background: #004AAD;
+    background-color: #004AAD;
     padding: 0;
-    text-align: center;
     list-style: none;
     margin: 0;
-    white-space: nowrap;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
     border-radius: 0; 
     height: 4vw;
-    flex-direction: row;
-}
-.nav{
-    display: inline-block;
-    line-height: 1vw;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    line-height: 1vw;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
     text-decoration: none;
     font-family: "montserrat";
     font-weight: 700;
-    font-size: 1.2vw;
-    white-space: pre-line;
+    font-size: 0.9vw;
+    white-space: pre;
     border-radius: 0;
     background-color: transparent;
     border: none;
     color: white;
-    padding: 0;
-    padding: 0.5vw;
     cursor: pointer;
+    text-align: center;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
 }
 #hamburger {
     display: none;
 }
 #navbar button:hover, #navbar select:hover {
     box-shadow: 0 0 1vw rgba(0, 0, 0, 0.6);
-    background: #115dc2;
+    background-color: #115dc2;
 }
 #language {
-    font-size: 1.2vw;
     font-family: "montserrat";
     font-weight: 700;
-    font-size: 1vw;
     border-radius: 0.5vw;
-    width: 100%;
     text-align: center;
     color: white;
     background-color: transparent;
@@ -150,6 +144,7 @@ section > * {
     border-radius: 0;
     overflow: hidden;
     outline: none;
+    min-width: 8vw;
 }
 #language:focus {
     outline: none;
@@ -157,6 +152,52 @@ section > * {
 }
 .nav.show {
     display: block;
+}
+
+#hamburgerDropdown {
+    display: none;
+    width:100%;
+    background-color: #075dcf;
+    border-radius: 0;
+    border: none;
+}
+
+#hamburgerDropdown tr {
+    display: flex;
+    width: 100%;
+}
+
+#hamburgerDropdown td {
+    flex: 1;
+    display: inline-block;
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+    height: 5.5vw;
+    align-items: center;
+}
+
+#hamburgerDropdown button {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 1.8vw;
+    white-space: pre-line;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+}
+
+#hamburgerDropdown button:hover{
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.6);
+    background-color: #115dc2;
 }
 
 /* Section 0 */
@@ -461,14 +502,33 @@ section > * {
 
 /* Footer */
 footer {
-    background: #c3e5ff3c;
+    background: #e3efff;
     font-style: normal;
     border-radius: 0;
-    color: black;
     font-family: "montserrat";
     font-weight: 300;
     font-style: normal;
     font-size: 1vw;
     display: flex;
     justify-content: center;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #131a1d;
+}
+.dark-mode section {
+    background-color: #101b26;
+}
+.dark-mode .titlestyle {
+    color: #4286df;
+}
+.dark-mode a, .dark-mode h1, .dark-mode h2, .dark-mode p {
+    color: white;
+}
+.dark-mode .timeline2 a {
+    color: black;
+}
+.dark-mode footer {
+    background: #092547;
 }

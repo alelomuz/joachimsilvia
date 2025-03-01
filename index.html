@@ -16,21 +16,40 @@
 
 <body>
     <div id="navbar">
+        <button id="hamburger" class="nav" onclick="toggleMenu()">☰</button>
         <select id="language" class="nav">
             <option value="de">DEUTSCH</option>
             <option value="it">ITALIANO</option>
             <option value="en">ENGLISH</option>
         </select>
-        <button id="hamburger" class="nav" onclick="toggleMenu()">☰</button>
         <button id="nav1" class="nav" onclick="navigateTo('section1')"></button>
         <button id="nav2" class="nav" onclick="navigateTo('section2')"></button>
+        <button id="nav9" class="nav" onclick="navigateTo('section9')"></button>
         <button id="nav3" class="nav" onclick="navigateTo('section3')"></button>
         <button id="nav4" class="nav" onclick="navigateTo('section4')"></button>
         <button id="nav5" class="nav" onclick="navigateTo('section5')"></button>
         <button id="nav6" class="nav" onclick="navigateTo('section6')"></button>
         <button id="nav7" class="nav" onclick="navigateTo('section7')"></button>
         <button id="nav8" class="nav" onclick="navigateTo('section8')"></button>
+        <button id="darkModeToggle" class="nav" onclick="toggleDarkMode()">🌙</button>
     </div>
+    <table id="hamburgerDropdown">
+        <tr>
+            <td><button id="nav1dd" onclick="navigateTo('section1')"></button></td>
+            <td><button id="nav2dd" onclick="navigateTo('section2')"></button></td>
+            <td><button id="nav9dd" onclick="navigateTo('section9')"></button></td>
+        </tr>
+        <tr>
+            <td><button id="nav3dd" onclick="navigateTo('section3')"></button></td>
+            <td><button id="nav4dd" onclick="navigateTo('section4')"></button></td>
+            <td><button id="nav5dd" onclick="navigateTo('section5')"></button></td>
+        </tr>
+        <tr>
+            <td><button id="nav6dd" onclick="navigateTo('section6')"></button></td>
+            <td><button id="nav7dd" onclick="navigateTo('section7')"></button></td>
+            <td><button id="nav8dd" onclick="navigateTo('section8')"></button></td>
+        </tr>
+    </table>
     <main>
         <div id="section0">
             <h1 id="title0" class="titlestyle"></h1>
@@ -157,7 +176,6 @@
             <p>©Alessandro lo Muzio</p>
         </footer>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
