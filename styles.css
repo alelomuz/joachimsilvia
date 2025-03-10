@@ -433,7 +433,7 @@ section > * {
     box-sizing: border-box;
     height: 100%;
 }
-#button7 {
+#button7, #button6 {
     width: 75vw;
     cursor: pointer;
     border: none;
