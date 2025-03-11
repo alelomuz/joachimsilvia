@@ -26,17 +26,17 @@ const translations = {
         /* Section 4 */
         title4: "Territory",
         /* Section 5 */
-        title5: "Activities during\nthe wedding week",
+        title5: "Activities during\nthe Wedding Week",
         description5: "During the wedding week, from 16 to 19 September 2025, various small activities will be proposed. Further details will follow in the coming months.",
         /* Section 6 */
-        title6: "Wedding list",
+        title6: "Wedding List",
         description6n1: "Your presence at our wedding is the most beautiful gift. If you still want to give us a gift, we have collected some ideas for you. You will find all the proposals in the document below. The list contains two columns: in the first you will find products that can be purchased in Germany, in the second those in Italy. If you choose something from our proposals, please mark it on the table by removing the row of the chosen gift, in order to avoid duplications.",
         description6n2: "If you prefer a simpler gift, a money gift is also welcome. Here you will find our IBAN:",
         description6n3: "Here is our address for sending gifts:",
         description6n4: "Munich",
         button6: "Gift Suggestions",
         /* Section 7 */
-        title7: "Confirm your\nparticipation",
+        title7: "Confirm your\nParticipation",
         description7: "Don't want to miss this great unforgettable event? Then confirm your participation! Register each participant by 15.03.2025 with first and last name. Food is one of the most important elements of a great party, so that everything is to your liking, please fill out the following form:",
         /* Section 8 */
         title8: "Contacts",
@@ -83,7 +83,7 @@ const translations = {
         description6n4: "München",
         button6: "Geschenk Vorschläge",
         /* Section 7 */
-        title7: "Teilnahme\nbestätigung",
+        title7: "Teilnahme\nBestätigen",
         description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
         /* Section 8 */
         title8: "Kontakte",
@@ -98,10 +98,10 @@ const translations = {
         /* Section 0 */
         title0: "Matrimonio di Silvia e Joachim",
         /* Section 1 */ 
-        title1: "Cerimonia e\nricevimento",
+        title1: "Cerimonia e\nRicevimento",
         description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti di",
         /* Section 2 */
-        title2: "Programma\ndell'evento",
+        title2: "Programma\ndell'Evento",
         description2: "Stiamo organizzando un bus per il trasporto dal Porto degli Argonauti alla sala ricevimenti Notedimare, e per il ritorno. Ulteriori informazioni seguiranno.",
         timeline2n1: "CERIMONIA",
         timeline2n2: "FOTO",
@@ -120,17 +120,17 @@ const translations = {
         /* Section 4 */
         title4: "Territorio",
         /* Section 5 */
-        title5: "Attivitá durante la\nsettimana nuziale",
+        title5: "Attivitá Durante la\nSettimana Nuziale",
         description5: "Durante la settimana del matrimonio, quindi dal 16 al 19 Settembre 2025, verranno proposte piccole attivitá. I dettagli seguiranno nei prossimi mesi.",
         /* Section 6 */
-        title6: "Lista nozze",
+        title6: "Lista Nozze",
         description6n1: "La vostra presenza al nostro matrimonio è il regalo più bello. Se desiderate comunque farci un dono, abbiamo raccolto alcune idee per voi. Trovate tutte le proposte nel documento qui sotto. La lista contiene due colonne: nella prima trovate prodotti acquistabili in Germania, nella seconda quelli in Italia. Se scegliete qualcosa dalle nostre proposte, vi preghiamo di segnarlo sulla tabella rimuovendo la riga del regalo scelto, così da evitare doppioni.",
         description6n2: "Se invece preferite un pensiero più semplice, un regalo in denaro è anche ben accetto. Qui trovate il nostro IBAN:",
         description6n3: "Di seguito, il nostro indirizzo per l'invio dei regali:",
         description6n4: "Monaco di Baviera",
         button6: "Proposte Regalo",
         /* Section 7 */
-        title7: "Conferma\npartecipazione",
+        title7: "Conferma\nPartecipazione",
         description7: "Non vorrai perderti questo grande evento indimenticabile? Allora conferma la partecipazione! Registra ogni singolo partecipante entro il 15.03.2025., indicando nome e cognome. Il cibo è uno degli elementi più importanti di una grande festa, affinché tutto sia di tuo gradimento, compila il seguente formulario:",
         /* Section 8 */
         title8: "Contatti",
@@ -249,6 +249,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initialize the page with settings from URL
     const lang = getUrlParameter('lang') || 'de';
     const darkMode = getUrlParameter('dark') === '1';
+    
+    // Update dropdown to match URL parameter
+    document.getElementById("language").value = lang;
+    
     updateLanguage(lang);
     if (darkMode) {
         document.documentElement.classList.add('dark-mode');

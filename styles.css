@@ -95,7 +95,6 @@ html, body {
     border-radius: 3vw;
 }
 .buttonbar:hover{
-    /*TODO*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 

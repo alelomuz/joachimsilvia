@@ -33,6 +33,19 @@
     #hamburgerDropdown {
         display: none;
     }
+    /* Fix for stuck hover states on mobile */
+    #language:active, #hamburger:active, .nav:active, #darkModeToggle:active {
+        background-color: #115dc2;
+    }
+    
+    #language, #hamburger, .nav, #darkModeToggle {
+        -webkit-tap-highlight-color: transparent; /* Remove tap highlight on iOS */
+    }
+    
+    /* Force reflow helper class */
+    .force-reflow {
+        transform: translateZ(0);
+    }
     /* Section 0 */
     #section0 .titlestyle{
         font-size: 14vw;
