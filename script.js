@@ -30,9 +30,10 @@ const translations = {
         description5: "During the wedding week, from 16 to 19 September 2025, various small activities will be proposed. Further details will follow in the coming months.",
         /* Section 6 */
         title6: "Wedding list",
-        description6n1: "More information will follow in the coming months.",
-        description6n2: "More information will follow in the coming months.",
-        description6n3: "More information will follow in the coming months.",
+        description6n1: "Your presence at our wedding is the most beautiful gift. If you still want to give us a gift, we have collected some ideas for you. You will find all the proposals in the document below. The list contains two columns: in the first you will find products that can be purchased in Germany, in the second those in Italy. If you choose something from our proposals, please mark it on the table by removing the row of the chosen gift, in order to avoid duplications.",
+        description6n2: "If you prefer a simpler gift, a money gift is also welcome. Here you will find our IBAN:",
+        description6n3: "Here is our address for sending gifts:",
+        description6n4: "Munich",
         button6: "Gift Suggestions",
         /* Section 7 */
         title7: "Confirm your\nparticipation",
@@ -77,8 +78,9 @@ const translations = {
         /* Section 6 */
         title6: "Hochzeitstisch",
         description6n1: "Ihre Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. Wenn Sie uns dennoch etwas schenken möchten, haben wir einige Ideen für Sie zusammengestellt. Alle Vorschläge finden Sie im Dokument unten. Die Liste enthält zwei Spalten: In der ersten finden Sie in Deutschland kaufbare Produkte, in der zweiten in Italien. Wenn Sie etwas aus unseren Vorschlägen auswählen, markieren Sie es bitte in der Tabelle, indem Sie die Zeile des ausgewählten Geschenks entfernen, um Doppelungen zu vermeiden.",
-        description6n2: "Wenn Sie jedoch ein einfacheres Geschenk bevorzugen, ist auch ein Geldgeschenk willkommen. Hier finden Sie unsere IBAN: DE17 2022 0800 0028 2910 78",
-        description6n3: "Hier finden Sie unsere Adresse für die Zusendung von Geschenken:\nSilvia Lo Muzio, Joachim Leibold\nSt.-Cajetan-Straße 5\n81669 München", 
+        description6n2: "Wenn Sie jedoch ein einfacheres Geschenk bevorzugen, ist auch ein Geldgeschenk willkommen. Hier finden Sie unsere IBAN:",
+        description6n3: "Hier finden Sie unsere Adresse für die Zusendung von Geschenken:", 
+        description6n4: "München",
         button6: "Geschenk Vorschläge",
         /* Section 7 */
         title7: "Teilnahme\nbestätigung",
@@ -123,8 +125,9 @@ const translations = {
         /* Section 6 */
         title6: "Lista nozze",
         description6n1: "La vostra presenza al nostro matrimonio è il regalo più bello. Se desiderate comunque farci un dono, abbiamo raccolto alcune idee per voi. Trovate tutte le proposte nel documento qui sotto. La lista contiene due colonne: nella prima trovate prodotti acquistabili in Germania, nella seconda quelli in Italia. Se scegliete qualcosa dalle nostre proposte, vi preghiamo di segnarlo sulla tabella rimuovendo la riga del regalo scelto, così da evitare doppioni.",
-        description6n2: "Se invece preferite un pensiero più semplice, un regalo in denaro è anche ben accetto. Qui trovate il nostro IBAN: DE17 2022 0800 0028 2910 78",
-        description6n3: "Di seguito, il nostro indirizzo per l'invio dei regali:\nSilvia Lo Muzio, Joachim Leibold\nSt.-Cajetan-Straße 5\n81669 Monaco di Baviera",
+        description6n2: "Se invece preferite un pensiero più semplice, un regalo in denaro è anche ben accetto. Qui trovate il nostro IBAN:",
+        description6n3: "Di seguito, il nostro indirizzo per l'invio dei regali:",
+        description6n4: "Monaco di Baviera",
         button6: "Proposte Regalo",
         /* Section 7 */
         title7: "Conferma\npartecipazione",
@@ -139,6 +142,19 @@ const translations = {
         description9n4: "Per chi vola da Monaco, c'è anche la possibilità di volare da Memmingen a Brindisi, e da Norimberga a Bari.",
     }
 };
+
+// Function to get URL parameter
+function getUrlParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// Function to set URL parameter
+function setUrlParameter(name, value) {
+    const urlParams = new URLSearchParams(window.location.search);
+    urlParams.set(name, value);
+    window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`);
+}
 
 // Function to update content based on language
 function updateLanguage(lang) {
@@ -192,6 +208,7 @@ function updateLanguage(lang) {
     document.getElementById("description6n1").textContent = translations[lang].description6n1;
     document.getElementById("description6n2").textContent = translations[lang].description6n2;
     document.getElementById("description6n3").textContent = translations[lang].description6n3;
+    document.getElementById("description6n4").textContent = translations[lang].description6n4;
     document.getElementById("button6").textContent = translations[lang].button6;
     /* Section 7 */
     document.getElementById("title7").textContent = translations[lang].title7;
@@ -211,6 +228,14 @@ function updateLanguage(lang) {
     } else {
         phoneElement.style.display = "none";
     }
+    setUrlParameter('lang', lang);
+}
+
+// Function to toggle dark mode
+function toggleDarkMode() {
+    document.documentElement.classList.toggle('dark-mode');
+    const isDarkMode = document.documentElement.classList.contains('dark-mode');
+    setUrlParameter('dark', isDarkMode ? '1' : '0');
 }
 
 // Language switcher event listener
@@ -221,8 +246,13 @@ languageSelect.addEventListener("change", (event) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Initialize the page with default language
-    updateLanguage("de");
+    // Initialize the page with settings from URL
+    const lang = getUrlParameter('lang') || 'de';
+    const darkMode = getUrlParameter('dark') === '1';
+    updateLanguage(lang);
+    if (darkMode) {
+        document.documentElement.classList.add('dark-mode');
+    }
 });
 
 function navigateTo(sectionId) {
@@ -246,8 +276,4 @@ function handleResize() {
     if (window.innerWidth > 768) {
         dropdown.style.display = 'none';
     }
-}
-
-function toggleDarkMode() {
-    document.documentElement.classList.toggle('dark-mode');
 }
