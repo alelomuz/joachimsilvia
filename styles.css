@@ -79,6 +79,26 @@ html, body {
     text-wrap: balance;
 }
 
+/* Buttons */
+.buttonbar {
+    width: calc(100% - 2vw);
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #004AAD;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5vw;
+    line-height: 1;
+    padding: 3vw;
+    border-radius: 3vw;
+}
+.buttonbar:hover{
+    /*TODO*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
 /* Sections */
 section {
     background-color: #c3e5ff3c;
@@ -89,7 +109,7 @@ section {
     padding: 0.5vw 1.5vw;
     text-align: center;
 }
-section > * {
+section * {
     margin: 1vw;
 }
 
@@ -433,24 +453,6 @@ section > * {
     box-sizing: border-box;
     height: 100%;
 }
-#button7, #button6 {
-    width: 75vw;
-    cursor: pointer;
-    border: none;
-    color: white;
-    background-color: #004AAD;
-    font-family: "montserrat";
-    font-weight: 700;
-    font-style: normal;
-    font-size: 2.5vw;
-    line-height: 1;
-    padding: 3vw;
-    border-radius: 3vw;
-}
-#button7:hover{
-    /*TODO*/
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
 
 /* Section 8 */
 #sub8n1 {
@@ -479,6 +481,10 @@ section > * {
     overflow: hidden;
     box-sizing: border-box;
 }
+#section8 p {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
 
 /* Section 9 */
 #sub9 {
@@ -490,7 +496,6 @@ section > * {
     height: 30vw;
     gap: 2vw;
 }
-
 #img9n1, #img9n2 {
     display: inline-block;
     object-fit: cover;
