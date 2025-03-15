@@ -77,7 +77,7 @@ const translations = {
         description5: "Während der Hochzeitswoche, also vom 16. bis 19. September 2025, werden verschiedene kleine Aktivitäten vorgeschlagen. Weitere Details folgen in den kommenden Monaten.",
         /* Section 6 */
         title6: "Hochzeitstisch",
-        description6n1: "Ihre Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. ",
+        description6n1: "Eure Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. ",
         description6n2: "Ein Beitrag zu unseren Flitterwochen oder zur Vervollständigung unserer Wohnungseinrichtung wäre der beste Weg für uns, dieses neue Abenteuer gemeinsam noch spezieller zu gestalten. Ihr könnt dafür gerne direkt zu unserem Geschenkekonto beitragen:",
       description6n3: "Alternativ könnt ihr auch einen Idee aus unserer Hochzeitsliste auswählen, die ihr durch klicken auf dem Button finden könnt. Die Liste enthält zwei Spalten: in der ersten findet ihr, wo man die Geschenke in Deutschland kaufen könnte und die zweite wo in Italien. Bitte entfernt die entsprechende Zeile mit dem gewählten Geschenk aus beiden Spalten. Wessen Reisegepäck bereits gut gefüllt ist kann größere Geschenke auch gerne direkt an unsere Adresse in München senden:",
         description6n4: "München",
