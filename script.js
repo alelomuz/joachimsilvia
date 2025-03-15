@@ -124,9 +124,9 @@ const translations = {
         description5: "Durante la settimana del matrimonio, quindi dal 16 al 19 Settembre 2025, verranno proposte piccole attivitá. I dettagli seguiranno nei prossimi mesi.",
         /* Section 6 */
         title6: "Lista Nozze",
-        description6n1: "La vostra presenza al nostro matrimonio è il regalo più bello. Se desiderate comunque farci un dono, abbiamo raccolto alcune idee per voi. Trovate tutte le proposte nel documento qui sotto. La lista contiene due colonne: nella prima trovate prodotti acquistabili in Germania, nella seconda quelli in Italia. Se scegliete qualcosa dalle nostre proposte, vi preghiamo di segnarlo sulla tabella rimuovendo la riga del regalo scelto, così da evitare doppioni.",
-        description6n2: "Se invece preferite un pensiero più semplice, un regalo in denaro è anche ben accetto. Qui trovate il nostro IBAN:",
-        description6n3: "Di seguito, il nostro indirizzo per l'invio dei regali:",
+        description6n1: "La vostra presenza al nostro matrimonio è il regalo più bello.",
+        description6n2: "Un contributo sarebbe per noi il modo migliore per rendere ancora più speciale questa nuova avventura insieme. Ci aiuterà a realizzare il nostro viaggio di nozze e a completare l’arredamento della nostra casa. Potete versarlo al nostro IBAN:",
+        description6n3: "In alternativa, potete scegliere un pensiero dalla nostra lista nozze, che trovate cliccando il bottone. La lista è divisa in due colonne: nella prima trovate dove acquistare in Germania, nella seconda in Italia. Vi preghiamo di rimuovere la riga del regalo scelto da entrambe le colonne per evitare doppioni. Di seguito, il nostro indirizzo per l'invio dei regali:",
         description6n4: "Monaco di Baviera",
         button6: "Proposte Regalo",
         /* Section 7 */
