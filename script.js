@@ -77,11 +77,11 @@ const translations = {
         description5: "Während der Hochzeitswoche, also vom 16. bis 19. September 2025, werden verschiedene kleine Aktivitäten vorgeschlagen. Weitere Details folgen in den kommenden Monaten.",
         /* Section 6 */
         title6: "Hochzeitstisch",
-        description6n1: "Ihre Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. Wenn Sie uns dennoch etwas schenken möchten, haben wir einige Ideen für Sie zusammengestellt. Alle Vorschläge finden Sie im Dokument unten. Die Liste enthält zwei Spalten: In der ersten finden Sie in Deutschland kaufbare Produkte, in der zweiten in Italien. Wenn Sie etwas aus unseren Vorschlägen auswählen, markieren Sie es bitte in der Tabelle, indem Sie die Zeile des ausgewählten Geschenks entfernen, um Doppelungen zu vermeiden.",
-        description6n2: "Wenn Sie jedoch ein einfacheres Geschenk bevorzugen, ist auch ein Geldgeschenk willkommen. Hier finden Sie unsere IBAN:",
-        description6n3: "Hier finden Sie unsere Adresse für die Zusendung von Geschenken:", 
+        description6n1: "Ihre Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. ",
+        description6n2: "Ein Beitrag zu unseren Flitterwochen oder zur Vervollständigung unserer Wohnungseinrichtung wäre der beste Weg für uns, dieses neue Abenteuer gemeinsam noch spezieller zu gestalten. Ihr könnt dafür gerne direkt zu unserem Geschenkekonto beitragen:",
+      description6n3: "Alternativ könnt ihr auch einen Idee aus unserer Hochzeitsliste auswählen, die ihr durch klicken auf dem Button finden könnt. Die Liste enthält zwei Spalten: in der ersten findet ihr, wo man die Geschenke in Deutschland kaufen könnte und die zweite wo in Italien. Bitte entfernt die entsprechende Zeile mit dem gewählten Geschenk aus beiden Spalten. Wessen Reisegepäck bereits gut gefüllt ist kann größere Geschenke auch gerne direkt an unsere Adresse in München senden:",
         description6n4: "München",
-        button6: "Geschenk Vorschläge",
+        button6: "Geschenkliste",
         /* Section 7 */
         title7: "Teilnahme\nBestätigen",
         description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
