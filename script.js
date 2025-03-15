@@ -31,7 +31,7 @@ const translations = {
         /* Section 6 */
         title6: "Wedding List",
         description6n1: "Your presence at our wedding is the most beautiful gift.",
-    description6n2: "A contribution would be the best way for us to make this new adventure together even more special. It will help us fulfill our honeymoon dreams and complete the furnishing of our home. You can transfer it to our wedding gift account using the following IBAN:",
+    description6n2: "A contribution would be the best way for us to make this new adventure together even more special. It will help us fulfill our honeymoon dreams and complete the furnishing of our home. You can transfer it to our wedding gift account:",
         description6n3: "Alternatively, you can choose a gift from our wedding registry by clicking the button. The list is divided into two columns: the first one shows where to buy in Germany, and the second one in Italy. Please remove the selected gift from both columns to avoid duplicates. Below is our address for sending gifts: ",
         description6n4: "Munich",
         button6: "Gift list",
@@ -125,7 +125,7 @@ const translations = {
         /* Section 6 */
         title6: "Lista Nozze",
         description6n1: "La vostra presenza al nostro matrimonio è il regalo più bello.",
-        description6n2: "Un contributo sarebbe per noi il modo migliore per rendere ancora più speciale questa nuova avventura insieme. Ci aiuterà a realizzare il nostro viaggio di nozze e a completare l’arredamento della nostra casa. Potete versarlo al nostro conto per i regali del matrimonio che ha il seguente IBAN:",
+        description6n2: "Un contributo sarebbe per noi il modo migliore per rendere ancora più speciale questa nuova avventura insieme. Ci aiuterà a realizzare il nostro viaggio di nozze e a completare l’arredamento della nostra casa. Potete versarlo al nostro conto per i regali del matrimonio:",
         description6n3: "In alternativa, potete scegliere un pensiero dalla nostra lista nozze, che trovate cliccando il bottone. La lista è divisa in due colonne: nella prima trovate dove acquistare in Germania, nella seconda in Italia. Vi preghiamo di rimuovere la riga del regalo scelto da entrambe le colonne per evitare doppioni. Di seguito, il nostro indirizzo per l'invio dei regali:",
         description6n4: "Monaco di Baviera",
         button6: "Proposte Regalo",
