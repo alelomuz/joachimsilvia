@@ -31,7 +31,7 @@ const translations = {
         /* Section 6 */
         title6: "Wedding List",
         description6n1: "Your presence at our wedding is the most beautiful gift.",
-    description6n2: "A contribution would be the best way for us to make this new adventure together even more special. It will help us fulfill our honeymoon dreams and complete the furnishing of our home. You can transfer it to our wedding gift account:",
+        description6n2: "A contribution would be the best way for us to make this new adventure together even more special. It will help us fulfill our honeymoon dreams and complete the furnishing of our home. You can transfer it to our wedding gift account:",
         description6n3: "Alternatively, you can choose a gift from our wedding registry by clicking the button. The list is divided into two columns: the first one shows where to buy in Germany, and the second one in Italy. Please remove the selected gift from both columns to avoid duplicates. Below is our address for sending gifts: ",
         description6n4: "Munich",
         button6: "Gift list",
