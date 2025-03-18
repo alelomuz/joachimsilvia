@@ -98,7 +98,7 @@ const translations = {
         description9n4: "Für die Leute die noch von München aus fliegen, gibt es auch die Möglichkeit von Memmingen nach Brindisi und von Nürnberg nach Bari zu fliegen.",
         /* Section 10 */
         title10: "Dress code",
-        description10: "Festlich, chic und elegant. Bei Männern Anzug erwünscht. Bitte die Farben weiß und creme vermeiden (ausgenommen Hemden)."
+        description10: "Festlich, schick und elegant. Bei Männern Anzug erwünscht. Bitte die Farben weiß und creme vermeiden (ausgenommen Hemden)."
     },
     it: {
         /* Section 0 */
