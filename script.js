@@ -148,7 +148,7 @@ const translations = {
         description9n4: "Per chi vola da Monaco, c'è anche la possibilità di volare da Memmingen a Brindisi, e da Norimberga a Bari.",
         /*Section 10 */
         title10: "Dress code",
-        description10: "Festivo, elegante e chic. Per gli uomini è gradito l'abito. Si prega di evitare i colori bianco e crema (tranne le camicie)."
+      description10: "Dress code formale."
     }
 };
 
