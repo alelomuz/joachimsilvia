@@ -500,19 +500,6 @@ section > * {
     height: 100%;
 }
 
-/* Footer */
-footer {
-    background: #e3efff;
-    font-style: normal;
-    border-radius: 0;
-    font-family: "montserrat";
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1vw;
-    display: flex;
-    justify-content: center;
-}
-
 /* Dark Mode */
 .dark-mode {
     background-color: #131a1d;

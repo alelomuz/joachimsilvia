@@ -31,7 +31,7 @@ const translations = {
         /* Section 6 */
         title6: "Wedding List",
         description6n1: "Your presence at our wedding is the most beautiful gift.",
-    description6n2: "A contribution would be the best way for us to make this new adventure together even more special. It will help us fulfill our honeymoon dreams and complete the furnishing of our home. You can transfer it to our wedding gift account:",
+        description6n2: "A contribution would be the best way for us to make this new adventure together even more special. It will help us fulfill our honeymoon dreams and complete the furnishing of our home. You can transfer it to our wedding gift account:",
         description6n3: "Alternatively, you can choose a gift from our wedding registry by clicking the button. The list is divided into two columns: the first one shows where to buy in Germany, and the second one in Italy. Please remove the selected gift from both columns to avoid duplicates. Below is our address for sending gifts: ",
         description6n4: "Munich",
         button6: "Gift list",
@@ -46,6 +46,9 @@ const translations = {
         description9n2: "By train: Adriatic railway line, direction Crotone, stop Metaponto.",
         description9n3: "By plane: The nearest airports are those of Bari Palese (BRI) and Brindisi (BDS) distant the first 109 km, the second 120 km. From Bari airport you can reach Metaponto by train or bus. We recommend, however, in case of arrival by plane, to rent a car to reach Metaponto.",
         description9n4: "For those who are flying from Munich, there is also the possibility of flying from Memmingen to Brindisi and from Nuremberg to Bari.",
+        /* Section 10 */
+        title10: "Dress code",
+        description10: "Festive, elegant and chic. Suit is desired for men. Please avoid white and cream colors (except for shirts)."
     },
     de: {
         /* Section 0 */
@@ -93,6 +96,9 @@ const translations = {
         description9n2: "Mit Zug: Adriatische Zuglinie, Richtung Crotone, Haltbahnhof Metaponto.",
         description9n3: "Mit Flugzeug: Die nächsten Flughäfen sind die von Bari Palese (BRI) und Brindisi (BDS). Der erste ist von Metaponto 109 km entfernt und der zweite 120km. Metaponto kann von Bari aus z.B. auch mit einer Direktbusverbindung vom Flughafenterminal erreicht werden. Von Brindisi kann man z.B. den Zug nach Metaponto über Taranto nehmen. Wir empfehlen am Flughafen ein Auto zu leihen um Metaponto erreichen zu können und um die Gegend erkunden zu können.",
         description9n4: "Für die Leute die noch von München aus fliegen, gibt es auch die Möglichkeit von Memmingen nach Brindisi und von Nürnberg nach Bari zu fliegen.",
+        /* Section 10 */
+        title10: "Dress code",
+        description10: "Festlich, schick und elegant. Bei Männern Anzug erwünscht. Bitte die Farben weiß und creme vermeiden (ausgenommen Hemden)."
     },
     it: {
         /* Section 0 */
@@ -140,6 +146,9 @@ const translations = {
         description9n2: "In treno: Linea ferroviaria adriatica, direzione Crotone, fermata Metaponto.",
         description9n3: "In aereo: Gli aeroporti vicini sono quelli di Bari Palese(BRI) e di Brindisi (BDS) distanti il primo 109 km, il secondo 120 km. Dall'aeroporto di Bari si può raggiungere Metaponto con il treno o con il bus di linea. Consigliamo comunque, in caso di arrivo in aereo, di noleggiare un'auto per raggiungere Metaponto.",
         description9n4: "Per chi vola da Monaco, c'è anche la possibilità di volare da Memmingen a Brindisi, e da Norimberga a Bari.",
+        /*Section 10 */
+        title10: "Dress code",
+      description10: "Dress code formale."
     }
 };
 
@@ -169,6 +178,7 @@ function updateLanguage(lang) {
     document.getElementById("nav7").textContent = translations[lang].title7.toUpperCase();
     document.getElementById("nav8").textContent = translations[lang].title8.toUpperCase();
     document.getElementById("nav9").textContent = translations[lang].title9.toUpperCase();
+    document.getElementById("nav10").textContent = translations[lang].title10.toUpperCase();
     document.getElementById("nav1dd").textContent = translations[lang].title1.toUpperCase();
     document.getElementById("nav2dd").textContent = translations[lang].title2.toUpperCase();
     document.getElementById("nav3dd").textContent = translations[lang].title3.toUpperCase();
@@ -178,6 +188,7 @@ function updateLanguage(lang) {
     document.getElementById("nav7dd").textContent = translations[lang].title7.toUpperCase();
     document.getElementById("nav8dd").textContent = translations[lang].title8.toUpperCase();
     document.getElementById("nav9dd").textContent = translations[lang].title9.toUpperCase();
+    document.getElementById("nav10dd").textContent = translations[lang].title10.toUpperCase();
     /* Section 1 */
     document.getElementById("title1").textContent = translations[lang].title1;
     document.getElementById("description1").textContent = translations[lang].description1;
@@ -223,6 +234,9 @@ function updateLanguage(lang) {
     document.getElementById("description9n2").textContent = translations[lang].description9n2;
     document.getElementById("description9n3").textContent = translations[lang].description9n3;
     document.getElementById("description9n4").textContent = translations[lang].description9n4;
+    /* Section 10 */
+    document.getElementById("title10").textContent = translations[lang].title10;
+    document.getElementById("description10").textContent = translations[lang].description10;
     if (lang === "it") {
         phoneElement.style.display = "block";
     } else {
