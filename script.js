@@ -37,7 +37,7 @@ const translations = {
         button6: "Gift list",
         /* Section 7 */
         title7: "Confirm your\nParticipation",
-        description7: "Don't want to miss this great unforgettable event? Then confirm your participation! Register each participant by 15.03.2025 with first and last name. Food is one of the most important elements of a great party, so that everything is to your liking, please fill out the following form:",
+        description7: "Don't want to miss this great unforgettable event? Then confirm your participation! Register each participant with first and last name. Food is one of the most important elements of a great party, so that everything is to your liking, please fill out the following form:",
         /* Section 8 */
         title8: "Contacts",
         /* Section 9 */
@@ -87,7 +87,7 @@ const translations = {
         button6: "Geschenkliste",
         /* Section 7 */
         title7: "Teilnahme\nBestätigen",
-        description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer bis zum 15.03.2025 mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
+        description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
         /* Section 8 */
         title8: "Kontakte",
         /* Section 9 */
@@ -137,7 +137,7 @@ const translations = {
         button6: "Proposte Regalo",
         /* Section 7 */
         title7: "Conferma\nPartecipazione",
-        description7: "Non vorrai perderti questo grande evento indimenticabile? Allora conferma la partecipazione! Registra ogni singolo partecipante entro il 15.03.2025., indicando nome e cognome. Il cibo è uno degli elementi più importanti di una grande festa, affinché tutto sia di tuo gradimento, compila il seguente formulario:",
+        description7: "Non vorrai perderti questo grande evento indimenticabile? Allora conferma la partecipazione! Registra ogni singolo partecipante indicando nome e cognome. Il cibo è uno degli elementi più importanti di una grande festa, affinché tutto sia di tuo gradimento, compila il seguente formulario:",
         /* Section 8 */
         title8: "Contatti",
         /* Section 9 */
