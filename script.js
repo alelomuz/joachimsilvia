@@ -32,7 +32,7 @@ const translations = {
         title6: "Wedding List",
         description6n1: "Your presence at our wedding is the most beautiful gift.",
         description6n2: "A contribution would be the best way for us to make this new adventure together even more special. It will help us fulfill our honeymoon dreams and complete the furnishing of our home. You can transfer it to our wedding gift account:",
-    description6n3: "Alternatively, you can choose a gift from our wedding registry by clicking the button. The list is divided into two columns: the first indicates where to buy in Germany, and the second in Italy. Each column contains several subsections. The first one lists the name of the item, while the last one provides an example of a retailer where it is available. This is only a reference: feel free to purchase wherever you prefer. Please remove the selected gift from both columns to avoid duplicates. Below is our address for sending gifts: ",
+        description6n3: "Alternatively, you can choose a gift from our wedding registry by clicking the button. The list is divided into two columns: the first indicates where to buy in Germany, and the second in Italy. Each column contains several subsections. The first one lists the name of the item, while the last one provides an example of a retailer where it is available. This is only a reference: feel free to purchase wherever you prefer. Please remove the selected gift from both columns to avoid duplicates. Below is our address for sending gifts: ",
         description6n4: "Munich",
         button6: "Gift list",
         /* Section 7 */
@@ -48,7 +48,11 @@ const translations = {
         description9n4: "For those who are flying from Munich, there is also the possibility of flying from Memmingen to Brindisi and from Nuremberg to Bari.",
         /* Section 10 */
         title10: "Dress code",
-        description10: "Festive, elegant and chic. Suit is desired for men. Please avoid white and cream colors (except for shirts)."
+        description10: "Festive, elegant and chic. Suit is desired for men. Please avoid white and cream colors (except for shirts).",
+        /* Section 11 */
+        title11: "Playlist",
+        description11: "To ensure that the music is to your liking, we would like to ask you to create a playlist with us for the DJ. To give him enough time to plan the music for the entire day, we ask you to enter your suggestions soon.",
+        button11: "Suggest a song",
     },
     de: {
         /* Section 0 */
@@ -82,7 +86,7 @@ const translations = {
         title6: "Hochzeitstisch",
         description6n1: "Eure Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. ",
         description6n2: "Ein Beitrag zu unseren Flitterwochen oder zur Vervollständigung unserer Wohnungseinrichtung wäre der beste Weg für uns, dieses neue Abenteuer gemeinsam noch spezieller zu gestalten. Ihr könnt dafür gerne direkt zu unserem Geschenkekonto beitragen:",
-      description6n3: "Alternativ könnt ihr auch einen Idee aus unserer Hochzeitsliste auswählen, die ihr durch klicken auf dem Button finden könnt. Die Liste ist in zwei Spalten unterteilt: Die erste gibt an, wo man in Deutschland kaufen kann, die zweite für Italien. Jede Spalte enthält verschiedene Unterkategorien. Die erste nennt den Namen des Artikels, während die letzte ein Beispiel für einen Händler angibt, bei dem er erhältlich ist. Dies dient lediglich als Orientierung – fühlen Sie sich frei, dort zu kaufen, wo es Ihnen am besten passt. Bitte entfernt die entsprechende Zeile mit dem gewählten Geschenk aus beiden Spalten. Wessen Reisegepäck bereits gut gefüllt ist kann größere Geschenke auch gerne direkt an unsere Adresse in München senden:",
+        description6n3: "Alternativ könnt ihr auch einen Idee aus unserer Hochzeitsliste auswählen, die ihr durch klicken auf dem Button finden könnt. Die Liste ist in zwei Spalten unterteilt: Die erste gibt an, wo man in Deutschland kaufen kann, die zweite für Italien. Jede Spalte enthält verschiedene Unterkategorien. Die erste nennt den Namen des Artikels, während die letzte ein Beispiel für einen Händler angibt, bei dem er erhältlich ist. Dies dient lediglich als Orientierung – fühlen Sie sich frei, dort zu kaufen, wo es Ihnen am besten passt. Bitte entfernt die entsprechende Zeile mit dem gewählten Geschenk aus beiden Spalten. Wessen Reisegepäck bereits gut gefüllt ist kann größere Geschenke auch gerne direkt an unsere Adresse in München senden:",
         description6n4: "München",
         button6: "Geschenkliste",
         /* Section 7 */
@@ -98,7 +102,11 @@ const translations = {
         description9n4: "Für die Leute die noch von München aus fliegen, gibt es auch die Möglichkeit von Memmingen nach Brindisi und von Nürnberg nach Bari zu fliegen.",
         /* Section 10 */
         title10: "Dress code",
-        description10: "Festlich, schick und elegant. Bei Männern Anzug erwünscht. Bitte die Farben weiß und creme vermeiden (ausgenommen Hemden)."
+        description10: "Festlich, schick und elegant. Bei Männern Anzug erwünscht. Bitte die Farben weiß und creme vermeiden (ausgenommen Hemden).",
+        /* Section 11 */
+        title11: "Playlist",
+        description11: "Damit die Musik euren Geschmack trifft, möchten wir euch bitten, mit uns eine Playlist für den DJ zu erstellen. Um ihm genügend Zeit zu geben, die Musik für den ganzen Tag zu planen, bitten wir euch, bald eure Vorschläge einzutragen.",
+        button11: "Vorschlag für einen Song",
     },
     it: {
         /* Section 0 */
@@ -132,7 +140,7 @@ const translations = {
         title6: "Lista Nozze",
         description6n1: "La vostra presenza al nostro matrimonio è il regalo più bello.",
         description6n2: "Un contributo sarebbe per noi il modo migliore per rendere ancora più speciale questa nuova avventura insieme. Ci aiuterà a realizzare il nostro viaggio di nozze e a completare l’arredamento della nostra casa. Potete versarlo al nostro conto per i regali del matrimonio:",
-      description6n3: "In alternativa, potete scegliere un pensiero dalla nostra lista nozze, che trovate cliccando il bottone. La lista è suddivisa in due colonne: la prima indica dove acquistare in Germania, la seconda in Italia. Ogni colonna contiene diverse sottosezioni. La prima riporta il nome dell'articolo, mentre l'ultima fornisce un esempio di rivenditore presso cui è disponibile. Questo è solo un riferimento indicativo: sentitevi liberi di acquistare dove preferite. Vi preghiamo di rimuovere la riga del regalo scelto da entrambe le colonne per evitare doppioni. Di seguito, il nostro indirizzo per l'invio dei regali:",
+        description6n3: "In alternativa, potete scegliere un pensiero dalla nostra lista nozze, che trovate cliccando il bottone. La lista è suddivisa in due colonne: la prima indica dove acquistare in Germania, la seconda in Italia. Ogni colonna contiene diverse sottosezioni. La prima riporta il nome dell'articolo, mentre l'ultima fornisce un esempio di rivenditore presso cui è disponibile. Questo è solo un riferimento indicativo: sentitevi liberi di acquistare dove preferite. Vi preghiamo di rimuovere la riga del regalo scelto da entrambe le colonne per evitare doppioni. Di seguito, il nostro indirizzo per l'invio dei regali:",
         description6n4: "Monaco di Baviera",
         button6: "Proposte Regalo",
         /* Section 7 */
@@ -148,7 +156,11 @@ const translations = {
         description9n4: "Per chi vola da Monaco, c'è anche la possibilità di volare da Memmingen a Brindisi, e da Norimberga a Bari.",
         /*Section 10 */
         title10: "Dress code",
-      description10: "Dress code formale."
+        description10: "Dress code formale.",
+        /* Section 11 */
+        title11: "Playlist",
+        description11: "Affinché la musica sia di vostro gradimento, vorremmo chiedervi di creare con noi una playlist per il DJ. Per dargli abbia abbastanza tempo per pianificare la musica per l'intera giornata, vi chiediamo di inserire prossimamente i vostri suggerimenti.",
+        button11: "Suggerisci un brano",
     }
 };
 
@@ -237,6 +249,10 @@ function updateLanguage(lang) {
     /* Section 10 */
     document.getElementById("title10").textContent = translations[lang].title10;
     document.getElementById("description10").textContent = translations[lang].description10;
+    /* Section 11 */
+    document.getElementById("title11").textContent = translations[lang].title11;
+    document.getElementById("description11").textContent = translations[lang].description11;
+    document.getElementById("button11").textContent = translations[lang].button11;
     if (lang === "it") {
         phoneElement.style.display = "block";
     } else {
