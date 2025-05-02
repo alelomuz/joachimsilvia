@@ -48,7 +48,7 @@ const translations = {
         description9n4: "For those who are flying from Munich, there is also the possibility of flying from Memmingen to Brindisi and from Nuremberg to Bari.",
         /* Section 10 */
         title10: "Dress code",
-        description10: "Festive, elegant and chic. Suit is desired for men. Please avoid white and cream colors (except for shirts).",
+        description10: "Festive, elegant and chic. Suit or smoking is desired for men. Please avoid white and cream colors (except for shirts).",
         /* Section 11 */
         title11: "Playlist",
         description11: "To ensure that the music is to your liking, we would like to ask you to create a playlist with us for the DJ. To give him enough time to plan the music for the entire day, we ask you to enter your suggestions soon.",
@@ -102,7 +102,7 @@ const translations = {
         description9n4: "Für die Leute die noch von München aus fliegen, gibt es auch die Möglichkeit von Memmingen nach Brindisi und von Nürnberg nach Bari zu fliegen.",
         /* Section 10 */
         title10: "Dress code",
-        description10: "Festlich, schick und elegant. Bei Männern Anzug erwünscht. Bitte die Farben weiß und creme vermeiden (ausgenommen Hemden).",
+        description10: "Festlich, schick und elegant. Bei Männern Anzug oder Smoking erwünscht. Bitte die Farben weiß und creme vermeiden (ausgenommen Hemden).",
         /* Section 11 */
         title11: "Playlist",
         description11: "Damit die Musik euren Geschmack trifft, möchten wir euch bitten, mit uns eine Playlist für den DJ zu erstellen. Um ihm genügend Zeit zu geben, die Musik für den ganzen Tag zu planen, bitten wir euch, bald eure Vorschläge einzutragen.",
@@ -156,7 +156,7 @@ const translations = {
         description9n4: "Per chi vola da Monaco, c'è anche la possibilità di volare da Memmingen a Brindisi, e da Norimberga a Bari.",
         /*Section 10 */
         title10: "Dress code",
-        description10: "Dress code formale.",
+        description10: "Dress code formale. Smoking opzionale.",
         /* Section 11 */
         title11: "Playlist",
         description11: "Affinché la musica sia di vostro gradimento, vorremmo chiedervi di creare con noi una playlist per il DJ. Per dargli abbia abbastanza tempo per pianificare la musica per l'intera giornata, vi chiediamo di inserire prossimamente i vostri suggerimenti.",
