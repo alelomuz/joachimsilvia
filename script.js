@@ -277,7 +277,7 @@ languageSelect.addEventListener("change", (event) => {
 
 document.addEventListener("DOMContentLoaded", () => {
     // Initialize the page with settings from URL
-    const lang = getUrlParameter('lang') || 'de';
+    const lang = getUrlParameter('lang') || 'it';
     const darkMode = getUrlParameter('dark') === '1';
     
     // Update dropdown to match URL parameter
