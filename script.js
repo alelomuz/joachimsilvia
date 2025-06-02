@@ -37,7 +37,8 @@ const translations = {
         button6: "Gift list",
         /* Section 7 */
         title7: "Confirm your\nParticipation",
-        description7: "Don't want to miss this great unforgettable event? Then confirm your participation! Register each participant with first and last name. Food is one of the most important elements of a great party, so that everything is to your liking, please fill out the following form:",
+        description7n1: "Don't want to miss this great unforgettable event? Then confirm your participation! Register each participant with first and last name. Food is one of the most important elements of a great party, so that everything is to your liking, please fill out the following form:",
+        button7n1: "Confirm participation at the wedding",
         /* Section 8 */
         title8: "Contacts",
         /* Section 9 */
@@ -91,7 +92,8 @@ const translations = {
         button6: "Geschenkliste",
         /* Section 7 */
         title7: "Teilnahme\nBestätigen",
-        description7: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
+        description7n1: "Du willst dieses tolle Event nicht verpassen? Dann bestätige deine Teilnahme! Registriere bitte jeden Teilnehmer mit Vor- und Nachnamen. Das Essen ist eines der wichtigsten Elemente eines großen Festes. Damit alles deinen Vorlieben entspricht, fülle bitte das folgende Formular aus:",
+        button7n1: "Teilnahme an der Hochzeit bestätigen",
         /* Section 8 */
         title8: "Kontakte",
         /* Section 9 */
@@ -145,7 +147,10 @@ const translations = {
         button6: "Proposte Regalo",
         /* Section 7 */
         title7: "Conferma\nPartecipazione",
-        description7: "Non vorrai perderti questo grande evento indimenticabile? Allora conferma la partecipazione! Registra ogni singolo partecipante indicando nome e cognome. Il cibo è uno degli elementi più importanti di una grande festa, affinché tutto sia di tuo gradimento, compila il seguente formulario:",
+        description7n1: "Non vorrai perderti questo grande evento indimenticabile? Allora conferma la partecipazione! Registra ogni singolo partecipante indicando nome e cognome. Il cibo è uno degli elementi più importanti di una grande festa, affinché tutto sia di tuo gradimento, compila il seguente formulario:",
+        description7n2: "Se sei stato invitato per il taglio della torta e il party, compila il seguente formulario per ogni singolo invitato:",
+        button7n1: "Conferma partecipazione al matrimonio",
+        button7n2: "Conferma partecipazione al taglio torta e party",
         /* Section 8 */
         title8: "Contatti",
         /* Section 9 */
@@ -235,11 +240,13 @@ function updateLanguage(lang) {
     document.getElementById("button6").textContent = translations[lang].button6;
     /* Section 7 */
     document.getElementById("title7").textContent = translations[lang].title7;
-    document.getElementById("description7").textContent = translations[lang].description7;
-    document.getElementById("button7").textContent = translations[lang].title7;
+    document.getElementById("description7n1").textContent = translations[lang].description7n1;
+    const description7n2 = document.getElementById("description7n2");
+    document.getElementById("button7n1").textContent = translations[lang].button7n1;
+    const button7n2 = document.getElementById("button7n2");
     /* Section 8 */
     document.getElementById("title8").textContent = translations[lang].title8;
-    const phoneElement = document.getElementById("giusyphone");
+    const giusyphone = document.getElementById("giusyphone");
     /* Section 9 */
     document.getElementById("title9").textContent = translations[lang].title9;
     document.getElementById("description9n1").textContent = translations[lang].description9n1;
@@ -254,9 +261,17 @@ function updateLanguage(lang) {
     document.getElementById("description11").textContent = translations[lang].description11;
     document.getElementById("button11").textContent = translations[lang].button11;
     if (lang === "it") {
-        phoneElement.style.display = "block";
+        giusyphone.style.display = "block";
+        description7n2.textContent = translations[lang].description7n2;
+        description7n2.style.display = "block";
+        button7n2.textContent = translations[lang].button7n2;
+        button7n2.style.display = "block";
     } else {
-        phoneElement.style.display = "none";
+        giusyphone.style.display = "none";
+        description7n2.textContent = "";
+        description7n2.style.display = "none";
+        button7n2.textContent = "";
+        button7n2.style.display = "none";
     }
     setUrlParameter('lang', lang);
 }
