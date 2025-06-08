@@ -66,7 +66,7 @@ const translations = {
         description2: "Wir planen ein Bus für den Transport von Porto degli Argonauti nach Notedimare und zurück zu organisieren. Weitere Infos werden folgen.",
         timeline2n1: "TRAUUNG",
         timeline2n2: "FOTOS",
-        timeline2n3: "GROßEN APERITIF BUFFET MIT LIVE-COOKING",
+        timeline2n3: "APERITIF BUFFET\nMIT LIVE-COOKING",
         timeline2n4: "HOCHZEITSESSEN",
         timeline2n5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
         timeline2n6: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
