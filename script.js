@@ -14,7 +14,8 @@ const translations = {
         timeline2n3: "APERITIF",
         timeline2n4: "LUNCH",
         timeline2n5: "WEDDING CAKE AND\nDESSERT BUFFET",
-        timeline2n6: "AFTERPARTY WITH DJ\nAND COCKTAIL BAR",
+        timeline2n6: "BOUQUET TOSS",
+        timeline2n7: "AFTERPARTY WITH DJ\nAND COCKTAIL BAR",
         /* Section 3 */
         title3: "Accommodations",
         subtitle3n1: "Recommended accommodation for multi-day stays",
@@ -69,7 +70,8 @@ const translations = {
         timeline2n3: "APERITIF BUFFET\nMIT LIVE-COOKING",
         timeline2n4: "HOCHZEITSESSEN",
         timeline2n5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
-        timeline2n6: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
+        timeline2n6: "WURF DES BRAUTSTRAUSS",
+        timeline2n7: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
         /* Section 3 */
         title3: "Übernachtungs\nmöglichkeiten",
         subtitle3n1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
@@ -124,7 +126,8 @@ const translations = {
         timeline2n3: "APERITIVO",
         timeline2n4: "PRANZO",
         timeline2n5: "TORTA NUZIALE E\nBUFFET DEI DOLCI",
-        timeline2n6: "AFTERPARTY CON DJ\nE COCKTAILBAR",
+        timeline2n6: "LANCIO DEL BOUQUET",
+        timeline2n7: "AFTERPARTY CON DJ\nE COCKTAILBAR",
         /* Section 3 */
         title3: "Pernottamento",
         subtitle3n1: "Struttura ricettiva consigliata per soggiorni di piú giorni",
@@ -218,6 +221,7 @@ function updateLanguage(lang) {
     document.getElementById("timeline2n4").textContent = translations[lang].timeline2n4;
     document.getElementById("timeline2n5").textContent = translations[lang].timeline2n5;
     document.getElementById("timeline2n6").textContent = translations[lang].timeline2n6;
+    document.getElementById("timeline2n7").textContent = translations[lang].timeline2n7;
     /* Section 3 */
     document.getElementById("title3").textContent = translations[lang].title3;
     document.getElementById("subtitle3n1").textContent = translations[lang].subtitle3n1;
