@@ -84,7 +84,7 @@ const translations = {
         title4: "Die Gegend",
         /* Section 5 */
         title5: "Aktivitäten während\nder Hochzeitswoche",
-        description5: "Während der Hochzeitswoche, also vom 16. bis 19. September 2025, werden verschiedene kleine Aktivitäten vorgeschlagen. Weitere Details folgen in den kommenden Monaten.",
+      description5: "Dienstag der 16. September: Palatinische Tafeln und Panzerottata \nMittwoch der 17. September: Matera und Abendessen in der Brasserie (mit vegetarische Option)\nDonnerstag der 18. September: Taranto und Fischabendessen \nFreitag der 19. September: Museo Amaro Lucano und Abendessen bei Porto degli Argonauti.\n Auf Wunsch können vegane Gerichte angeboten werden.",
         /* Section 6 */
         title6: "Hochzeitstisch",
         description6n1: "Eure Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. ",
