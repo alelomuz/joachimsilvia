@@ -28,7 +28,7 @@ const translations = {
         title4: "Territory",
         /* Section 5 */
         title5: "Activities during\nthe Wedding Week",
-        description5: "During the wedding week, from 16 to 19 September 2025, various small activities will be proposed. Further details will follow in the coming months.",
+    description5: "Tuesday, September 16: Palatine Tables and Panzerottata\nWednesday, September 17: Matera and dinner at the Brasserie (with a vegetarian option)\nThursday, September 18: Taranto and fish dinner (with a vegetarian option)\nFriday, September 19: Amaro Lucano Museum and dinner at Porto degli Argonauti.\nVegan dishes can be provided upon request.",
         /* Section 6 */
         title6: "Wedding List",
         description6n1: "Your presence at our wedding is the most beautiful gift.",
@@ -84,7 +84,7 @@ const translations = {
         title4: "Die Gegend",
         /* Section 5 */
         title5: "Aktivitäten während\nder Hochzeitswoche",
-      description5: "Dienstag der 16. September: Palatinische Tafeln und Panzerottata \nMittwoch der 17. September: Matera und Abendessen in der Brasserie (mit vegetarische Option)\nDonnerstag der 18. September: Taranto und Fischabendessen \nFreitag der 19. September: Museo Amaro Lucano und Abendessen bei Porto degli Argonauti.\n Auf Wunsch können vegane Gerichte angeboten werden.",
+        description5: "Dienstag der 16. September: Palatinische Tafeln und Panzerottata \nMittwoch der 17. September: Matera und Abendessen in der Brasserie (mit vegetarische Option)\nDonnerstag der 18. September: Taranto und Fischabendessen (mit vegetarische Option)\nFreitag der 19. September: Museo Amaro Lucano und Abendessen bei Porto degli Argonauti.\n Auf Wunsch können vegane Gerichte angeboten werden.",
         /* Section 6 */
         title6: "Hochzeitstisch",
         description6n1: "Eure Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. ",
@@ -140,7 +140,7 @@ const translations = {
         title4: "Territorio",
         /* Section 5 */
         title5: "Attivitá Durante la\nSettimana Nuziale",
-        description5: "Durante la settimana del matrimonio, quindi dal 16 al 19 Settembre 2025, verranno proposte piccole attivitá. I dettagli seguiranno nei prossimi mesi.",
+        description5: "Martedí 16 Settembre: Tavole palatine, panzerottata e gelato \nMercoledí 17 Settembre: Matera e cena in bracerria (con opzione vegetariana)\nGiovedí 18 Settembre: Taranto e cena di pesce (con opzione vegetariana)\nVenerdí 19 Settembre: Museo dell'Amaro Lucano e cena presso Porto degli Argonauti\nAlternative vegane su richiesta.",
         /* Section 6 */
         title6: "Lista Nozze",
         description6n1: "La vostra presenza al nostro matrimonio è il regalo più bello.",
