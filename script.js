@@ -120,7 +120,7 @@ const translations = {
         description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti di",
         /* Section 2 */
         title2: "Programma\ndell'Evento",
-      description2: "Per gli invitati che soggiorneranno presso il villaggio Argonauti, sarà messo a disposizione un bus per raggiungere la sala ricevimenti Notedimare. La partenza è prevista alle ore 10:40 dall’ingresso del villaggio, mentre il rientro è fissato per mezzanotte. Vi chiediamo cortesemente di riservare il vostro posto compilando l’apposito modulo. Ogni invitato deve essere registratoo singolarmente.",
+        description2: "Per gli invitati che soggiorneranno presso il villaggio Argonauti, sarà messo a disposizione un bus per raggiungere la sala ricevimenti Notedimare. La partenza è prevista alle ore 10:40 dall’ingresso del villaggio, mentre il rientro è fissato per mezzanotte. Vi chiediamo cortesemente di riservare il vostro posto compilando l’apposito modulo. Ogni invitato deve essere registrato singolarmente. La capienza del bus è di 54 posti. Chiederemo le iscrizioni quando sará raggiunto il numero massimo di passeggeri.",
         timeline2n1: "CERIMONIA",
         timeline2n2: "FOTO",
         timeline2n3: "APERITIVO",
