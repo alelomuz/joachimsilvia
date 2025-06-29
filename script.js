@@ -140,7 +140,7 @@ const translations = {
         title4: "Territorio",
         /* Section 5 */
         title5: "Attivitá Durante la\nSettimana Nuziale",
-        description5: "Martedí 16 Settembre: Tavole palatine, panzerottata e gelato \nMercoledí 17 Settembre: Matera e cena in bracerria (con opzione vegetariana)\nGiovedí 18 Settembre: Taranto e cena di pesce (con opzione vegetariana)\nVenerdí 19 Settembre: Museo dell'Amaro Lucano e cena presso Porto degli Argonauti\nAlternative vegane su richiesta.",
+        description5: "Martedí 16 Settembre: Parco Archeologico e Tavole palatine a Metaponto, panzerottata e gelato \nMercoledí 17 Settembre: Matera, visita alla città dei Sassi  e cena in bracerria (con opzione vegetariana)\nGiovedí 18 Settembre: Castello Aragonese e Città Vecchia a Taranto e cena di pesce (con opzione vegetariana)\nVenerdí 19 Settembre: Museo dell'Amaro Lucano e cena presso Porto degli Argonauti\nAlternative vegetariana su richiesta.\nVi chiediamo di registrare ogni singolo partecipante entro l'1 Settembre.",
         /* Section 6 */
         title6: "Lista Nozze",
         description6n1: "La vostra presenza al nostro matrimonio è il regalo più bello.",
