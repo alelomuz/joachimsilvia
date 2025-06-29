@@ -8,7 +8,7 @@ const translations = {
         description1: "The ceremony and reception will take place at the reception hall of",
         /* Section 2 */
         title2: "Program",
-        description2: "We are planning to organize a bus for the transport from Porto degli Argonauti to Notedimare reception hall and back. More information will follow.",
+        description2: "For guests staying at the Argonauti village, a bus will be provided to reach the Notedimare reception venue. Departure is scheduled for 10: 30 AM from the village entrance, and the return is set for midnight. Please reserve your seat on the bus by filling out the designated form.Each guest must be registered individually.The bus has a capacity of 54 seats.Registration will be closed once the maximum number of passengers has been reached.",
         timeline2n1: "CEREMONY",
         timeline2n2: "PHOTOS",
         timeline2n3: "APERITIF",
@@ -64,7 +64,7 @@ const translations = {
         description1: "Die Trauung und der Empfang finden statt im Festsaal von",
         /* Section 2 */
         title2: "Programm",
-        description2: "Wir planen ein Bus für den Transport von Porto degli Argonauti nach Notedimare und zurück zu organisieren. Weitere Infos werden folgen.",
+        description2: "Für die Gäste, die im Feriendorf Argonauti übernachten, wird ein Bus zur Verfügung gestellt, um den Festsaal Notedimare zu erreichen. Die Abfahrt ist um 10: 30 Uhr am Eingang des Feriendorfs geplant, die Rückfahrt erfolgt um Mitternacht. Wir bitten euch, euren Platz im Bus zu reservieren, indem ihr das entsprechende Formular ausfüllt.Jeder Gast muss einzeln registriert werden.Der Bus verfügt über 54 Sitzplätze.Die Anmeldung wird geschlossen, sobald die maximale Anzahl an Fahrgästen erreicht ist.",
         timeline2n1: "TRAUUNG",
         timeline2n2: "FOTOS",
         timeline2n3: "APERITIF BUFFET\nMIT LIVE-COOKING",
