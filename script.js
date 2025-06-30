@@ -8,14 +8,18 @@ const translations = {
         description1: "The ceremony and reception will take place at the reception hall of",
         /* Section 2 */
         title2: "Program",
-        description2: "For guests staying at the Argonauti village, a bus will be provided to reach the Notedimare reception venue. Departure is scheduled for 10: 30 AM from the village entrance, and the return is set for midnight. Please reserve your seat on the bus by filling out the designated form.Each guest must be registered individually.The bus has a capacity of 54 seats.Registration will be closed once the maximum number of passengers has been reached.",
-        timeline2n1: "CEREMONY",
-        timeline2n2: "PHOTOS",
-        timeline2n3: "APERITIF",
-        timeline2n4: "LUNCH",
-        timeline2n5: "WEDDING CAKE AND\nDESSERT BUFFET",
-        timeline2n6: "BOUQUET TOSS",
-        timeline2n7: "AFTERPARTY WITH DJ\nAND COCKTAIL BAR",
+        description2: "For guests staying at the Argonauti village, a bus will be provided to reach the Notedimare reception venue. Departure is scheduled for 10:40 AM from the village entrance, and the return is set for midnight. Please reserve your seat on the bus by filling out the designated form. Each guest must be registered individually. The bus has a capacity of 54 seats. Registration will be closed once the maximum number of passengers has been reached.",
+        timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTE DI MARE)",
+        timeline2n2: "11:00 - START",
+        timeline2n3: "11:30 - CEREMONY",
+        timeline2n4: "PHOTOS",
+        timeline2n5: "APERITIF",
+        timeline2n6: "LUNCH",
+        timeline2n7: "19:30 - WEDDING CAKE\nAND DESSERTS",
+        timeline2n8: "BOUQUET TOSS",
+        timeline2n9: "AFTERPARTY WITH DJ\nAND COCKTAIL BAR",
+        timeline2n10: "23:30 - FAVORS\nDELIVERY",
+        timeline2n11: "00:00 - BUS\n(NOTE DI MARE - ARGONAUTI)",
         /* Section 3 */
         title3: "Accommodations",
         subtitle3n1: "Recommended accommodation for multi-day stays",
@@ -64,20 +68,24 @@ const translations = {
         description1: "Die Trauung und der Empfang finden statt im Festsaal von",
         /* Section 2 */
         title2: "Programm",
-        description2: "Für die Gäste, die im Feriendorf Argonauti übernachten, wird ein Bus zur Verfügung gestellt, um den Festsaal Notedimare zu erreichen. Die Abfahrt ist um 10: 30 Uhr am Eingang des Feriendorfs geplant, die Rückfahrt erfolgt um Mitternacht. Wir bitten euch, euren Platz im Bus zu reservieren, indem ihr das entsprechende Formular ausfüllt.Jeder Gast muss einzeln registriert werden.Der Bus verfügt über 54 Sitzplätze.Die Anmeldung wird geschlossen, sobald die maximale Anzahl an Fahrgästen erreicht ist.",
-        timeline2n1: "TRAUUNG",
-        timeline2n2: "FOTOS",
-        timeline2n3: "APERITIF BUFFET\nMIT LIVE-COOKING",
-        timeline2n4: "HOCHZEITSESSEN",
-        timeline2n5: "HOCHZEITSTORTE UND\nDESSERTBUFFET",
-        timeline2n6: "WURF DES BRAUTSTRAUSS",
-        timeline2n7: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
+        description2: "Für die Gäste, die im Feriendorf Argonauti übernachten, wird ein Bus zur Verfügung gestellt, um den Festsaal Notedimare zu erreichen. Die Abfahrt ist um 10:40 Uhr am Eingang des Feriendorfs geplant, die Rückfahrt erfolgt um Mitternacht. Wir bitten euch, euren Platz im Bus zu reservieren, indem ihr das entsprechende Formular ausfüllt. Jeder Gast muss einzeln registriert werden. Der Bus verfügt über 54 Sitzplätze. Die Anmeldung wird geschlossen, sobald die maximale Anzahl an Fahrgästen erreicht ist.",
+        timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTE DI MARE)",
+        timeline2n2: "11:00 - BEGINN",
+        timeline2n3: "11:30 - TRAUUNG",
+        timeline2n4: "FOTOS",
+        timeline2n5: "APERITIF",
+        timeline2n6: "HOCHZEITSESSEN",
+        timeline2n7: "19:30 - HOCHZEITSTORTE\nUND DESSERTS",
+        timeline2n8: "WURF DES BRAUTSTRAUSS",
+        timeline2n9: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
+        timeline2n10: "23:30 - GASTGESCHENKE",
+        timeline2n11: "00:00 - BUS\n(NOTE DI MARE - ARGONAUTI)",
         /* Section 3 */
         title3: "Übernachtungs\nmöglichkeiten",
         subtitle3n1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
         description3n1: "Wir helfen Ihnen gerne bei der Suche nach einer Unterkunft während Ihres Aufenthalts. Im folgenden einige Beispiele. Wir werden im ",
         description3n2: " (Marina di Pisticci, MT) übernachten. Hier sind Ferienwohnungen und ein Hotel vorhanden.",
-        subtitle3n2: "Empfohlene Übernachtungsöglichkeiten in Metaponto",
+        subtitle3n2: "Empfohlene Übernachtungsmöglichkeiten in Metaponto",
         description3n3: "In Metaponto gibt es Übernachtungsmöglichkeiten direkt in der Nähe der Hochzeitslocation:",
         description3n4: "(Unterkunft mit Vereinbarung mit Notedimare)",
         /* Section 4 */
@@ -121,13 +129,17 @@ const translations = {
         /* Section 2 */
         title2: "Programma\ndell'Evento",
         description2: "Per gli invitati che soggiorneranno presso il villaggio Argonauti, sarà messo a disposizione un bus per raggiungere la sala ricevimenti Notedimare. La partenza è prevista alle ore 10:40 dall’ingresso del villaggio, mentre il rientro è fissato per mezzanotte. Vi chiediamo cortesemente di riservare il vostro posto compilando l’apposito modulo. Ogni invitato deve essere registrato singolarmente. La capienza del bus è di 54 posti. Chiederemo le iscrizioni quando sará raggiunto il numero massimo di passeggeri.",
-        timeline2n1: "CERIMONIA",
-        timeline2n2: "FOTO",
-        timeline2n3: "APERITIVO",
-        timeline2n4: "PRANZO",
-        timeline2n5: "TORTA NUZIALE E\nBUFFET DEI DOLCI",
-        timeline2n6: "LANCIO DEL BOUQUET",
-        timeline2n7: "AFTERPARTY CON DJ\nE COCKTAILBAR",
+        timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTE DI MARE)",
+        timeline2n2: "11:00 - INIZIO",
+        timeline2n3: "11:30 - CERIMONIA",
+        timeline2n4: "FOTO",
+        timeline2n5: "APERITIVO",
+        timeline2n6: "PRANZO",
+        timeline2n7: "19:30 - TORTA NUZIALE\nE BUFFET DEI DOLCI",
+        timeline2n8: "LANCIO DEL BOUQUET",
+        timeline2n9: "AFTERPARTY CON DJ\nE COCKTAILBAR",
+        timeline2n10: "23:30 - CONSEGNA\nBOMBONIERE",
+        timeline2n11: "00:00 - BUS\n(NOTE DI MARE - ARGONAUTI)",
         /* Section 3 */
         title3: "Pernottamento",
         subtitle3n1: "Struttura ricettiva consigliata per soggiorni di piú giorni",
@@ -215,13 +227,13 @@ function updateLanguage(lang) {
     /* Section 2 */
     document.getElementById("title2").textContent = translations[lang].title2;
     document.getElementById("description2").textContent = translations[lang].description2;
-    document.getElementById("timeline2n1").textContent = translations[lang].timeline2n1;
-    document.getElementById("timeline2n2").textContent = translations[lang].timeline2n2;
-    document.getElementById("timeline2n3").textContent = translations[lang].timeline2n3;
-    document.getElementById("timeline2n4").textContent = translations[lang].timeline2n4;
-    document.getElementById("timeline2n5").textContent = translations[lang].timeline2n5;
-    document.getElementById("timeline2n6").textContent = translations[lang].timeline2n6;
-    document.getElementById("timeline2n7").textContent = translations[lang].timeline2n7;
+    for (let i = 1; i <= 11; i++) {
+        const key = `timeline2n${i}`;
+        const el = document.getElementById(key);
+        if (el && translations[lang][key]) {
+            el.textContent = translations[lang][key];
+        }
+    }
     /* Section 3 */
     document.getElementById("title3").textContent = translations[lang].title3;
     document.getElementById("subtitle3n1").textContent = translations[lang].subtitle3n1;
