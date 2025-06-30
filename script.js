@@ -28,7 +28,7 @@ const translations = {
         title4: "Territory",
         /* Section 5 */
         title5: "Activities during\nthe Wedding Week",
-    description5: "Tuesday, September 16: Palatine Tables and Panzerottata\nWednesday, September 17: Matera and dinner at the Brasserie (with a vegetarian option)\nThursday, September 18: Taranto and fish dinner (with a vegetarian option)\nFriday, September 19: Amaro Lucano Museum and dinner at Porto degli Argonauti.\nVegan dishes can be provided upon request.",
+    description5: "Tuesday, September 16: Palatine Tables and Panzerottata\nWednesday, September 17: Matera and dinner at the Brasserie (with a vegetarian option)\nThursday, September 18: Taranto and fish dinner (with a vegetarian option)\nFriday, September 19: Amaro Lucano Museum and dinner at Porto degli Argonauti.\nVegan dishes can be provided upon request.\nWe kindly ask you to register each individual participant by September 1st.",
         /* Section 6 */
         title6: "Wedding List",
         description6n1: "Your presence at our wedding is the most beautiful gift.",
@@ -84,7 +84,7 @@ const translations = {
         title4: "Die Gegend",
         /* Section 5 */
         title5: "Aktivitäten während\nder Hochzeitswoche",
-        description5: "Dienstag der 16. September: Palatinische Tafeln und Panzerottata \nMittwoch der 17. September: Matera und Abendessen in der Brasserie (mit vegetarische Option)\nDonnerstag der 18. September: Taranto und Fischabendessen (mit vegetarische Option)\nFreitag der 19. September: Museo Amaro Lucano und Abendessen bei Porto degli Argonauti.\n Auf Wunsch können vegane Gerichte angeboten werden.",
+      description5: "Dienstag der 16. September: Palatinische Tafeln und Panzerottata \nMittwoch der 17. September: Matera und Abendessen in der Brasserie (mit vegetarische Option)\nDonnerstag der 18. September: Taranto und Fischabendessen (mit vegetarische Option)\nFreitag der 19. September: Museo Amaro Lucano und Abendessen bei Porto degli Argonauti.\n Auf Wunsch können vegane Gerichte angeboten werden.\nWir bitten euch, jede einzelne teilnehmende Person bis zum 1. September zu registrieren.",
         /* Section 6 */
         title6: "Hochzeitstisch",
         description6n1: "Eure Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. ",
