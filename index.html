@@ -22,38 +22,38 @@
             <option value="it">ITALIANO</option>
             <option value="en">ENGLISH</option>
         </select>
-        <button id="nav1" class="nav" onclick="navigateTo('section1')"></button>
-        <button id="nav2" class="nav" onclick="navigateTo('section2')"></button>
-        <button id="nav9" class="nav" onclick="navigateTo('section9')"></button>
+        <button id="nav0" class="nav" onclick="navigateTo('section1')"></button>
+        <button id="nav1" class="nav" onclick="navigateTo('section2')"></button>
+        <button id="nav2" class="nav" onclick="navigateTo('section9')"></button>
         <button id="nav3" class="nav" onclick="navigateTo('section3')"></button>
         <button id="nav4" class="nav" onclick="navigateTo('section4')"></button>
         <button id="nav5" class="nav" onclick="navigateTo('section5')"></button>
         <button id="nav6" class="nav" onclick="navigateTo('section6')"></button>
-        <button id="nav10" class="nav" onclick="navigateTo('section10')"></button>
-        <button id="nav7" class="nav" onclick="navigateTo('section7')"></button>
-        <button id="nav8" class="nav" onclick="navigateTo('section8')"></button>
+        <button id="nav7" class="nav" onclick="navigateTo('section10')"></button>
+        <button id="nav8" class="nav" onclick="navigateTo('section7')"></button>
+        <button id="nav9" class="nav" onclick="navigateTo('section8')"></button>
         <button id="darkModeToggle" class="nav" onclick="toggleDarkMode()">🌙</button>
     </div>
     <table id="hamburgerDropdown">
         <tr>
-            <td><button id="nav1dd" onclick="navigateTo('section1')"></button></td>
-            <td><button id="nav2dd" onclick="navigateTo('section2')"></button></td>
-        </tr>
-        <tr>   
-            <td><button id="nav9dd" onclick="navigateTo('section9')"></button></td>
-            <td><button id="nav3dd" onclick="navigateTo('section3')"></button></td>
+            <td><button id="navdd0" onclick="navigateTo('section1')"></button></td>
+            <td><button id="navdd1" onclick="navigateTo('section2')"></button></td>
         </tr>
         <tr>
-            <td><button id="nav4dd" onclick="navigateTo('section4')"></button></td>
-            <td><button id="nav5dd" onclick="navigateTo('section5')"></button></td>
+            <td><button id="navdd2" onclick="navigateTo('section9')"></button></td>
+            <td><button id="navdd3" onclick="navigateTo('section3')"></button></td>
         </tr>
         <tr>
-            <td><button id="nav6dd" onclick="navigateTo('section6')"></button></td>
-            <td><button id="nav10dd" onclick="navigateTo('section10')"></button></td>
+            <td><button id="navdd4" onclick="navigateTo('section4')"></button></td>
+            <td><button id="navdd5" onclick="navigateTo('section5')"></button></td>
         </tr>
         <tr>
-            <td><button id="nav7dd" onclick="navigateTo('section7')"></button></td>
-            <td><button id="nav8dd" onclick="navigateTo('section8')"></button></td>
+            <td><button id="navdd6" onclick="navigateTo('section6')"></button></td>
+            <td><button id="navdd7" onclick="navigateTo('section10')"></button></td>
+        </tr>
+        <tr>
+            <td><button id="navdd8" onclick="navigateTo('section7')"></button></td>
+            <td><button id="navdd9" onclick="navigateTo('section8')"></button></td>
         </tr>
     </table>
     <main>
@@ -61,7 +61,7 @@
             <h1 id="title0" class="titlestyle"></h1>
             <p class="titlestyle">
                 <a id="title0"></a>
-            <p>
+            </p>
             <h1 class="textstyle">15.09.2025</h1>
         </div>
         <section id="section1">
@@ -75,8 +75,8 @@
                 <div id="sub1n2">
                     <img id="img1n1" src="img/img1.jpg">
                     <div id="sub1n3">
-                        <img id = "img1n2" src="img/img2.jpg">
-                        <img id = "img1n3" src="img/img3.jpg">
+                        <img id="img1n2" src="img/img2.jpg">
+                        <img id="img1n3" src="img/img3.jpg">
                     </div>
                 </div>
                 <iframe id="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.0246806864116!2d16.829905!3d40.3639771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13476a08ada653e1%3A0x1c17714f804a7207!2sNotedimare%20Ricevimenti!5e0!3m2!1sen!2sde!4v1734114842497!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -87,7 +87,7 @@
             <p id="description2" class="textstyle"></p>
             <div class="timeline2">
                 <p><a class="left_container textstyle" id="timeline2n1"></a></p>
-                <p><a class="right_container textstyle" id="timeline2n2" class="textstyle"></a></p>
+                <p><a class="right_container textstyle" id="timeline2n2"></a></p>
                 <p><a class="left_container textstyle" id="timeline2n3"></a></p>
                 <p><a class="right_container textstyle" id="timeline2n4"></a></p>
                 <p><a class="left_container textstyle" id="timeline2n5"></a></p>
@@ -98,6 +98,11 @@
                 <p><a class="right_container textstyle" id="timeline2n10"></a></p>
                 <p><a class="left_container textstyle" id="timeline2n11"></a></p>
             </div>
+        </section>
+        <section id="section12">
+            <h2 id="title12" class="titlestyle"></h2>
+            <p id="description12" class="textstyle"></p>
+            <button id="button12" class="subtitlestyle buttonbar" onclick="window.open('https://forms.gle/x1eMAHg3XrZU7VML6', '_blank');"></button>
         </section>
         <section id="section9">
             <h2 id="title9" class="titlestyle"></h2>
@@ -143,19 +148,27 @@
             <h2 id="title4" class="titlestyle"></h2>
             <p class="subtitlestyle">Basilicata</p>
             <div id="sub4n1">
-                <button id = "img4n1" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/75012+Metaponto+MT,+Italia/data=!4m2!3m1!1s0x134769fa1a717c67:0xf1542a2a0b886d5b?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE1NS4xMDEYACDXggMqdSw5NDI0MjQ5Niw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICREU%3D', '_blank');">METAPONTO</button>
-                <button id = "img4n2" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/75100+Matera+MT,+Italia/data=!4m2!3m1!1s0x13477ee2482b152b:0x8f6a4ae10da9360?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE1NS4xMDEYACDXggMqdSw5NDI0MjQ5Niw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICREU%3D', '_blank');">MATERA</button>
+                <button id="img4n1" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/75012+Metaponto+MT,+Italia/data=!4m2!3m1!1s0x134769fa1a717c67:0xf1542a2a0b886d5b?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE1NS4xMDEYACDXggMqdSw5NDI0MjQ5Niw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICREU%3D', '_blank');">METAPONTO</button>
+                <button id="img4n2" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/75100+Matera+MT,+Italia/data=!4m2!3m1!1s0x13477ee2482b152b:0x8f6a4ae10da9360?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE1NS4xMDEYACDXggMqdSw5NDI0MjQ5Niw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICREU%3D', '_blank');">MATERA</button>
             </div>
             <p class="subtitlestyle">Puglia</p>
             <div id="sub4n1">
-                <button id = "img4n3" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/Taranto+TA,+Italia/data=!4m2!3m1!1s0x13471d1819a77b13:0x64f8f9a58d57dfcf?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE1NS4xMDEYACDXggMqdSw5NDI0MjQ5Niw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICREU%3D', '_blank');">TARANTO</button>
-                <button id = "img4n4" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/70044+Polignano+a+Mare+BA/data=!4m2!3m1!1s0x1347cbeb9e80f67b:0x9bbe6b6e25a97601?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE1Mi4xMDAYACDXggMqdSw5NDI0MjQ5Niw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICSVQ%3D', '_blank');">POLIGNANO A MARE</button>
-                <button id = "img4n5" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/70011+Alberobello,+Metropolitan+City+of+Bari,+Italy/@40.7916084,17.2061616,13z/data=!3m1!4b1!4m6!3m5!1s0x1347b264abcdaa6f:0xdec45d1171885f51!8m2!3d40.7864949!4d17.2408836!16zL20vMGNyMDQ?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D', '_blank');">ALBEROBELLO</button>
+                <button id="img4n3" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/Taranto+TA,+Italia/data=!4m2!3m1!1s0x13471d1819a77b13:0x64f8f9a58d57dfcf?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE1NS4xMDEYACDXggMqdSw5NDI0MjQ5Niw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICREU%3D', '_blank');">TARANTO</button>
+                <button id="img4n4" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/70044+Polignano+a+Mare+BA/data=!4m2!3m1!1s0x1347cbeb9e80f67b:0x9bbe6b6e25a97601?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE1Mi4xMDAYACDXggMqdSw5NDI0MjQ5Niw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICSVQ%3D', '_blank');">POLIGNANO A MARE</button>
+                <button id="img4n5" class="imgbutton" onclick="window.open('https://www.google.com/maps/place/70011+Alberobello,+Metropolitan+City+of+Bari,+Italy/@40.7916084,17.2061616,13z/data=!3m1!4b1!4m6!3m5!1s0x1347b264abcdaa6f:0xdec45d1171885f51!8m2!3d40.7864949!4d17.2408836!16zL20vMGNyMDQ?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D', '_blank');">ALBEROBELLO</button>
             </div>
         </section>
         <section id="section5">
             <h2 id="title5" class="titlestyle"></h2>
-            <p id="description5" class="textstyle"></p>
+            <p id="description5n1" class="textstyle"></p>
+            <p id="description5n2" class="textstyle"></p>
+            <p id="description5n3" class="textstyle"></p>
+            <p id="description5n4" class="textstyle"></p>
+            <p id="description5n5" class="textstyle"></p>
+            <p id="description5n6" class="textstyle"></p>
+            <p id="description5n7" class="textstyle"></p>
+            <button id="button5n1" class="subtitlestyle buttonbar" onclick="window.open('https://forms.gle/1FsAmmdhgtr9a7UK9', '_blank');"></button>
+            <button id="button5n2" class="subtitlestyle buttonbar"></button>
         </section>
         <section id="section6">
             <h2 id="title6" class="titlestyle"></h2>
@@ -191,9 +204,9 @@
         <section id="section7">
             <h2 id="title7" class="titlestyle"></h2>
             <p id="description7n1" class="textstyle"></p>
-            <div id = "sub7">
-                <img id = "img7n1" src="img/food1.jpg">
-                <img id = "img7n2" src="img/food2.jpg">
+            <div id="sub7">
+                <img id="img7n1" src="img/food1.jpg">
+                <img id="img7n2" src="img/food2.jpg">
             </div>
             <button id="button7n1" class="subtitlestyle buttonbar" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeR_ZzqyjOSfH4aDd98d3WgrCfnu4a0AiNsXbqeHlG9YQDYJQ/viewform', '_blank');"></button>
             <p id="description7n2" class="textstyle"></p>
@@ -201,7 +214,7 @@
         </section>
         <section id="section8">
             <h2 id="title8" class="titlestyle"></h2>
-            <div id="sub8n1"> 
+            <div id="sub8n1">
                 <div id="sub8n2">
                     <p class="textstyle">Silvia:<br>+49 15782215018</p>
                     <p class="textstyle">Joachim:<br>+49 17691385504</p>

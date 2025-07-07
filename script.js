@@ -8,7 +8,6 @@ const translations = {
         description1: "The ceremony and reception will take place at the reception hall of",
         /* Section 2 */
         title2: "Program",
-        description2: "For guests staying at the Argonauti village, a bus will be provided to reach the Notedimare reception venue. Departure is scheduled for 10:40 AM from the village entrance, and the return is set for midnight. Please reserve your seat on the bus by filling out the designated form. Each guest must be registered individually. The bus has a capacity of 54 seats. Registration will be closed once the maximum number of passengers has been reached.",
         timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTE DI MARE)",
         timeline2n2: "11:00 - START",
         timeline2n3: "11:30 - CEREMONY",
@@ -32,7 +31,15 @@ const translations = {
         title4: "Territory",
         /* Section 5 */
         title5: "Activities during\nthe Wedding Week",
-        description5: "Tuesday, September 16: Palatine Tables and Panzerottata\nWednesday, September 17: Matera and dinner at the Brasserie (with a vegetarian option)\nThursday, September 18: Taranto and fish dinner (with a vegetarian option)\nFriday, September 19: Amaro Lucano Museum and dinner at Porto degli Argonauti.\nVegan dishes can be provided upon request.\nWe kindly ask you to register each individual participant by September 1st.",
+        description5n1: "Tuesday, September 16: Palatine Tables and Panzerottata",
+        description5n2: "Wednesday, September 17: Matera and dinner at the Brasserie (with a vegetarian option)",
+        description5n3: "Thursday, September 18: Taranto and fish dinner (with a vegetarian option)",
+        description5n4: "Friday, September 19: Amaro Lucano Museum and dinner at Porto degli Argonauti.",
+        description5n6: "Vegan dishes can be provided upon request.",
+        description5n7: "We kindly ask you to register each individual participant by September 1st.",
+        button5n1: "Register for the activities",
+        button5n2: "Download the program",
+        link5: "https://docs.google.com/document/d/1s-mjTc2fn7iang5sGu2R93fTVklix-RZMfhjApK_f7Q/edit?usp=drivesdk",
         /* Section 6 */
         title6: "Wedding List",
         description6n1: "Your presence at our wedding is the most beautiful gift.",
@@ -59,6 +66,10 @@ const translations = {
         title11: "Playlist",
         description11: "To ensure that the music is to your liking, we would like to ask you to create a playlist with us for the DJ. To give him enough time to plan the music for the entire day, we ask you to enter your suggestions soon.",
         button11: "Suggest a song",
+        /* Section 12 */
+        title12: "Bus",
+        description12: "For guests staying at the Argonauti village, a bus will be provided to reach the Notedimare reception venue. Departure is scheduled for 10:40 AM from the village entrance, and the return is set for midnight. Please reserve your seat on the bus by filling out the designated form. Each guest must be registered individually. The bus has a capacity of 54 seats. Registration will be closed once the maximum number of passengers has been reached.",
+        button12: "Register for the bus",
     },
     de: {
         /* Section 0 */
@@ -68,7 +79,6 @@ const translations = {
         description1: "Die Trauung und der Empfang finden statt im Festsaal von",
         /* Section 2 */
         title2: "Programm",
-        description2: "Für die Gäste, die im Feriendorf Argonauti übernachten, wird ein Bus zur Verfügung gestellt, um den Festsaal Notedimare zu erreichen. Die Abfahrt ist um 10:40 Uhr am Eingang des Feriendorfs geplant, die Rückfahrt erfolgt um Mitternacht. Wir bitten euch, euren Platz im Bus zu reservieren, indem ihr das entsprechende Formular ausfüllt. Jeder Gast muss einzeln registriert werden. Der Bus verfügt über 54 Sitzplätze. Die Anmeldung wird geschlossen, sobald die maximale Anzahl an Fahrgästen erreicht ist.",
         timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTE DI MARE)",
         timeline2n2: "11:00 - BEGINN",
         timeline2n3: "11:30 - TRAUUNG",
@@ -92,7 +102,15 @@ const translations = {
         title4: "Die Gegend",
         /* Section 5 */
         title5: "Aktivitäten während\nder Hochzeitswoche",
-        description5: "Dienstag der 16. September: Palatinische Tafeln und Panzerottata \nMittwoch der 17. September: Matera und Abendessen in der Brasserie (mit vegetarische Option)\nDonnerstag der 18. September: Taranto und Fischabendessen (mit vegetarische Option)\nFreitag der 19. September: Museo Amaro Lucano und Abendessen bei Porto degli Argonauti.\n Auf Wunsch können vegane Gerichte angeboten werden.\nWir bitten euch, jede einzelne teilnehmende Person bis zum 1. September zu registrieren.",
+        description5n1: "Dienstag der 16. September: Palatinische Tafeln und Panzerottata",
+        description5n2: "Mittwoch der 17. September: Matera und Abendessen in der Brasserie (mit vegetarische Option)",
+        description5n3: "Donnerstag der 18. September: Taranto und Fischabendessen (mit vegetarische Option)",
+        description5n4: "Freitag der 19. September: Museo Amaro Lucano und Abendessen bei Porto degli Argonauti.",
+        description5n6: "Auf Wunsch können vegane Gerichte angeboten werden.",
+        description5n7: "Wir bitten euch, jede einzelne teilnehmende Person bis zum 1. September zu registrieren.",
+        button5n1: "Registriere dich für die Aktivitäten",
+        button5n2: "Programm herunterladen",
+        link5: "https://docs.google.com/document/d/1hxLyHnMk7H1pNLaxme_nDyCBfe5j7TS_RAB9VjdRagc/edit?usp=drivesdk",
         /* Section 6 */
         title6: "Hochzeitstisch",
         description6n1: "Eure Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. ",
@@ -119,6 +137,10 @@ const translations = {
         title11: "Playlist",
         description11: "Damit die Musik euren Geschmack trifft, möchten wir euch bitten, mit uns eine Playlist für den DJ zu erstellen. Um ihm genügend Zeit zu geben, die Musik für den ganzen Tag zu planen, bitten wir euch, bald eure Vorschläge einzutragen.",
         button11: "Vorschlag für einen Song",
+        /* Section 12 */
+        title12: "Bus",
+        description12: "Für die Gäste, die im Feriendorf Argonauti übernachten, wird ein Bus zur Verfügung gestellt, um den Festsaal Notedimare zu erreichen. Die Abfahrt ist um 10:40 Uhr am Eingang des Feriendorfs geplant, die Rückfahrt erfolgt um Mitternacht. Wir bitten euch, euren Platz im Bus zu reservieren, indem ihr das entsprechende Formular ausfüllt. Jeder Gast muss einzeln registriert werden. Der Bus verfügt über 54 Sitzplätze. Die Anmeldung wird geschlossen, sobald die maximale Anzahl an Fahrgästen erreicht ist.",
+        button12: "Registriere dich für den Bus",
     },
     it: {
         /* Section 0 */
@@ -128,7 +150,6 @@ const translations = {
         description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti di",
         /* Section 2 */
         title2: "Programma\ndell'Evento",
-        description2: "Per gli invitati che soggiorneranno presso il villaggio Argonauti, sarà messo a disposizione un bus per raggiungere la sala ricevimenti Notedimare. La partenza è prevista alle ore 10:40 dall’ingresso del villaggio, mentre il rientro è fissato per mezzanotte. Vi chiediamo cortesemente di riservare il vostro posto compilando l’apposito modulo. Ogni invitato deve essere registrato singolarmente. La capienza del bus è di 54 posti. Chiederemo le iscrizioni quando sará raggiunto il numero massimo di passeggeri.",
         timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTE DI MARE)",
         timeline2n2: "11:00 - INIZIO",
         timeline2n3: "11:30 - CERIMONIA",
@@ -152,7 +173,15 @@ const translations = {
         title4: "Territorio",
         /* Section 5 */
         title5: "Attivitá Durante la\nSettimana Nuziale",
-        description5: "Martedí 16 Settembre: Parco Archeologico e Tavole palatine a Metaponto, panzerottata e gelato \nMercoledí 17 Settembre: Matera, visita alla città dei Sassi  e cena in bracerria (con opzione vegetariana)\nGiovedí 18 Settembre: Castello Aragonese e Città Vecchia a Taranto e cena di pesce (con opzione vegetariana)\nVenerdí 19 Settembre: Museo dell'Amaro Lucano e cena presso Porto degli Argonauti\nAlternative vegetariana su richiesta.\nVi chiediamo di registrare ogni singolo partecipante entro l'1 Settembre.",
+        description5n1: "Martedí 16 Settembre: Parco Archeologico e Tavole palatine a Metaponto, panzerottata e gelato",
+        description5n2: "Mercoledí 17 Settembre: Matera, visita alla città dei Sassi  e cena in bracerria (con opzione vegetariana)",
+        description5n3: "Giovedí 18 Settembre: Castello Aragonese e Città Vecchia a Taranto e cena di pesce (con opzione vegetariana)",
+        description5n4: "Venerdí 19 Settembre: Museo dell'Amaro Lucano e cena presso Porto degli Argonauti",
+        description5n6: "Alternative vegetariana su richiesta.",
+        description5n7: "Vi chiediamo di registrare ogni singolo partecipante entro l'1 Settembre.",
+        button5n1: "Registrati per le attività",
+        button5n2: "Scarica il programma",
+        link5: "https://docs.google.com/document/d/1s-mjTc2fn7iang5sGu2R93fTVklix-RZMfhjApK_f7Q/edit?usp=drivesdk",
         /* Section 6 */
         title6: "Lista Nozze",
         description6n1: "La vostra presenza al nostro matrimonio è il regalo più bello.",
@@ -181,6 +210,10 @@ const translations = {
         title11: "Playlist",
         description11: "Affinché la musica sia di vostro gradimento, vorremmo chiedervi di creare con noi una playlist per il DJ. Per dargli abbia abbastanza tempo per pianificare la musica per l'intera giornata, vi chiediamo di inserire prossimamente i vostri suggerimenti.",
         button11: "Suggerisci un brano",
+        /* Section 12 */
+        title12: "Bus",
+        description12: "Per gli invitati che soggiorneranno presso il villaggio Argonauti, sarà messo a disposizione un bus per raggiungere la sala ricevimenti Notedimare. La partenza è prevista alle ore 10:40 dall’ingresso del villaggio, mentre il rientro è fissato per mezzanotte. Vi chiediamo cortesemente di riservare il vostro posto compilando l’apposito modulo. Ogni invitato deve essere registrato singolarmente. La capienza del bus è di 54 posti. Chiederemo le iscrizioni quando sará raggiunto il numero massimo di passeggeri.",
+        button12: "Registrati per il bus",
     }
 };
 
@@ -199,34 +232,59 @@ function setUrlParameter(name, value) {
 
 // Function to update content based on language
 function updateLanguage(lang) {
+    // 2D array: [section][typeIndex] where typeIndex: 0=title, 1=description, 2=subtitle, 3=button
+    // Order: 0=title, 1=subtitle, 2=description, 3=button
+    const sectionKeys = ["title", "subtitle", "description", "button"];
+    const sectionElements = [
+        [1, 0, 0, 0],  // 0
+        [1, 0, 1, 0],  // 1
+        [1, 0, 0, 0],  // 2
+        [1, 2, 4, 0],  // 3
+        [1, 0, 0, 0],  // 4
+        [1, 0, 7, 2],  // 5
+        [1, 0, 4, 1],  // 6
+        [1, 0, 1, 2],  // 7
+        [1, 0, 0, 0],  // 8
+        [1, 0, 4, 0],  // 9
+        [1, 0, 1, 0],  // 10
+        [1, 0, 1, 1],  // 11
+        [1, 0, 1, 1],  // 12
+    ];
+
+    for (let i = 0; i < sectionElements.length; i++) {
+        for (let j = 0; j < sectionKeys.length; j++) {
+            const count = sectionElements[i][j];
+            for (let l = 1; l <= count; l++) {
+                const key = `${sectionKeys[j]}${i}` + (count == 1 ? '' : `n${l}`);
+                if (translations[lang][key] && document.getElementById(key)) {
+                    document.getElementById(key).textContent = translations[lang][key];
+                }
+            }
+        }
+    }
     /* Section 0 */
-    document.getElementById("title0").textContent = translations[lang].title0;
-    document.getElementById("nav1").textContent = translations[lang].title1.toUpperCase();
-    document.getElementById("nav2").textContent = translations[lang].title2.toUpperCase();
+    document.getElementById("nav0").textContent = translations[lang].title1.toUpperCase();
+    document.getElementById("nav1").textContent = translations[lang].title2.toUpperCase();
+    document.getElementById("nav2").textContent = translations[lang].title9.toUpperCase();
     document.getElementById("nav3").textContent = translations[lang].title3.toUpperCase();
     document.getElementById("nav4").textContent = translations[lang].title4.toUpperCase();
     document.getElementById("nav5").textContent = translations[lang].title5.toUpperCase();
     document.getElementById("nav6").textContent = translations[lang].title6.toUpperCase();
-    document.getElementById("nav7").textContent = translations[lang].title7.toUpperCase();
-    document.getElementById("nav8").textContent = translations[lang].title8.toUpperCase();
-    document.getElementById("nav9").textContent = translations[lang].title9.toUpperCase();
-    document.getElementById("nav10").textContent = translations[lang].title10.toUpperCase();
-    document.getElementById("nav1dd").textContent = translations[lang].title1.toUpperCase();
-    document.getElementById("nav2dd").textContent = translations[lang].title2.toUpperCase();
-    document.getElementById("nav3dd").textContent = translations[lang].title3.toUpperCase();
-    document.getElementById("nav4dd").textContent = translations[lang].title4.toUpperCase();
-    document.getElementById("nav5dd").textContent = translations[lang].title5.toUpperCase();
-    document.getElementById("nav6dd").textContent = translations[lang].title6.toUpperCase();
-    document.getElementById("nav7dd").textContent = translations[lang].title7.toUpperCase();
-    document.getElementById("nav8dd").textContent = translations[lang].title8.toUpperCase();
-    document.getElementById("nav9dd").textContent = translations[lang].title9.toUpperCase();
-    document.getElementById("nav10dd").textContent = translations[lang].title10.toUpperCase();
-    /* Section 1 */
-    document.getElementById("title1").textContent = translations[lang].title1;
-    document.getElementById("description1").textContent = translations[lang].description1;
+    document.getElementById("nav7").textContent = translations[lang].title10.toUpperCase();
+    document.getElementById("nav8").textContent = translations[lang].title7.toUpperCase();
+    document.getElementById("nav9").textContent = translations[lang].title8.toUpperCase();
+
+    document.getElementById("navdd0").textContent = translations[lang].title1.toUpperCase();
+    document.getElementById("navdd1").textContent = translations[lang].title2.toUpperCase();
+    document.getElementById("navdd2").textContent = translations[lang].title9.toUpperCase();
+    document.getElementById("navdd3").textContent = translations[lang].title3.toUpperCase();
+    document.getElementById("navdd4").textContent = translations[lang].title4.toUpperCase();
+    document.getElementById("navdd5").textContent = translations[lang].title5.toUpperCase();
+    document.getElementById("navdd6").textContent = translations[lang].title6.toUpperCase();
+    document.getElementById("navdd7").textContent = translations[lang].title10.toUpperCase();
+    document.getElementById("navdd8").textContent = translations[lang].title7.toUpperCase();
+    document.getElementById("navdd9").textContent = translations[lang].title8.toUpperCase();
     /* Section 2 */
-    document.getElementById("title2").textContent = translations[lang].title2;
-    document.getElementById("description2").textContent = translations[lang].description2;
     for (let i = 1; i <= 11; i++) {
         const key = `timeline2n${i}`;
         const el = document.getElementById(key);
@@ -234,48 +292,19 @@ function updateLanguage(lang) {
             el.textContent = translations[lang][key];
         }
     }
-    /* Section 3 */
-    document.getElementById("title3").textContent = translations[lang].title3;
-    document.getElementById("subtitle3n1").textContent = translations[lang].subtitle3n1;
-    document.getElementById("subtitle3n2").textContent = translations[lang].subtitle3n2;
-    document.getElementById("description3n1").textContent = translations[lang].description3n1;
-    document.getElementById("description3n2").textContent = translations[lang].description3n2;
-    document.getElementById("description3n3").textContent = translations[lang].description3n3;
-    document.getElementById("description3n4").textContent = translations[lang].description3n4;
-    /* Section 4 */
-    document.getElementById("title4").textContent = translations[lang].title4;
     /* Section 5 */
-    document.getElementById("title5").textContent = translations[lang].title5;
-    document.getElementById("description5").textContent = translations[lang].description5;
-    /* Section 6 */
-    document.getElementById("title6").textContent = translations[lang].title6;
-    document.getElementById("description6n1").textContent = translations[lang].description6n1;
-    document.getElementById("description6n2").textContent = translations[lang].description6n2;
-    document.getElementById("description6n3").textContent = translations[lang].description6n3;
-    document.getElementById("description6n4").textContent = translations[lang].description6n4;
-    document.getElementById("button6").textContent = translations[lang].button6;
+    document.getElementById("button5n2").onclick = function() {
+        window.open(translations[lang].link5, '_blank');
+    };
     /* Section 7 */
-    document.getElementById("title7").textContent = translations[lang].title7;
     document.getElementById("description7n1").textContent = translations[lang].description7n1;
     const description7n2 = document.getElementById("description7n2");
     document.getElementById("button7n1").textContent = translations[lang].button7n1;
     const button7n2 = document.getElementById("button7n2");
     /* Section 8 */
-    document.getElementById("title8").textContent = translations[lang].title8;
     const giusyphone = document.getElementById("giusyphone");
-    /* Section 9 */
-    document.getElementById("title9").textContent = translations[lang].title9;
-    document.getElementById("description9n1").textContent = translations[lang].description9n1;
-    document.getElementById("description9n2").textContent = translations[lang].description9n2;
-    document.getElementById("description9n3").textContent = translations[lang].description9n3;
-    document.getElementById("description9n4").textContent = translations[lang].description9n4;
-    /* Section 10 */
-    document.getElementById("title10").textContent = translations[lang].title10;
-    document.getElementById("description10").textContent = translations[lang].description10;
-    /* Section 11 */
-    document.getElementById("title11").textContent = translations[lang].title11;
-    document.getElementById("description11").textContent = translations[lang].description11;
-    document.getElementById("button11").textContent = translations[lang].button11;
+    /* Language-specific elements */
+
     if (lang === "it") {
         giusyphone.style.display = "block";
         description7n2.textContent = translations[lang].description7n2;
