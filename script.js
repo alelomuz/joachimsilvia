@@ -31,10 +31,10 @@ const translations = {
         title4: "Territory",
         /* Section 5 */
         title5: "Activities during\nthe Wedding Week",
-        description5n1: "Tuesday, September 16: Palatine Tables and Panzerottata",
-        description5n2: "Wednesday, September 17: Matera and dinner at the Brasserie (with a vegetarian option)",
+        description5n1: "Tuesday, September 16: Palatine Tables and panzerottata",
+        description5n2: "Wednesday, September 17: Matera and dinner at the brasserie (with a vegetarian option)",
         description5n3: "Thursday, September 18: Taranto and fish dinner (with a vegetarian option)",
-        description5n4: "Friday, September 19: Amaro Lucano Museum and dinner at Porto degli Argonauti.",
+        description5n4: "Friday, September 19: Amaro Lucano museum and dinner at Porto degli Argonauti.",
         description5n6: "Vegan dishes can be provided upon request.",
         description5n7: "We kindly ask you to register each individual participant by September 1st.",
         button5n1: "Register for the activities",
@@ -105,7 +105,7 @@ const translations = {
         description5n1: "Dienstag der 16. September: Palatinische Tafeln und Panzerottata",
         description5n2: "Mittwoch der 17. September: Matera und Abendessen in der Brasserie (mit vegetarische Option)",
         description5n3: "Donnerstag der 18. September: Taranto und Fischabendessen (mit vegetarische Option)",
-        description5n4: "Freitag der 19. September: Museo Amaro Lucano und Abendessen bei Porto degli Argonauti.",
+        description5n4: "Freitag der 19. September: Museum Amaro Lucano und Abendessen bei Porto degli Argonauti.",
         description5n6: "Auf Wunsch können vegane Gerichte angeboten werden.",
         description5n7: "Wir bitten euch, jede einzelne teilnehmende Person bis zum 1. September zu registrieren.",
         button5n1: "Registriere dich für die Aktivitäten",
@@ -174,7 +174,7 @@ const translations = {
         /* Section 5 */
         title5: "Attivitá Durante la\nSettimana Nuziale",
         description5n1: "Martedí 16 Settembre: Parco Archeologico e Tavole palatine a Metaponto, panzerottata e gelato",
-        description5n2: "Mercoledí 17 Settembre: Matera, visita alla città dei Sassi  e cena in bracerria (con opzione vegetariana)",
+        description5n2: "Mercoledí 17 Settembre: Matera (visita alla città dei Sassi) e cena in bracerria (con opzione vegetariana)",
         description5n3: "Giovedí 18 Settembre: Castello Aragonese e Città Vecchia a Taranto e cena di pesce (con opzione vegetariana)",
         description5n4: "Venerdí 19 Settembre: Museo dell'Amaro Lucano e cena presso Porto degli Argonauti",
         description5n6: "Alternative vegetariana su richiesta.",
@@ -212,7 +212,7 @@ const translations = {
         button11: "Suggerisci un brano",
         /* Section 12 */
         title12: "Bus",
-        description12: "Per gli invitati che soggiorneranno presso il villaggio Argonauti, sarà messo a disposizione un bus per raggiungere la sala ricevimenti Notedimare. La partenza è prevista alle ore 10:40 dall’ingresso del villaggio, mentre il rientro è fissato per mezzanotte. Vi chiediamo cortesemente di riservare il vostro posto compilando l’apposito modulo. Ogni invitato deve essere registrato singolarmente. La capienza del bus è di 54 posti. Chiederemo le iscrizioni quando sará raggiunto il numero massimo di passeggeri.",
+        description12: "Per gli invitati che soggiorneranno presso il villaggio Argonauti, verrà messo a disposizione un bus per raggiungere la sala ricevimenti Notedimare. La partenza è prevista alle ore 10:40 dall’ingresso del villaggio, mentre il rientro è fissato per mezzanotte. Vi chiediamo cortesemente di riservare il vostro posto compilando l’apposito modulo. Ogni invitato deve essere registrato singolarmente. La capienza del bus è di 54 posti. Chiuderemo le iscrizioni quando sará raggiunto il numero massimo di passeggeri.",
         button12: "Registrati per il bus",
     }
 };
