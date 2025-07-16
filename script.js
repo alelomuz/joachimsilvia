@@ -8,7 +8,7 @@ const translations = {
         description1: "The ceremony and reception will take place at the reception hall of",
         /* Section 2 */
         title2: "Program",
-        timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTE DI MARE)",
+        timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTEDIMARE)",
         timeline2n2: "11:00 - START",
         timeline2n3: "11:30 - CEREMONY",
         timeline2n4: "PHOTOS",
@@ -18,7 +18,7 @@ const translations = {
         timeline2n8: "BOUQUET TOSS",
         timeline2n9: "AFTERPARTY WITH DJ\nAND COCKTAIL BAR",
         timeline2n10: "23:30 - FAVORS\nDELIVERY",
-        timeline2n11: "00:00 - BUS\n(NOTE DI MARE - ARGONAUTI)",
+        timeline2n11: "00:00 - BUS\n(NOTEDIMARE - ARGONAUTI)",
         /* Section 3 */
         title3: "Accommodations",
         subtitle3n1: "Recommended accommodation for multi-day stays",
@@ -32,11 +32,11 @@ const translations = {
         /* Section 5 */
         title5: "Activities during\nthe Wedding Week",
         description5n1: "Tuesday, September 16: Palatine Tables and Panzerottata",
-        description5n2: "Wednesday, September 17: Matera and dinner at the Brasserie (with a vegetarian option)",
-        description5n3: "Thursday, September 18: Taranto and fish dinner (with a vegetarian option)",
+        description5n2: "Wednesday, September 17: Matera and dinner at the Brasserie",
+        description5n3: "Thursday, September 18: Taranto and fish dinner",
         description5n4: "Friday, September 19: Amaro Lucano Museum and dinner at Porto degli Argonauti.",
-        description5n6: "Vegan dishes can be provided upon request.",
-        description5n7: "We kindly ask you to register each individual participant by September 1st.",
+        description5n5: "Vegan dishes can be provided upon request.",
+        description5n6: "We kindly ask you to register each individual participant by September 1st.",
         button5n1: "Register for the activities",
         button5n2: "Download the program",
         link5: "https://docs.google.com/document/d/1s-mjTc2fn7iang5sGu2R93fTVklix-RZMfhjApK_f7Q/edit?usp=drivesdk",
@@ -79,7 +79,7 @@ const translations = {
         description1: "Die Trauung und der Empfang finden statt im Festsaal von",
         /* Section 2 */
         title2: "Programm",
-        timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTE DI MARE)",
+        timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTEDIMARE)",
         timeline2n2: "11:00 - BEGINN",
         timeline2n3: "11:30 - TRAUUNG",
         timeline2n4: "FOTOS",
@@ -89,7 +89,7 @@ const translations = {
         timeline2n8: "WURF DES BRAUTSTRAUSS",
         timeline2n9: "AFTERPARTY MIT DJ\nUND COCKTAILBAR",
         timeline2n10: "23:30 - GASTGESCHENKE",
-        timeline2n11: "00:00 - BUS\n(NOTE DI MARE - ARGONAUTI)",
+        timeline2n11: "00:00 - BUS\n(NOTEDIMARE - ARGONAUTI)",
         /* Section 3 */
         title3: "Übernachtungs\nmöglichkeiten",
         subtitle3n1: "Empfohlene Übernachtungsmöglichkeit für mehrtägige Aufenthalte",
@@ -103,11 +103,11 @@ const translations = {
         /* Section 5 */
         title5: "Aktivitäten während\nder Hochzeitswoche",
         description5n1: "Dienstag der 16. September: Palatinische Tafeln und Panzerottata",
-        description5n2: "Mittwoch der 17. September: Matera und Abendessen in der Brasserie (mit vegetarische Option)",
-        description5n3: "Donnerstag der 18. September: Taranto und Fischabendessen (mit vegetarische Option)",
+        description5n2: "Mittwoch der 17. September: Matera und Abendessen in der Brasserie",
+        description5n3: "Donnerstag der 18. September: Taranto und Fischabendessen",
         description5n4: "Freitag der 19. September: Museo Amaro Lucano und Abendessen bei Porto degli Argonauti.",
-        description5n6: "Auf Wunsch können vegane Gerichte angeboten werden.",
-        description5n7: "Wir bitten euch, jede einzelne teilnehmende Person bis zum 1. September zu registrieren.",
+        description5n5: "Auf Wunsch können vegane Gerichte angeboten werden.",
+        description5n6: "Wir bitten euch, jede einzelne teilnehmende Person bis zum 1. September zu registrieren.",
         button5n1: "Registriere dich für die Aktivitäten",
         button5n2: "Programm herunterladen",
         link5: "https://docs.google.com/document/d/1hxLyHnMk7H1pNLaxme_nDyCBfe5j7TS_RAB9VjdRagc/edit?usp=drivesdk",
@@ -150,7 +150,7 @@ const translations = {
         description1: "La cerimonia e il ricevimento si svolgeranno presso la sala ricevimenti di",
         /* Section 2 */
         title2: "Programma\ndell'Evento",
-        timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTE DI MARE)",
+        timeline2n1: "10:40 - BUS\n(ARGONAUTI - NOTEDIMARE)",
         timeline2n2: "11:00 - INIZIO",
         timeline2n3: "11:30 - CERIMONIA",
         timeline2n4: "FOTO",
@@ -160,7 +160,7 @@ const translations = {
         timeline2n8: "LANCIO DEL BOUQUET",
         timeline2n9: "AFTERPARTY CON DJ\nE COCKTAILBAR",
         timeline2n10: "23:30 - CONSEGNA\nBOMBONIERE",
-        timeline2n11: "00:00 - BUS\n(NOTE DI MARE - ARGONAUTI)",
+        timeline2n11: "00:00 - BUS\n(NOTEDIMARE - ARGONAUTI)",
         /* Section 3 */
         title3: "Pernottamento",
         subtitle3n1: "Struttura ricettiva consigliata per soggiorni di piú giorni",
@@ -174,11 +174,11 @@ const translations = {
         /* Section 5 */
         title5: "Attivitá Durante la\nSettimana Nuziale",
         description5n1: "Martedí 16 Settembre: Parco Archeologico e Tavole palatine a Metaponto, panzerottata e gelato",
-        description5n2: "Mercoledí 17 Settembre: Matera, visita alla città dei Sassi  e cena in bracerria (con opzione vegetariana)",
-        description5n3: "Giovedí 18 Settembre: Castello Aragonese e Città Vecchia a Taranto e cena di pesce (con opzione vegetariana)",
+        description5n2: "Mercoledí 17 Settembre: Matera, visita alla città dei Sassi  e cena in bracerria",
+        description5n3: "Giovedí 18 Settembre: Castello Aragonese e Città Vecchia a Taranto e cena di pesce",
         description5n4: "Venerdí 19 Settembre: Museo dell'Amaro Lucano e cena presso Porto degli Argonauti",
-        description5n6: "Alternative vegetariana su richiesta.",
-        description5n7: "Vi chiediamo di registrare ogni singolo partecipante entro l'1 Settembre.",
+        description5n5: "Alternative vegetariane su richiesta.",
+        description5n6: "Vi chiediamo di registrare ogni singolo partecipante entro l'1 Settembre.",
         button5n1: "Registrati per le attività",
         button5n2: "Scarica il programma",
         link5: "https://docs.google.com/document/d/1s-mjTc2fn7iang5sGu2R93fTVklix-RZMfhjApK_f7Q/edit?usp=drivesdk",
@@ -241,7 +241,7 @@ function updateLanguage(lang) {
         [1, 0, 0, 0],  // 2
         [1, 2, 4, 0],  // 3
         [1, 0, 0, 0],  // 4
-        [1, 0, 7, 2],  // 5
+        [1, 0, 6, 2],  // 5
         [1, 0, 4, 1],  // 6
         [1, 0, 1, 2],  // 7
         [1, 0, 0, 0],  // 8
