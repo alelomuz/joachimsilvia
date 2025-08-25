@@ -46,6 +46,7 @@ const translations = {
         description6n2: "A contribution would be the best way for us to make this new adventure together even more special. It will help us fulfill our honeymoon dreams and complete the furnishing of our home. You can transfer it to our wedding gift account:",
         description6n3: "Alternatively, you can choose a gift from our wedding registry by clicking the button. The list is divided into two columns: the first indicates where to buy in Germany, and the second in Italy. Each column contains several subsections. The first one lists the name of the item, while the last one provides an example of a retailer where it is available. This is only a reference: feel free to purchase wherever you prefer. Please remove the selected gift from both columns to avoid duplicates. Below is our address for sending gifts: ",
         description6n4: "Munich",
+        description6n5: "If you decide to have the wedding gifts delivered to our home in Munich, we kindly ask you to contact us first.",
         button6: "Gift list",
         /* Section 7 */
         title7: "Confirm your\nParticipation",
@@ -117,6 +118,7 @@ const translations = {
         description6n2: "Ein Beitrag zu unseren Flitterwochen oder zur Vervollständigung unserer Wohnungseinrichtung wäre der beste Weg für uns, dieses neue Abenteuer gemeinsam noch spezieller zu gestalten. Ihr könnt dafür gerne direkt zu unserem Geschenkekonto beitragen:",
         description6n3: "Alternativ könnt ihr auch einen Idee aus unserer Hochzeitsliste auswählen, die ihr durch klicken auf dem Button finden könnt. Die Liste ist in zwei Spalten unterteilt: Die erste gibt an, wo man in Deutschland kaufen kann, die zweite für Italien. Jede Spalte enthält verschiedene Unterkategorien. Die erste nennt den Namen des Artikels, während die letzte ein Beispiel für einen Händler angibt, bei dem er erhältlich ist. Dies dient lediglich als Orientierung – fühlen Sie sich frei, dort zu kaufen, wo es Ihnen am besten passt. Bitte entfernt die entsprechende Zeile mit dem gewählten Geschenk aus beiden Spalten. Wessen Reisegepäck bereits gut gefüllt ist kann größere Geschenke auch gerne direkt an unsere Adresse in München senden:",
         description6n4: "München",
+        description6n5: "Falls ihr beschließt Hochzeitsgeschenke bei uns nach Hause in München liefern zu lassen, bitten wir euch erstmal Kontakt mit uns zu aufnehmen.",
         button6: "Geschenkliste",
         /* Section 7 */
         title7: "Teilnahme\nBestätigen",
@@ -188,6 +190,7 @@ const translations = {
         description6n2: "Un contributo sarebbe per noi il modo migliore per rendere ancora più speciale questa nuova avventura insieme. Ci aiuterà a realizzare il nostro viaggio di nozze e a completare l’arredamento della nostra casa. Potete versarlo al nostro conto per i regali del matrimonio:",
         description6n3: "In alternativa, potete scegliere un pensiero dalla nostra lista nozze, che trovate cliccando il bottone. La lista è suddivisa in due colonne: la prima indica dove acquistare in Germania, la seconda in Italia. Ogni colonna contiene diverse sottosezioni. La prima riporta il nome dell'articolo, mentre l'ultima fornisce un esempio di rivenditore presso cui è disponibile. Questo è solo un riferimento indicativo: sentitevi liberi di acquistare dove preferite. Vi preghiamo di rimuovere la riga del regalo scelto da entrambe le colonne per evitare doppioni. Di seguito, il nostro indirizzo per l'invio dei regali:",
         description6n4: "Monaco di Baviera",
+        description6n5: "Se deciderete di far recapitare i regali di nozze al nostro domicilio a Monaco, vi chiediamo gentilmente di contattarci prima.",
         button6: "Proposte Regalo",
         /* Section 7 */
         title7: "Conferma\nPartecipazione",
@@ -236,13 +239,14 @@ function updateLanguage(lang) {
     // Order: 0=title, 1=subtitle, 2=description, 3=button
     const sectionKeys = ["title", "subtitle", "description", "button"];
     const sectionElements = [
+        // [#titles, #subtitles, #descriptions, #buttons] - Section
         [1, 0, 0, 0],  // 0
         [1, 0, 1, 0],  // 1
         [1, 0, 0, 0],  // 2
         [1, 2, 4, 0],  // 3
         [1, 0, 0, 0],  // 4
         [1, 0, 6, 2],  // 5
-        [1, 0, 4, 1],  // 6
+        [1, 0, 5, 1],  // 6
         [1, 0, 1, 2],  // 7
         [1, 0, 0, 0],  // 8
         [1, 0, 4, 0],  // 9
