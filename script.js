@@ -84,7 +84,6 @@ const translations = {
         timeline2n2: "11:00 - BEGINN",
         timeline2n3: "11:30 - TRAUUNG",
         timeline2n4: "13:00 - APERITIF BUFFET\n& LIVE-COOKING",
-        timeline2n5: "PHOTOS",
         timeline2n5: "FOTOS",
         timeline2n6: "HOCHZEITSESSEN",
         timeline2n7: "19:30 - HOCHZEITSTORTE\nUND DESSERTS",
